@@ -1,0 +1,2711 @@
+{
+  "nodes": [
+    {
+      "id": "Albert DeSilver",
+      "name": "Albert DeSilver"
+    },
+    {
+      "id": "Albert Elijah Dunning",
+      "name": "Albert Elijah Dunning"
+    },
+    {
+      "id": "Albert Hessberg II",
+      "name": "Albert Hessberg II"
+    },
+    {
+      "id": "Alfred Cowles III",
+      "name": "Alfred Cowles III"
+    },
+    {
+      "id": "Alfred Gwynne Vanderbilt",
+      "name": "Alfred Gwynne Vanderbilt"
+    },
+    {
+      "id": "Allen Ferdinand Owen",
+      "name": "Allen Ferdinand Owen"
+    },
+    {
+      "id": "Allen Trafford Klots",
+      "name": "Allen Trafford Klots"
+    },
+    {
+      "id": "Almet Francis Jenks",
+      "name": "Almet Francis Jenks"
+    },
+    {
+      "id": "Alphonso Taft",
+      "name": "Alphonso Taft"
+    },
+    {
+      "id": "Ambrose Tighe",
+      "name": "Ambrose Tighe"
+    },
+    {
+      "id": "Amos Alonzo Stagg",
+      "name": "Amos Alonzo Stagg"
+    },
+    {
+      "id": "Amos Richards Eno Pinchot",
+      "name": "Amos Richards Eno Pinchot"
+    },
+    {
+      "id": "Andrew Downey Orrick",
+      "name": "Andrew Downey Orrick"
+    },
+    {
+      "id": "Angela Buchdahl",
+      "name": "Angela Buchdahl"
+    },
+    {
+      "id": "Anson Phelps Stokes",
+      "name": "Anson Phelps Stokes"
+    },
+    {
+      "id": "Anthony Higgins",
+      "name": "Anthony Higgins"
+    },
+    {
+      "id": "Archibald MacLeish",
+      "name": "Archibald MacLeish"
+    },
+    {
+      "id": "Artemus Lamb Gates",
+      "name": "Artemus Lamb Gates"
+    },
+    {
+      "id": "Arthur Twining Hadley",
+      "name": "Arthur Twining Hadley"
+    },
+    {
+      "id": "Asahel Hooker Lewis",
+      "name": "Asahel Hooker Lewis"
+    },
+    {
+      "id": "Ashley Day Leavitt",
+      "name": "Ashley Day Leavitt"
+    },
+    {
+      "id": "Augustus Brandegee",
+      "name": "Augustus Brandegee"
+    },
+    {
+      "id": "Austan Goolsbee",
+      "name": "Austan Goolsbee"
+    },
+    {
+      "id": "Averell Harriman",
+      "name": "Averell Harriman"
+    },
+    {
+      "id": "Benjamin Brewster",
+      "name": "Benjamin Brewster"
+    },
+    {
+      "id": "Benjamin Silliman Jr.",
+      "name": "Benjamin Silliman Jr."
+    },
+    {
+      "id": "Benjamin Tucker Eames",
+      "name": "Benjamin Tucker Eames"
+    },
+    {
+      "id": "Brendan Gill",
+      "name": "Brendan Gill"
+    },
+    {
+      "id": "Brian John Dowling",
+      "name": "Brian John Dowling"
+    },
+    {
+      "id": "Briton Hadden",
+      "name": "Briton Hadden"
+    },
+    {
+      "id": "Burton Norvell Harrison",
+      "name": "Burton Norvell Harrison"
+    },
+    {
+      "id": "Caldwell Esselstyn",
+      "name": "Caldwell Esselstyn"
+    },
+    {
+      "id": "Carroll Cutler",
+      "name": "Carroll Cutler"
+    },
+    {
+      "id": "Charles Edwin Lord II",
+      "name": "Charles Edwin Lord II"
+    },
+    {
+      "id": "Charles Fraser MacLean",
+      "name": "Charles Fraser MacLean"
+    },
+    {
+      "id": "Charles Merville Spofford",
+      "name": "Charles Merville Spofford"
+    },
+    {
+      "id": "Charles Newell Fowler",
+      "name": "Charles Newell Fowler"
+    },
+    {
+      "id": "Charles Otis Gill",
+      "name": "Charles Otis Gill"
+    },
+    {
+      "id": "Charles Phelps Taft II",
+      "name": "Charles Phelps Taft II"
+    },
+    {
+      "id": "Charles S. Whitehouse",
+      "name": "Charles S. Whitehouse"
+    },
+    {
+      "id": "Charles Seymour",
+      "name": "Charles Seymour"
+    },
+    {
+      "id": "Charles Sherman Haight Jr.",
+      "name": "Charles Sherman Haight Jr."
+    },
+    {
+      "id": "Chauncey Bunce Brewster",
+      "name": "Chauncey Bunce Brewster"
+    },
+    {
+      "id": "Chester Smith Lyman",
+      "name": "Chester Smith Lyman"
+    },
+    {
+      "id": "Clarence Mann Fincke",
+      "name": "Clarence Mann Fincke"
+    },
+    {
+      "id": "Clinton Frank",
+      "name": "Clinton Frank"
+    },
+    {
+      "id": "Clinton Larue Hare",
+      "name": "Clinton Larue Hare"
+    },
+    {
+      "id": "Clive Day",
+      "name": "Clive Day"
+    },
+    {
+      "id": "Constantine Canaris Esty",
+      "name": "Constantine Canaris Esty"
+    },
+    {
+      "id": "Daniel Coit Gilman",
+      "name": "Daniel Coit Gilman"
+    },
+    {
+      "id": "Daniel Henry Chamberlain",
+      "name": "Daniel Henry Chamberlain"
+    },
+    {
+      "id": "Daniel Pomeroy Davison",
+      "name": "Daniel Pomeroy Davison"
+    },
+    {
+      "id": "David Acheson",
+      "name": "David Acheson"
+    },
+    {
+      "id": "David L. Boren",
+      "name": "David L. Boren"
+    },
+    {
+      "id": "David Leonhardt",
+      "name": "David Leonhardt"
+    },
+    {
+      "id": "David McCord Lippincott",
+      "name": "David McCord Lippincott"
+    },
+    {
+      "id": "David Rumsey",
+      "name": "David Rumsey"
+    },
+    {
+      "id": "David Sinton Ingalls",
+      "name": "David Sinton Ingalls"
+    },
+    {
+      "id": "David Thorne",
+      "name": "David Thorne"
+    },
+    {
+      "id": "Debevoise & Plimpton",
+      "name": "Debevoise & Plimpton"
+    },
+    {
+      "id": "Don Schollander",
+      "name": "Don Schollander"
+    },
+    {
+      "id": "Douglas Preston Woodlock",
+      "name": "Douglas Preston Woodlock"
+    },
+    {
+      "id": "E. Roland Harriman",
+      "name": "E. Roland Harriman"
+    },
+    {
+      "id": "Eben Alexander",
+      "name": "Eben Alexander"
+    },
+    {
+      "id": "Edwin Arthur Burtt",
+      "name": "Edwin Arthur Burtt"
+    },
+    {
+      "id": "Edwin Edgerton Aiken",
+      "name": "Edwin Edgerton Aiken"
+    },
+    {
+      "id": "Edwin Forrest Sweet",
+      "name": "Edwin Forrest Sweet"
+    },
+    {
+      "id": "Edwin Foster Blair",
+      "name": "Edwin Foster Blair"
+    },
+    {
+      "id": "Eli Whitney Blake Jr.",
+      "name": "Eli Whitney Blake Jr."
+    },
+    {
+      "id": "Eliakim Hastings Moore",
+      "name": "Eliakim Hastings Moore"
+    },
+    {
+      "id": "Elihu Brintnal Frost",
+      "name": "Elihu Brintnal Frost"
+    },
+    {
+      "id": "Eugene Lytton Scott",
+      "name": "Eugene Lytton Scott"
+    },
+    {
+      "id": "Eugene O'Neill Jr.",
+      "name": "Eugene O'Neill Jr."
+    },
+    {
+      "id": "Eugene Schuyler",
+      "name": "Eugene Schuyler"
+    },
+    {
+      "id": "Evan G. Galbraith",
+      "name": "Evan G. Galbraith"
+    },
+    {
+      "id": "F. O. Matthiessen",
+      "name": "F. O. Matthiessen"
+    },
+    {
+      "id": "F. Trubee Davison",
+      "name": "F. Trubee Davison"
+    },
+    {
+      "id": "Fairfax Harrison",
+      "name": "Fairfax Harrison"
+    },
+    {
+      "id": "Fergus Reid Buckley",
+      "name": "Fergus Reid Buckley"
+    },
+    {
+      "id": "Fortune",
+      "name": "Fortune"
+    },
+    {
+      "id": "Foster Rockwell",
+      "name": "Foster Rockwell"
+    },
+    {
+      "id": "Francis Burton Harrison",
+      "name": "Francis Burton Harrison"
+    },
+    {
+      "id": "Francis Miles Finch",
+      "name": "Francis Miles Finch"
+    },
+    {
+      "id": "Francis Thayer Hobson",
+      "name": "Francis Thayer Hobson"
+    },
+    {
+      "id": "Frank Augustus Hinkey",
+      "name": "Frank Augustus Hinkey"
+    },
+    {
+      "id": "Frank Bigelow Tarbell",
+      "name": "Frank Bigelow Tarbell"
+    },
+    {
+      "id": "Frank Seiler Butterworth",
+      "name": "Frank Seiler Butterworth"
+    },
+    {
+      "id": "Franklin MacVeagh",
+      "name": "Franklin MacVeagh"
+    },
+    {
+      "id": "Frederick Baldwin Adams",
+      "name": "Frederick Baldwin Adams"
+    },
+    {
+      "id": "Frederick Baldwin Adams Jr.",
+      "name": "Frederick Baldwin Adams Jr."
+    },
+    {
+      "id": "Frederick Collin",
+      "name": "Frederick Collin"
+    },
+    {
+      "id": "Frederick Ellsworth Mather",
+      "name": "Frederick Ellsworth Mather"
+    },
+    {
+      "id": "Frederick H. Brooke",
+      "name": "Frederick H. Brooke"
+    },
+    {
+      "id": "Frederick Wallace Smith",
+      "name": "Frederick Wallace Smith"
+    },
+    {
+      "id": "George Chandler Holt",
+      "name": "George Chandler Holt"
+    },
+    {
+      "id": "George Crile Jr.",
+      "name": "George Crile Jr."
+    },
+    {
+      "id": "George Foot Moore",
+      "name": "George Foot Moore"
+    },
+    {
+      "id": "George Griswold Haven Jr.",
+      "name": "George Griswold Haven Jr."
+    },
+    {
+      "id": "George Griswold Sill",
+      "name": "George Griswold Sill"
+    },
+    {
+      "id": "George H. W. Bush",
+      "name": "George H. W. Bush"
+    },
+    {
+      "id": "George Herbert Walker III",
+      "name": "George Herbert Walker III"
+    },
+    {
+      "id": "George Herbert Walker Jr.",
+      "name": "George Herbert Walker Jr."
+    },
+    {
+      "id": "George Ingersoll Wood",
+      "name": "George Ingersoll Wood"
+    },
+    {
+      "id": "George Leslie Harrison",
+      "name": "George Leslie Harrison"
+    },
+    {
+      "id": "George Peabody Wetmore",
+      "name": "George Peabody Wetmore"
+    },
+    {
+      "id": "George W. Bush",
+      "name": "George W. Bush"
+    },
+    {
+      "id": "George Washington Woodruff",
+      "name": "George Washington Woodruff"
+    },
+    {
+      "id": "Gerald Clery Murphy",
+      "name": "Gerald Clery Murphy"
+    },
+    {
+      "id": "Gifford Pinchot",
+      "name": "Gifford Pinchot"
+    },
+    {
+      "id": "Granger Kent Costikyan",
+      "name": "Granger Kent Costikyan"
+    },
+    {
+      "id": "H. J. Heinz II",
+      "name": "H. J. Heinz II"
+    },
+    {
+      "id": "H. Neil Mallon",
+      "name": "H. Neil Mallon"
+    },
+    {
+      "id": "Harold Stanley",
+      "name": "Harold Stanley"
+    },
+    {
+      "id": "Harry Payne Whitney",
+      "name": "Harry Payne Whitney"
+    },
+    {
+      "id": "Harry William LeGore",
+      "name": "Harry William LeGore"
+    },
+    {
+      "id": "Harvey Hollister Bundy",
+      "name": "Harvey Hollister Bundy"
+    },
+    {
+      "id": "Henry Baldwin Harrison",
+      "name": "Henry Baldwin Harrison"
+    },
+    {
+      "id": "Henry Farnum Dimock",
+      "name": "Henry Farnum Dimock"
+    },
+    {
+      "id": "Henry L. Stimson",
+      "name": "Henry L. Stimson"
+    },
+    {
+      "id": "Henry Luce",
+      "name": "Henry Luce"
+    },
+    {
+      "id": "Henry Morton Dexter",
+      "name": "Henry Morton Dexter"
+    },
+    {
+      "id": "Henry S. Graves",
+      "name": "Henry S. Graves"
+    },
+    {
+      "id": "Henry Sloane Coffin",
+      "name": "Henry Sloane Coffin"
+    },
+    {
+      "id": "Henry Stevens",
+      "name": "Henry Stevens"
+    },
+    {
+      "id": "Henry Waters Taft",
+      "name": "Henry Waters Taft"
+    },
+    {
+      "id": "Horace Dutton Taft",
+      "name": "Horace Dutton Taft"
+    },
+    {
+      "id": "Howell Cheney",
+      "name": "Howell Cheney"
+    },
+    {
+      "id": "Hugh Aiken Bayne",
+      "name": "Hugh Aiken Bayne"
+    },
+    {
+      "id": "Hugh Smith Knox",
+      "name": "Hugh Smith Knox"
+    },
+    {
+      "id": "ISBN",
+      "name": "ISBN"
+    },
+    {
+      "id": "Irving Fisher",
+      "name": "Irving Fisher"
+    },
+    {
+      "id": "Isaacson, Walter",
+      "name": "Isaacson, Walter"
+    },
+    {
+      "id": "J. Richardson Dilworth",
+      "name": "J. Richardson Dilworth"
+    },
+    {
+      "id": "Jack Edwin McGregor",
+      "name": "Jack Edwin McGregor"
+    },
+    {
+      "id": "James Emanuel Boasberg",
+      "name": "James Emanuel Boasberg"
+    },
+    {
+      "id": "James Jeremiah Wadsworth",
+      "name": "James Jeremiah Wadsworth"
+    },
+    {
+      "id": "James L. Buckley",
+      "name": "James L. Buckley"
+    },
+    {
+      "id": "James Mason Hoppin",
+      "name": "James Mason Hoppin"
+    },
+    {
+      "id": "James McDevitt Magee",
+      "name": "James McDevitt Magee"
+    },
+    {
+      "id": "James Price McLane",
+      "name": "James Price McLane"
+    },
+    {
+      "id": "James Whitmore",
+      "name": "James Whitmore"
+    },
+    {
+      "id": "James William Husted Jr.",
+      "name": "James William Husted Jr."
+    },
+    {
+      "id": "James Wolcott Wadsworth Jr.",
+      "name": "James Wolcott Wadsworth Jr."
+    },
+    {
+      "id": "John Bannister Goodenough",
+      "name": "John Bannister Goodenough"
+    },
+    {
+      "id": "John Birnie Marshall",
+      "name": "John Birnie Marshall"
+    },
+    {
+      "id": "John Chafee",
+      "name": "John Chafee"
+    },
+    {
+      "id": "John Chipman Farrar",
+      "name": "John Chipman Farrar"
+    },
+    {
+      "id": "John Forbes Kerry",
+      "name": "John Forbes Kerry"
+    },
+    {
+      "id": "John Gillespie Magee",
+      "name": "John Gillespie Magee"
+    },
+    {
+      "id": "John Hersey",
+      "name": "John Hersey"
+    },
+    {
+      "id": "John Howland",
+      "name": "John Howland"
+    },
+    {
+      "id": "John Hubbard Tweedy",
+      "name": "John Hubbard Tweedy"
+    },
+    {
+      "id": "John M. Walker",
+      "name": "John M. Walker"
+    },
+    {
+      "id": "John Manning Hall",
+      "name": "John Manning Hall"
+    },
+    {
+      "id": "John Martin Vorys",
+      "name": "John Martin Vorys"
+    },
+    {
+      "id": "John Merrill Knapp",
+      "name": "John Merrill Knapp"
+    },
+    {
+      "id": "John Patton Jr.",
+      "name": "John Patton Jr."
+    },
+    {
+      "id": "John Perkins Jr.",
+      "name": "John Perkins Jr."
+    },
+    {
+      "id": "John Rockefeller Prentice",
+      "name": "John Rockefeller Prentice"
+    },
+    {
+      "id": "John Shattuck",
+      "name": "John Shattuck"
+    },
+    {
+      "id": "John Sherman Cooper",
+      "name": "John Sherman Cooper"
+    },
+    {
+      "id": "John Thomas Croxton",
+      "name": "John Thomas Croxton"
+    },
+    {
+      "id": "John Wallace Houston",
+      "name": "John Wallace Houston"
+    },
+    {
+      "id": "John William Sterling",
+      "name": "John William Sterling"
+    },
+    {
+      "id": "Jonathan Brewster Bingham",
+      "name": "Jonathan Brewster Bingham"
+    },
+    {
+      "id": "Jonathan James Bush",
+      "name": "Jonathan James Bush"
+    },
+    {
+      "id": "Joseph Robinson Parrott",
+      "name": "Joseph Robinson Parrott"
+    },
+    {
+      "id": "Josiah Augustus Spaulding",
+      "name": "Josiah Augustus Spaulding"
+    },
+    {
+      "id": "Jules Henri de Sibour",
+      "name": "Jules Henri de Sibour"
+    },
+    {
+      "id": "Kenneth Farrand Simpson",
+      "name": "Kenneth Farrand Simpson"
+    },
+    {
+      "id": "Lanny Ross",
+      "name": "Lanny Ross"
+    },
+    {
+      "id": "LeBaron Bradford Colt",
+      "name": "LeBaron Bradford Colt"
+    },
+    {
+      "id": "Leonard Eugene Wales",
+      "name": "Leonard Eugene Wales"
+    },
+    {
+      "id": "Lewis Abbot Lapham",
+      "name": "Lewis Abbot Lapham"
+    },
+    {
+      "id": "Lewis Greenleaf Adams",
+      "name": "Lewis Greenleaf Adams"
+    },
+    {
+      "id": "Linden Stanley Blue",
+      "name": "Linden Stanley Blue"
+    },
+    {
+      "id": "Lloyd Wheaton Bowers",
+      "name": "Lloyd Wheaton Bowers"
+    },
+    {
+      "id": "Lowndes Henry Davis",
+      "name": "Lowndes Henry Davis"
+    },
+    {
+      "id": "Lucius Horatio Biglow",
+      "name": "Lucius Horatio Biglow"
+    },
+    {
+      "id": "Luzon Buritt Morris",
+      "name": "Luzon Buritt Morris"
+    },
+    {
+      "id": "Lyman Spitzer",
+      "name": "Lyman Spitzer"
+    },
+    {
+      "id": "Maxwell Evarts",
+      "name": "Maxwell Evarts"
+    },
+    {
+      "id": "McGeorge Bundy",
+      "name": "McGeorge Bundy"
+    },
+    {
+      "id": "Michael Gates Gill",
+      "name": "Michael Gates Gill"
+    },
+    {
+      "id": "Michael Johnson Pyle",
+      "name": "Michael Johnson Pyle"
+    },
+    {
+      "id": "Morrison Remmick Waite",
+      "name": "Morrison Remmick Waite"
+    },
+    {
+      "id": "Moses Coit Tyler",
+      "name": "Moses Coit Tyler"
+    },
+    {
+      "id": "Noah P. Hood",
+      "name": "Noah P. Hood"
+    },
+    {
+      "id": "Oliver David Thompson",
+      "name": "Oliver David Thompson"
+    },
+    {
+      "id": "Oliver Gould Jennings",
+      "name": "Oliver Gould Jennings"
+    },
+    {
+      "id": "Orde Musgrave Coombs",
+      "name": "Orde Musgrave Coombs"
+    },
+    {
+      "id": "Orris Sanford Ferry",
+      "name": "Orris Sanford Ferry"
+    },
+    {
+      "id": "Paul Giamatti",
+      "name": "Paul Giamatti"
+    },
+    {
+      "id": "Percy Rockefeller",
+      "name": "Percy Rockefeller"
+    },
+    {
+      "id": "Phineas Timothy Miller",
+      "name": "Phineas Timothy Miller"
+    },
+    {
+      "id": "Pierre Jay",
+      "name": "Pierre Jay"
+    },
+    {
+      "id": "Prescott Bush",
+      "name": "Prescott Bush"
+    },
+    {
+      "id": "Presidential appointee",
+      "name": "Presidential appointee"
+    },
+    {
+      "id": "PublishAmerica",
+      "name": "PublishAmerica"
+    },
+    {
+      "id": "Ralph Delahaye Paine",
+      "name": "Ralph Delahaye Paine"
+    },
+    {
+      "id": "Rensselaer Russell Nelson",
+      "name": "Rensselaer Russell Nelson"
+    },
+    {
+      "id": "Rex William Cowdry",
+      "name": "Rex William Cowdry"
+    },
+    {
+      "id": "Richard Melancthon Hurd",
+      "name": "Richard Melancthon Hurd"
+    },
+    {
+      "id": "Richard Taylor",
+      "name": "Richard Taylor"
+    },
+    {
+      "id": "Robert A. Lovett",
+      "name": "Robert A. Lovett"
+    },
+    {
+      "id": "Robert Abbe Gardner",
+      "name": "Robert Abbe Gardner"
+    },
+    {
+      "id": "Robert Alphonso Taft",
+      "name": "Robert Alphonso Taft"
+    },
+    {
+      "id": "Robert Campbell",
+      "name": "Robert Campbell"
+    },
+    {
+      "id": "Robert McCallum Jr",
+      "name": "Robert McCallum Jr"
+    },
+    {
+      "id": "Robert McCallum, Jr",
+      "name": "Robert McCallum, Jr"
+    },
+    {
+      "id": "Robert Morey",
+      "name": "Robert Morey"
+    },
+    {
+      "id": "Roger Sherman Baldwin Foster",
+      "name": "Roger Sherman Baldwin Foster"
+    },
+    {
+      "id": "Roswell Hart",
+      "name": "Roswell Hart"
+    },
+    {
+      "id": "Roy Leslie Austin",
+      "name": "Roy Leslie Austin"
+    },
+    {
+      "id": "Russell Cheney",
+      "name": "Russell Cheney"
+    },
+    {
+      "id": "Russell Davenport",
+      "name": "Russell Davenport"
+    },
+    {
+      "id": "Samuel Brinckerhoff Thorne",
+      "name": "Samuel Brinckerhoff Thorne"
+    },
+    {
+      "id": "Samuel Carnes Collier",
+      "name": "Samuel Carnes Collier"
+    },
+    {
+      "id": "Samuel Finley Brown Morse",
+      "name": "Samuel Finley Brown Morse"
+    },
+    {
+      "id": "Samuel Hazard Gillespie Jr.",
+      "name": "Samuel Hazard Gillespie Jr."
+    },
+    {
+      "id": "Samuel Oscar Prentice",
+      "name": "Samuel Oscar Prentice"
+    },
+    {
+      "id": "Sidney Catlin Partridge",
+      "name": "Sidney Catlin Partridge"
+    },
+    {
+      "id": "Simeon E. Baldwin",
+      "name": "Simeon E. Baldwin"
+    },
+    {
+      "id": "Sonny Tufts",
+      "name": "Sonny Tufts"
+    },
+    {
+      "id": "Stephen Adams",
+      "name": "Stephen Adams"
+    },
+    {
+      "id": "Stephen Philbin",
+      "name": "Stephen Philbin"
+    },
+    {
+      "id": "Stephen Wright Kellogg",
+      "name": "Stephen Wright Kellogg"
+    },
+    {
+      "id": "Steven Mnuchin",
+      "name": "Steven Mnuchin"
+    },
+    {
+      "id": "Tali Farhadian Weinstein",
+      "name": "Tali Farhadian Weinstein"
+    },
+    {
+      "id": "Tex McCrary",
+      "name": "Tex McCrary"
+    },
+    {
+      "id": "Theodore Salisbury Woolsey",
+      "name": "Theodore Salisbury Woolsey"
+    },
+    {
+      "id": "Thomas Burr Osborne",
+      "name": "Thomas Burr Osborne"
+    },
+    {
+      "id": "Thomas Cochran",
+      "name": "Thomas Cochran"
+    },
+    {
+      "id": "Thomas Day Thacher",
+      "name": "Thomas Day Thacher"
+    },
+    {
+      "id": "Thomas F. Bayard Jr.",
+      "name": "Thomas F. Bayard Jr."
+    },
+    {
+      "id": "Thomas Hedge",
+      "name": "Thomas Hedge"
+    },
+    {
+      "id": "Thomas Henry Guinzburg",
+      "name": "Thomas Henry Guinzburg"
+    },
+    {
+      "id": "Thomas Lee McClung",
+      "name": "Thomas Lee McClung"
+    },
+    {
+      "id": "Thomas Thacher",
+      "name": "Thomas Thacher"
+    },
+    {
+      "id": "Thomas William Ludlow Ashley",
+      "name": "Thomas William Ludlow Ashley"
+    },
+    {
+      "id": "Timothy Dwight V",
+      "name": "Timothy Dwight V"
+    },
+    {
+      "id": "Timothy Lester Woodruff",
+      "name": "Timothy Lester Woodruff"
+    },
+    {
+      "id": "Tony Lavelli",
+      "name": "Tony Lavelli"
+    },
+    {
+      "id": "Townsend Walter Hoopes II",
+      "name": "Townsend Walter Hoopes II"
+    },
+    {
+      "id": "Tudor Storrs Jenks",
+      "name": "Tudor Storrs Jenks"
+    },
+    {
+      "id": "Walker Blaine",
+      "name": "Walker Blaine"
+    },
+    {
+      "id": "Walter Camp",
+      "name": "Walter Camp"
+    },
+    {
+      "id": "Wilbur Franklin Booth",
+      "name": "Wilbur Franklin Booth"
+    },
+    {
+      "id": "William Barrett Washburn",
+      "name": "William Barrett Washburn"
+    },
+    {
+      "id": "William Collins Whitney",
+      "name": "William Collins Whitney"
+    },
+    {
+      "id": "William Dawbney Nordhaus",
+      "name": "William Dawbney Nordhaus"
+    },
+    {
+      "id": "William F. Buckley Jr.",
+      "name": "William F. Buckley Jr."
+    },
+    {
+      "id": "William H. Donaldson",
+      "name": "William H. Donaldson"
+    },
+    {
+      "id": "William Henry Draper III",
+      "name": "William Henry Draper III"
+    },
+    {
+      "id": "William Henry Washington",
+      "name": "William Henry Washington"
+    },
+    {
+      "id": "William Huntington Russell",
+      "name": "William Huntington Russell"
+    },
+    {
+      "id": "William Kent",
+      "name": "William Kent"
+    },
+    {
+      "id": "William Kneeland Townsend",
+      "name": "William Kneeland Townsend"
+    },
+    {
+      "id": "William Maxwell Evarts",
+      "name": "William Maxwell Evarts"
+    },
+    {
+      "id": "William McCormick Blair",
+      "name": "William McCormick Blair"
+    },
+    {
+      "id": "William P. Bundy",
+      "name": "William P. Bundy"
+    },
+    {
+      "id": "William Payne Whitney",
+      "name": "William Payne Whitney"
+    },
+    {
+      "id": "William Phelps Eno",
+      "name": "William Phelps Eno"
+    },
+    {
+      "id": "William Singer Moorhead",
+      "name": "William Singer Moorhead"
+    },
+    {
+      "id": "William Sloane Coffin",
+      "name": "William Sloane Coffin"
+    },
+    {
+      "id": "William Wallace Crapo",
+      "name": "William Wallace Crapo"
+    },
+    {
+      "id": "William Walter Phelps",
+      "name": "William Walter Phelps"
+    },
+    {
+      "id": "William Welch Kellogg",
+      "name": "William Welch Kellogg"
+    },
+    {
+      "id": "Wilson Shannon Bissell",
+      "name": "Wilson Shannon Bissell"
+    },
+    {
+      "id": "Winston Lord",
+      "name": "Winston Lord"
+    }
+  ],
+  "links": [
+    {
+      "source": "Frederick Ellsworth Mather",
+      "target": "Phineas Timothy Miller",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Frederick Ellsworth Mather",
+      "target": "William Huntington Russell",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Frederick Ellsworth Mather",
+      "target": "Alphonso Taft",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Frederick Ellsworth Mather",
+      "target": "George Ingersoll Wood",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Frederick Ellsworth Mather",
+      "target": "Asahel Hooker Lewis",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Phineas Timothy Miller",
+      "target": "William Huntington Russell",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Phineas Timothy Miller",
+      "target": "Alphonso Taft",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Phineas Timothy Miller",
+      "target": "George Ingersoll Wood",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Phineas Timothy Miller",
+      "target": "Asahel Hooker Lewis",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "William Huntington Russell",
+      "target": "Alphonso Taft",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "William Huntington Russell",
+      "target": "George Ingersoll Wood",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "William Huntington Russell",
+      "target": "Asahel Hooker Lewis",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Alphonso Taft",
+      "target": "George Ingersoll Wood",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Alphonso Taft",
+      "target": "Asahel Hooker Lewis",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "George Ingersoll Wood",
+      "target": "Asahel Hooker Lewis",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "John Wallace Houston",
+      "target": "John Hubbard Tweedy",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "John Wallace Houston",
+      "target": "William Henry Washington",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "John Hubbard Tweedy",
+      "target": "William Henry Washington",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "William Maxwell Evarts",
+      "target": "Chester Smith Lyman",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "William Maxwell Evarts",
+      "target": "Allen Ferdinand Owen",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "William Maxwell Evarts",
+      "target": "Benjamin Silliman Jr.",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "William Maxwell Evarts",
+      "target": "Morrison Remmick Waite",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Chester Smith Lyman",
+      "target": "Allen Ferdinand Owen",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Chester Smith Lyman",
+      "target": "Benjamin Silliman Jr.",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Chester Smith Lyman",
+      "target": "Morrison Remmick Waite",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Allen Ferdinand Owen",
+      "target": "Benjamin Silliman Jr.",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Allen Ferdinand Owen",
+      "target": "Morrison Remmick Waite",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Benjamin Silliman Jr.",
+      "target": "Morrison Remmick Waite",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "James Mason Hoppin",
+      "target": "John Perkins Jr.",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Benjamin Tucker Eames",
+      "target": "Roswell Hart",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Benjamin Tucker Eames",
+      "target": "Henry Stevens",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Roswell Hart",
+      "target": "Henry Stevens",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Orris Sanford Ferry",
+      "target": "William Barrett Washburn",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Constantine Canaris Esty",
+      "target": "Richard Taylor",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Constantine Canaris Esty",
+      "target": "Leonard Eugene Wales",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Richard Taylor",
+      "target": "Leonard Eugene Wales",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Henry Baldwin Harrison",
+      "target": "Stephen Wright Kellogg",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Henry Baldwin Harrison",
+      "target": "Rensselaer Russell Nelson",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Stephen Wright Kellogg",
+      "target": "Rensselaer Russell Nelson",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Augustus Brandegee",
+      "target": "Timothy Dwight V",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Augustus Brandegee",
+      "target": "Francis Miles Finch",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Timothy Dwight V",
+      "target": "Francis Miles Finch",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "William Wallace Crapo",
+      "target": "Daniel Coit Gilman",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "William Wallace Crapo",
+      "target": "George Griswold Sill",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Daniel Coit Gilman",
+      "target": "George Griswold Sill",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Carroll Cutler",
+      "target": "Luzon Buritt Morris",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Eli Whitney Blake Jr.",
+      "target": "John Thomas Croxton",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Eli Whitney Blake Jr.",
+      "target": "Moses Coit Tyler",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "John Thomas Croxton",
+      "target": "Moses Coit Tyler",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Burton Norvell Harrison",
+      "target": "Eugene Schuyler",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Lowndes Henry Davis",
+      "target": "William Walter Phelps",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Simeon E. Baldwin",
+      "target": "Anthony Higgins",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Daniel Henry Chamberlain",
+      "target": "Franklin MacVeagh",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Henry Farnum Dimock",
+      "target": "William Collins Whitney",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Charles Fraser MacLean",
+      "target": "John William Sterling",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "John Manning Hall",
+      "target": "George Chandler Holt",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Henry Morton Dexter",
+      "target": "Albert Elijah Dunning",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Henry Morton Dexter",
+      "target": "Thomas Hedge",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Henry Morton Dexter",
+      "target": "George Peabody Wetmore",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Albert Elijah Dunning",
+      "target": "Thomas Hedge",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Albert Elijah Dunning",
+      "target": "George Peabody Wetmore",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Thomas Hedge",
+      "target": "George Peabody Wetmore",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Chauncey Bunce Brewster",
+      "target": "LeBaron Bradford Colt",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Wilson Shannon Bissell",
+      "target": "Presidential appointee",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Frederick Collin",
+      "target": "Edwin Forrest Sweet",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Frederick Collin",
+      "target": "Thomas Thacher",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Frederick Collin",
+      "target": "William Kneeland Townsend",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Edwin Forrest Sweet",
+      "target": "Thomas Thacher",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Edwin Forrest Sweet",
+      "target": "William Kneeland Townsend",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Thomas Thacher",
+      "target": "William Kneeland Townsend",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "George Foot Moore",
+      "target": "Theodore Salisbury Woolsey",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Eben Alexander",
+      "target": "Samuel Oscar Prentice",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Eben Alexander",
+      "target": "Frank Bigelow Tarbell",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Samuel Oscar Prentice",
+      "target": "Frank Bigelow Tarbell",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Almet Francis Jenks",
+      "target": "John Patton Jr.",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Walker Blaine",
+      "target": "Charles Newell Fowler",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Walker Blaine",
+      "target": "Arthur Twining Hadley",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Charles Newell Fowler",
+      "target": "Arthur Twining Hadley",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Roger Sherman Baldwin Foster",
+      "target": "Tudor Storrs Jenks",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Lloyd Wheaton Bowers",
+      "target": "Oliver David Thompson",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Lloyd Wheaton Bowers",
+      "target": "Ambrose Tighe",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Lloyd Wheaton Bowers",
+      "target": "Timothy Lester Woodruff",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Oliver David Thompson",
+      "target": "Ambrose Tighe",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Oliver David Thompson",
+      "target": "Timothy Lester Woodruff",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Ambrose Tighe",
+      "target": "Timothy Lester Woodruff",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Walter Camp",
+      "target": "Sidney Catlin Partridge",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Walter Camp",
+      "target": "Henry Waters Taft",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Sidney Catlin Partridge",
+      "target": "Henry Waters Taft",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Edwin Edgerton Aiken",
+      "target": "Thomas Burr Osborne",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Benjamin Brewster",
+      "target": "William Phelps Eno",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Benjamin Brewster",
+      "target": "Robert Campbell",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "William Phelps Eno",
+      "target": "Robert Campbell",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Elihu Brintnal Frost",
+      "target": "Eliakim Hastings Moore",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Elihu Brintnal Frost",
+      "target": "Joseph Robinson Parrott",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Elihu Brintnal Frost",
+      "target": "Horace Dutton Taft",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Eliakim Hastings Moore",
+      "target": "Joseph Robinson Parrott",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Eliakim Hastings Moore",
+      "target": "Horace Dutton Taft",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Joseph Robinson Parrott",
+      "target": "Horace Dutton Taft",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Wilbur Franklin Booth",
+      "target": "Maxwell Evarts",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Clinton Larue Hare",
+      "target": "George Griswold Haven Jr.",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Clinton Larue Hare",
+      "target": "Oliver Gould Jennings",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Clinton Larue Hare",
+      "target": "William Kent",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "George Griswold Haven Jr.",
+      "target": "Oliver Gould Jennings",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "George Griswold Haven Jr.",
+      "target": "William Kent",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Oliver Gould Jennings",
+      "target": "William Kent",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Irving Fisher",
+      "target": "Richard Melancthon Hurd",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Irving Fisher",
+      "target": "Amos Alonzo Stagg",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Irving Fisher",
+      "target": "Charles Otis Gill",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Irving Fisher",
+      "target": "Henry L. Stimson",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Richard Melancthon Hurd",
+      "target": "Amos Alonzo Stagg",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Richard Melancthon Hurd",
+      "target": "Charles Otis Gill",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Richard Melancthon Hurd",
+      "target": "Henry L. Stimson",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Amos Alonzo Stagg",
+      "target": "Charles Otis Gill",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Amos Alonzo Stagg",
+      "target": "Henry L. Stimson",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Charles Otis Gill",
+      "target": "Henry L. Stimson",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Gifford Pinchot",
+      "target": "George Washington Woodruff",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Thomas F. Bayard Jr.",
+      "target": "Fairfax Harrison",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Hugh Aiken Bayne",
+      "target": "Howell Cheney",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Hugh Aiken Bayne",
+      "target": "Clive Day",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Hugh Aiken Bayne",
+      "target": "Henry S. Graves",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Hugh Aiken Bayne",
+      "target": "James William Husted Jr.",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Hugh Aiken Bayne",
+      "target": "Pierre Jay",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Hugh Aiken Bayne",
+      "target": "Thomas Lee McClung",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Howell Cheney",
+      "target": "Clive Day",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Howell Cheney",
+      "target": "Henry S. Graves",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Howell Cheney",
+      "target": "James William Husted Jr.",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Howell Cheney",
+      "target": "Pierre Jay",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Howell Cheney",
+      "target": "Thomas Lee McClung",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Clive Day",
+      "target": "Henry S. Graves",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Clive Day",
+      "target": "James William Husted Jr.",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Clive Day",
+      "target": "Pierre Jay",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Clive Day",
+      "target": "Thomas Lee McClung",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Henry S. Graves",
+      "target": "James William Husted Jr.",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Henry S. Graves",
+      "target": "Pierre Jay",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Henry S. Graves",
+      "target": "Thomas Lee McClung",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "James William Husted Jr.",
+      "target": "Pierre Jay",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "James William Husted Jr.",
+      "target": "Thomas Lee McClung",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Pierre Jay",
+      "target": "Thomas Lee McClung",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Thomas Cochran",
+      "target": "John Howland",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Thomas Cochran",
+      "target": "Ralph Delahaye Paine",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Thomas Cochran",
+      "target": "Harry Payne Whitney",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "John Howland",
+      "target": "Ralph Delahaye Paine",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "John Howland",
+      "target": "Harry Payne Whitney",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Ralph Delahaye Paine",
+      "target": "Harry Payne Whitney",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Frank Seiler Butterworth",
+      "target": "Francis Burton Harrison",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Frank Seiler Butterworth",
+      "target": "Frank Augustus Hinkey",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Francis Burton Harrison",
+      "target": "Frank Augustus Hinkey",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Jules Henri de Sibour",
+      "target": "Anson Phelps Stokes",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Jules Henri de Sibour",
+      "target": "Samuel Brinckerhoff Thorne",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Anson Phelps Stokes",
+      "target": "Samuel Brinckerhoff Thorne",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Henry Sloane Coffin",
+      "target": "Clarence Mann Fincke",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Henry Sloane Coffin",
+      "target": "Amos Richards Eno Pinchot",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Clarence Mann Fincke",
+      "target": "Amos Richards Eno Pinchot",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "James Wolcott Wadsworth Jr.",
+      "target": "William Payne Whitney",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Frederick H. Brooke",
+      "target": "James McDevitt Magee",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Frederick H. Brooke",
+      "target": "Alfred Gwynne Vanderbilt",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "James McDevitt Magee",
+      "target": "Alfred Gwynne Vanderbilt",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Frederick Baldwin Adams",
+      "target": "Ashley Day Leavitt",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Frederick Baldwin Adams",
+      "target": "Percy Rockefeller",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Ashley Day Leavitt",
+      "target": "Percy Rockefeller",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Russell Cheney",
+      "target": "Thomas Day Thacher",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "John Gillespie Magee",
+      "target": "Foster Rockwell",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "William McCormick Blair",
+      "target": "Hugh Smith Knox",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "William McCormick Blair",
+      "target": "Samuel Finley Brown Morse",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Hugh Smith Knox",
+      "target": "Samuel Finley Brown Morse",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Lucius Horatio Biglow",
+      "target": "Charles Seymour",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Lucius Horatio Biglow",
+      "target": "Harold Stanley",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Charles Seymour",
+      "target": "Harold Stanley",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Harvey Hollister Bundy",
+      "target": "Allen Trafford Klots",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Albert DeSilver",
+      "target": "George Leslie Harrison",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Albert DeSilver",
+      "target": "Stephen Philbin",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Albert DeSilver",
+      "target": "Robert Alphonso Taft",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "George Leslie Harrison",
+      "target": "Stephen Philbin",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "George Leslie Harrison",
+      "target": "Robert Alphonso Taft",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Stephen Philbin",
+      "target": "Robert Alphonso Taft",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Robert Abbe Gardner",
+      "target": "Gerald Clery Murphy",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Alfred Cowles III",
+      "target": "Averell Harriman",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Edwin Arthur Burtt",
+      "target": "Archibald MacLeish",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Prescott Bush",
+      "target": "E. Roland Harriman",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Prescott Bush",
+      "target": "Harry William LeGore",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Prescott Bush",
+      "target": "H. Neil Mallon",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Prescott Bush",
+      "target": "Kenneth Farrand Simpson",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "E. Roland Harriman",
+      "target": "Harry William LeGore",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "E. Roland Harriman",
+      "target": "H. Neil Mallon",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "E. Roland Harriman",
+      "target": "Kenneth Farrand Simpson",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Harry William LeGore",
+      "target": "H. Neil Mallon",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Harry William LeGore",
+      "target": "Kenneth Farrand Simpson",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "H. Neil Mallon",
+      "target": "Kenneth Farrand Simpson",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "F. Trubee Davison",
+      "target": "John Chipman Farrar",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "F. Trubee Davison",
+      "target": "Artemus Lamb Gates",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "F. Trubee Davison",
+      "target": "Robert A. Lovett",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "F. Trubee Davison",
+      "target": "Charles Phelps Taft II",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "F. Trubee Davison",
+      "target": "John Martin Vorys",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "John Chipman Farrar",
+      "target": "Artemus Lamb Gates",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "John Chipman Farrar",
+      "target": "Robert A. Lovett",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "John Chipman Farrar",
+      "target": "Charles Phelps Taft II",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "John Chipman Farrar",
+      "target": "John Martin Vorys",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Artemus Lamb Gates",
+      "target": "Robert A. Lovett",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Artemus Lamb Gates",
+      "target": "Charles Phelps Taft II",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Artemus Lamb Gates",
+      "target": "John Martin Vorys",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Robert A. Lovett",
+      "target": "Charles Phelps Taft II",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Robert A. Lovett",
+      "target": "John Martin Vorys",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Charles Phelps Taft II",
+      "target": "John Martin Vorys",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Lewis Greenleaf Adams",
+      "target": "Briton Hadden",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Lewis Greenleaf Adams",
+      "target": "Francis Thayer Hobson",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Lewis Greenleaf Adams",
+      "target": "David Sinton Ingalls",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Lewis Greenleaf Adams",
+      "target": "Henry Luce",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Briton Hadden",
+      "target": "Francis Thayer Hobson",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Briton Hadden",
+      "target": "David Sinton Ingalls",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Briton Hadden",
+      "target": "Henry Luce",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Francis Thayer Hobson",
+      "target": "David Sinton Ingalls",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Francis Thayer Hobson",
+      "target": "Henry Luce",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "David Sinton Ingalls",
+      "target": "Henry Luce",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "John Sherman Cooper",
+      "target": "Russell Davenport",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "John Sherman Cooper",
+      "target": "F. O. Matthiessen",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Russell Davenport",
+      "target": "F. O. Matthiessen",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Edwin Foster Blair",
+      "target": "Charles Merville Spofford",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "James Jeremiah Wadsworth",
+      "target": "George Herbert Walker Jr.",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "John Rockefeller Prentice",
+      "target": "Lanny Ross",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Granger Kent Costikyan",
+      "target": "George Crile Jr.",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Granger Kent Costikyan",
+      "target": "Fortune",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "George Crile Jr.",
+      "target": "Fortune",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "H. J. Heinz II",
+      "target": "Lewis Abbot Lapham",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "H. J. Heinz II",
+      "target": "John M. Walker",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Lewis Abbot Lapham",
+      "target": "John M. Walker",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Frederick Baldwin Adams Jr.",
+      "target": "Samuel Hazard Gillespie Jr.",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Frederick Baldwin Adams Jr.",
+      "target": "Tex McCrary",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Frederick Baldwin Adams Jr.",
+      "target": "Eugene O'Neill Jr.",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Samuel Hazard Gillespie Jr.",
+      "target": "Tex McCrary",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Samuel Hazard Gillespie Jr.",
+      "target": "Eugene O'Neill Jr.",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Tex McCrary",
+      "target": "Eugene O'Neill Jr.",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Samuel Carnes Collier",
+      "target": "Lyman Spitzer",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Samuel Carnes Collier",
+      "target": "Sonny Tufts",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Lyman Spitzer",
+      "target": "Sonny Tufts",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Jonathan Brewster Bingham",
+      "target": "Brendan Gill",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Jonathan Brewster Bingham",
+      "target": "John Hersey",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Jonathan Brewster Bingham",
+      "target": "John Merrill Knapp",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Brendan Gill",
+      "target": "John Hersey",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Brendan Gill",
+      "target": "John Merrill Knapp",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "John Hersey",
+      "target": "John Merrill Knapp",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "J. Richardson Dilworth",
+      "target": "Clinton Frank",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "J. Richardson Dilworth",
+      "target": "Albert Hessberg II",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Clinton Frank",
+      "target": "Albert Hessberg II",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "William P. Bundy",
+      "target": "William Welch Kellogg",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "McGeorge Bundy",
+      "target": "Andrew Downey Orrick",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "David Acheson",
+      "target": "Debevoise & Plimpton",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "James L. Buckley",
+      "target": "John Bannister Goodenough",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "James L. Buckley",
+      "target": "Townsend Walter Hoopes II",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "James L. Buckley",
+      "target": "William Singer Moorhead",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "James L. Buckley",
+      "target": "James Whitmore",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "John Bannister Goodenough",
+      "target": "Townsend Walter Hoopes II",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "John Bannister Goodenough",
+      "target": "William Singer Moorhead",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "John Bannister Goodenough",
+      "target": "James Whitmore",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Townsend Walter Hoopes II",
+      "target": "William Singer Moorhead",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Townsend Walter Hoopes II",
+      "target": "James Whitmore",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "William Singer Moorhead",
+      "target": "James Whitmore",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "John Chafee",
+      "target": "Josiah Augustus Spaulding",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "John Chafee",
+      "target": "Charles S. Whitehouse",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Josiah Augustus Spaulding",
+      "target": "Charles S. Whitehouse",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Thomas William Ludlow Ashley",
+      "target": "George H. W. Bush",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "William Sloane Coffin",
+      "target": "Daniel Pomeroy Davison",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "William Sloane Coffin",
+      "target": "Tony Lavelli",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "William Sloane Coffin",
+      "target": "David McCord Lippincott",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "William Sloane Coffin",
+      "target": "Charles Edwin Lord II",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Daniel Pomeroy Davison",
+      "target": "Tony Lavelli",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Daniel Pomeroy Davison",
+      "target": "David McCord Lippincott",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Daniel Pomeroy Davison",
+      "target": "Charles Edwin Lord II",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Tony Lavelli",
+      "target": "David McCord Lippincott",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Tony Lavelli",
+      "target": "Charles Edwin Lord II",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "David McCord Lippincott",
+      "target": "Charles Edwin Lord II",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "William F. Buckley Jr.",
+      "target": "William Henry Draper III",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "William F. Buckley Jr.",
+      "target": "Evan G. Galbraith",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "William F. Buckley Jr.",
+      "target": "Thomas Henry Guinzburg",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "William Henry Draper III",
+      "target": "Evan G. Galbraith",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "William Henry Draper III",
+      "target": "Thomas Henry Guinzburg",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Evan G. Galbraith",
+      "target": "Thomas Henry Guinzburg",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Fergus Reid Buckley",
+      "target": "Charles Sherman Haight Jr.",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Jonathan James Bush",
+      "target": "William H. Donaldson",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Jonathan James Bush",
+      "target": "John Birnie Marshall",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Jonathan James Bush",
+      "target": "James Price McLane",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Jonathan James Bush",
+      "target": "George Herbert Walker III",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "William H. Donaldson",
+      "target": "John Birnie Marshall",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "William H. Donaldson",
+      "target": "James Price McLane",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "William H. Donaldson",
+      "target": "George Herbert Walker III",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "John Birnie Marshall",
+      "target": "James Price McLane",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "John Birnie Marshall",
+      "target": "George Herbert Walker III",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "James Price McLane",
+      "target": "George Herbert Walker III",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Caldwell Esselstyn",
+      "target": "Jack Edwin McGregor",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Linden Stanley Blue",
+      "target": "Robert Morey",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Stephen Adams",
+      "target": "Winston Lord",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Eugene Lytton Scott",
+      "target": "Michael Johnson Pyle",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "David L. Boren",
+      "target": "Michael Gates Gill",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "David L. Boren",
+      "target": "William Dawbney Nordhaus",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Michael Gates Gill",
+      "target": "William Dawbney Nordhaus",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Orde Musgrave Coombs",
+      "target": "John Shattuck",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "John Forbes Kerry",
+      "target": "David Rumsey",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "John Forbes Kerry",
+      "target": "Frederick Wallace Smith",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "John Forbes Kerry",
+      "target": "David Thorne",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "David Rumsey",
+      "target": "Frederick Wallace Smith",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "David Rumsey",
+      "target": "David Thorne",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Frederick Wallace Smith",
+      "target": "David Thorne",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Roy Leslie Austin",
+      "target": "George W. Bush",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Roy Leslie Austin",
+      "target": "Rex William Cowdry",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Roy Leslie Austin",
+      "target": "Robert McCallum Jr",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Roy Leslie Austin",
+      "target": "Don Schollander",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Roy Leslie Austin",
+      "target": "Robert McCallum, Jr",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "George W. Bush",
+      "target": "Rex William Cowdry",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "George W. Bush",
+      "target": "Robert McCallum Jr",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "George W. Bush",
+      "target": "Don Schollander",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "George W. Bush",
+      "target": "Robert McCallum, Jr",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Rex William Cowdry",
+      "target": "Robert McCallum Jr",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Rex William Cowdry",
+      "target": "Don Schollander",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Rex William Cowdry",
+      "target": "Robert McCallum, Jr",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Robert McCallum Jr",
+      "target": "Don Schollander",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Robert McCallum Jr",
+      "target": "Robert McCallum, Jr",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Don Schollander",
+      "target": "Robert McCallum, Jr",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Brian John Dowling",
+      "target": "Douglas Preston Woodlock",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "James Emanuel Boasberg",
+      "target": "Steven Mnuchin",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "James Emanuel Boasberg",
+      "target": "ISBN",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Steven Mnuchin",
+      "target": "ISBN",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Paul Giamatti",
+      "target": "ISBN",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Austan Goolsbee",
+      "target": "ISBN",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "David Leonhardt",
+      "target": "Angela Buchdahl",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Tali Farhadian Weinstein",
+      "target": "Isaacson, Walter",
+      "relationship": "Skull and Bones cohort"
+    },
+    {
+      "source": "Noah P. Hood",
+      "target": "PublishAmerica",
+      "relationship": "Skull and Bones cohort"
+    }
+  ]
+}

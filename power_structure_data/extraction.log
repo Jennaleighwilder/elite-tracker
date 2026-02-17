@@ -1,0 +1,52 @@
+2026-02-17 12:16:18,688 - INFO - === POWER STRUCTURE DATA EXTRACTION ===
+2026-02-17 12:16:19,916 - WARNING - Failed http://babel.hathitrust.org/cgi/pt?id=mdp.39015077914680;view=1up;seq=1;format=pdf: 403 Client Error: Forbidden for url: https://babel.hathitrust.org/cgi/pt?id=mdp.39015077914680;view=1up;seq=1;format=pdf
+2026-02-17 12:16:21,064 - WARNING - Failed https://babel.hathitrust.org/cgi/pt?id=mdp.39015077914680&view=1up&seq=1&format=pdf: 403 Client Error: Forbidden for url: https://babel.hathitrust.org/cgi/pt?id=mdp.39015077914680&view=1up&seq=1&format=pdf
+2026-02-17 12:16:21,067 - INFO - Senate Report PDF not available - add manually from HathiTrust
+2026-02-17 12:16:27,976 - INFO - Downloaded: cfr_finding_aid.pdf
+2026-02-17 12:16:32,782 - INFO - Extracted 342 Skull and Bones members
+2026-02-17 12:16:35,639 - INFO - Extracted 1748 Bilderberg attendees
+2026-02-17 12:16:36,764 - INFO - Downloaded: trilateral_finding_aid.html
+2026-02-17 12:16:36,773 - INFO - Extracted 1 Trilateral members
+2026-02-17 12:16:38,020 - INFO - Downloaded: dunl_portal.html
+2026-02-17 12:16:39,234 - INFO - Downloaded: dunl_api_docs.html
+2026-02-17 12:16:40,435 - INFO - Downloaded: dunl_downloads.html
+2026-02-17 12:16:41,641 - INFO - Downloaded: sp_sample_companies.csv
+2026-02-17 12:16:42,785 - WARNING - Failed https://archives.usc.edu/repositories/3/archival_objects/118929: 403 Client Error: Forbidden for url: https://archives.usc.edu/repositories/3/archival_objects/118929
+2026-02-17 12:16:44,025 - INFO - Downloaded: senate_report_penn.html
+2026-02-17 12:16:44,047 - INFO - Cross-reference: 5 people in 2+ sources
+2026-02-17 12:16:44,064 - INFO - Created 371 network edges
+2026-02-17 12:16:44,065 - WARNING - NetworkX/matplotlib not installed - skip visualization
+2026-02-17 12:16:44,073 - INFO - 
+DOWNLOAD SUMMARY:
+2026-02-17 12:16:44,073 - INFO -   Skull and Bones: 342 records -> skull_bones_complete.csv
+2026-02-17 12:16:44,073 - INFO -   Bilderberg: 1748 records -> bilderberg_attendees.csv
+2026-02-17 12:16:44,073 - INFO -   Trilateral: 1 records -> trilateral_members.csv
+2026-02-17 12:16:44,073 - INFO -   Cross-reference: 5 records -> cross_reference.csv
+2026-02-17 12:16:44,073 - INFO - === EXTRACTION COMPLETE ===
+2026-02-17 12:17:14,139 - INFO - === POWER STRUCTURE DATA EXTRACTION ===
+2026-02-17 12:17:15,159 - WARNING - Failed http://babel.hathitrust.org/cgi/pt?id=mdp.39015077914680;view=1up;seq=1;format=pdf: 403 Client Error: Forbidden for url: http://babel.hathitrust.org/cgi/pt?id=mdp.39015077914680;view=1up;seq=1;format=pdf
+2026-02-17 12:17:16,174 - WARNING - Failed https://babel.hathitrust.org/cgi/pt?id=mdp.39015077914680&view=1up&seq=1&format=pdf: HTTPSConnectionPool(host='babel.hathitrust.org', port=443): Max retries exceeded with url: /cgi/pt?id=mdp.39015077914680&view=1up&seq=1&format=pdf (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))
+2026-02-17 12:17:16,177 - INFO - Senate Report PDF not available - add manually from HathiTrust
+2026-02-17 12:17:17,201 - WARNING - Failed http://arks.princeton.edu/ark:/88435/dsp011c18dj67m: 403 Client Error: Forbidden for url: http://arks.princeton.edu/ark:/88435/dsp011c18dj67m
+2026-02-17 12:17:18,219 - WARNING - Skull and Bones https://en.wikipedia.org/wiki/List_of_Skull_and_Bones_members: HTTPSConnectionPool(host='en.wikipedia.org', port=443): Max retries exceeded with url: /wiki/List_of_Skull_and_Bones_members (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))
+2026-02-17 12:17:19,230 - WARNING - Skull and Bones https://en.wikipedia.org/w/index.php?title=List_of_Skull_and_Bones_members&diff=1242971543&oldid=1114727412: HTTPSConnectionPool(host='en.wikipedia.org', port=443): Max retries exceeded with url: /w/index.php?title=List_of_Skull_and_Bones_members&diff=1242971543&oldid=1114727412 (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))
+2026-02-17 12:17:20,240 - WARNING - German Bilderberg: HTTPSConnectionPool(host='de.wikipedia.org', port=443): Max retries exceeded with url: /wiki/Liste_von_Teilnehmern_an_Bilderberg-Konferenzen (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))
+2026-02-17 12:17:21,248 - WARNING - English Bilderberg: HTTPSConnectionPool(host='en.wikipedia.org', port=443): Max retries exceeded with url: /wiki/List_of_Bilderberg_participants (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))
+2026-02-17 12:17:22,261 - WARNING - Failed https://dimes.rockarch.org/collections/FVYj2u2ReLkppp2DZLYVs7: HTTPSConnectionPool(host='dimes.rockarch.org', port=443): Max retries exceeded with url: /collections/FVYj2u2ReLkppp2DZLYVs7 (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))
+2026-02-17 12:17:22,270 - INFO - Extracted 9 Trilateral members
+2026-02-17 12:17:23,284 - WARNING - Failed https://DUNL.org: HTTPSConnectionPool(host='dunl.org', port=443): Max retries exceeded with url: / (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))
+2026-02-17 12:17:24,296 - WARNING - Failed https://DUNL.org/api/docs: HTTPSConnectionPool(host='dunl.org', port=443): Max retries exceeded with url: /api/docs (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))
+2026-02-17 12:17:25,306 - WARNING - Failed https://DUNL.org/downloads/: HTTPSConnectionPool(host='dunl.org', port=443): Max retries exceeded with url: /downloads/ (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))
+2026-02-17 12:17:26,318 - WARNING - Failed https://DUNL.org/sample/companies.csv: HTTPSConnectionPool(host='dunl.org', port=443): Max retries exceeded with url: /sample/companies.csv (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))
+2026-02-17 12:17:27,334 - WARNING - Failed https://archives.usc.edu/repositories/3/archival_objects/118929: HTTPSConnectionPool(host='archives.usc.edu', port=443): Max retries exceeded with url: /repositories/3/archival_objects/118929 (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))
+2026-02-17 12:17:28,350 - WARNING - Failed https://onlinebooks.library.upenn.edu/webbin/book/lookupid?key=ha006604514: HTTPSConnectionPool(host='onlinebooks.library.upenn.edu', port=443): Max retries exceeded with url: /webbin/book/lookupid?key=ha006604514 (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))
+2026-02-17 12:17:28,381 - INFO - Cross-reference: 5 people in 2+ sources
+2026-02-17 12:17:28,406 - INFO - Created 371 network edges
+2026-02-17 12:17:28,407 - WARNING - NetworkX/matplotlib not installed - skip visualization
+2026-02-17 12:17:28,413 - INFO - 
+DOWNLOAD SUMMARY:
+2026-02-17 12:17:28,413 - INFO -   Skull and Bones: 342 records -> skull_bones_complete.csv
+2026-02-17 12:17:28,414 - INFO -   Bilderberg: 1748 records -> bilderberg_attendees.csv
+2026-02-17 12:17:28,414 - INFO -   Trilateral: 9 records -> trilateral_members.csv
+2026-02-17 12:17:28,415 - INFO -   Cross-reference: 5 records -> cross_reference.csv
+2026-02-17 12:17:28,415 - INFO - === EXTRACTION COMPLETE ===

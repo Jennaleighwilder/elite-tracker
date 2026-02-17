@@ -1,0 +1,5 @@
+{
+  "buildCommand": "python3 web/build_data.py",
+  "outputDirectory": "web",
+  "framework": null
+}

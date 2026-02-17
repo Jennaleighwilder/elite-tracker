@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Hidden Networks | Power Structure Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=EB+Garamond:ital,wght@0,400;0,600;1,400&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="background-container">
+        <div class="sacred-geometry">
+            <div class="pentagon rotating-slow"></div>
+            <div class="hexagon rotating-slower"></div>
+        </div>
+        <canvas id="particle-canvas"></canvas>
+    </div>
+
+    <div class="app-container">
+        <header class="main-header">
+            <div class="header-left">
+                <div class="logo-container">
+                    <div class="logo-symbol">⧫</div>
+                    <h1 class="logo-text">THE HIDDEN NETWORKS</h1>
+                </div>
+                <div class="tagline">Mapping Power Through the Shadows — 270 Skull & Bones · 325 Connections</div>
+            </div>
+            <div class="header-center">
+                <div class="search-container">
+                    <input type="text" id="search-input" placeholder="Search names..." class="search-input">
+                    <div class="search-icon">🔍</div>
+                    <div id="search-results" class="search-results hidden"></div>
+                </div>
+            </div>
+            <div class="header-right">
+                <button class="icon-button" id="stats-toggle" title="Statistics"><span class="icon">📊</span></button>
+                <button class="icon-button" id="export-toggle" title="Export"><span class="icon">💾</span></button>
+                <button class="icon-button" id="help-toggle" title="Help"><span class="icon">?</span></button>
+            </div>
+        </header>
+
+        <div class="main-content">
+            <aside class="left-sidebar" id="filter-panel">
+                <div class="panel-header">
+                    <h2 class="panel-title">FILTERS</h2>
+                    <div class="ornament">❖</div>
+                </div>
+                <div class="filter-section">
+                    <h3 class="filter-title">Node Types</h3>
+                    <div class="filter-group">
+                        <label class="filter-checkbox">
+                            <input type="checkbox" value="secret-society" checked>
+                            <span class="checkbox-custom"></span>
+                            <span class="node-type-indicator" style="background: var(--node-society)"></span>
+                            Skull & Bones
+                        </label>
+                        <label class="filter-checkbox">
+                            <input type="checkbox" value="policy" checked>
+                            <span class="checkbox-custom"></span>
+                            <span class="node-type-indicator" style="background: var(--node-policy)"></span>
+                            Cross-Referenced (Bilderberg)
+                        </label>
+                    </div>
+                </div>
+                <div class="filter-actions">
+                    <button class="btn-primary" id="apply-filters">Apply Filters</button>
+                    <button class="btn-secondary" id="reset-filters">Reset All</button>
+                </div>
+            </aside>
+
+            <main class="graph-container">
+                <div class="graph-header">
+                    <div class="zoom-controls">
+                        <button class="control-btn" id="zoom-in">+</button>
+                        <button class="control-btn" id="zoom-reset">⌂</button>
+                        <button class="control-btn" id="zoom-out">−</button>
+                    </div>
+                </div>
+                <svg id="network-graph" class="network-svg"></svg>
+                <div class="graph-overlay">
+                    <div id="node-tooltip" class="tooltip hidden">
+                        <div class="tooltip-header"><h4 class="tooltip-name"></h4><span class="tooltip-type"></span></div>
+                        <div class="tooltip-content"></div>
+                    </div>
+                </div>
+                <div class="legend-container">
+                    <div class="legend-title">LEGEND</div>
+                    <div class="legend-items">
+                        <div class="legend-item"><div class="legend-circle" style="background: var(--node-society)"></div><span>Skull & Bones</span></div>
+                        <div class="legend-item"><div class="legend-circle" style="background: var(--node-policy)"></div><span>Bilderberg Cross-Ref</span></div>
+                    </div>
+                </div>
+            </main>
+
+            <aside class="right-sidebar hidden" id="details-panel">
+                <div class="panel-header">
+                    <h2 class="panel-title">NODE DETAILS</h2>
+                    <button class="close-btn" id="close-details">×</button>
+                </div>
+                <div class="details-content" id="details-content">
+                    <div class="details-empty"><div class="empty-icon">👁</div><p>Select a node to view details</p></div>
+                </div>
+            </aside>
+        </div>
+
+        <div class="timeline-container">
+            <div class="timeline-header">
+                <span class="timeline-label">Cohort Year</span>
+                <div class="timeline-range">
+                    <span id="timeline-start">1833</span>
+                    <span class="timeline-separator">—</span>
+                    <span id="timeline-end">1982</span>
+                </div>
+            </div>
+            <div class="timeline-slider-container">
+                <input type="range" id="timeline-slider-start" class="timeline-slider" min="1833" max="1982" value="1833">
+                <input type="range" id="timeline-slider-end" class="timeline-slider" min="1833" max="1982" value="1982">
+                <div class="timeline-track"></div>
+            </div>
+        </div>
+
+        <div class="modal hidden" id="stats-modal">
+            <div class="modal-content">
+                <div class="modal-header"><h2>NETWORK STATISTICS</h2><button class="close-btn" id="close-stats">×</button></div>
+                <div class="modal-body">
+                    <div class="stat-grid">
+                        <div class="stat-card"><div class="stat-value" id="stat-nodes">0</div><div class="stat-label">Total Nodes</div></div>
+                        <div class="stat-card"><div class="stat-value" id="stat-edges">0</div><div class="stat-label">Connections</div></div>
+                        <div class="stat-card"><div class="stat-value" id="stat-density">0%</div><div class="stat-label">Density</div></div>
+                    </div>
+                    <div class="stat-section"><h3>Most Connected</h3><div id="top-nodes" class="top-nodes-list"></div></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal hidden" id="export-modal">
+            <div class="modal-content">
+                <div class="modal-header"><h2>EXPORT</h2><button class="close-btn" id="close-export">×</button></div>
+                <div class="modal-body">
+                    <button class="btn-primary export-btn" id="export-json"><span class="icon">📊</span> Export JSON</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal hidden" id="help-modal">
+            <div class="modal-content">
+                <div class="modal-header"><h2>ABOUT</h2><button class="close-btn" id="close-help">×</button></div>
+                <div class="modal-body">
+                    <p><strong>Real data:</strong> 270 Skull & Bones members (1833–1982), 325 cohort connections. Cross-referenced with Bilderberg attendees.</p>
+                    <p><strong>Sources:</strong> Wikipedia (Skull & Bones roster), German/English Wikipedia (Bilderberg).</p>
+                    <p><strong>Controls:</strong> Drag to pan, scroll to zoom, click node for details.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

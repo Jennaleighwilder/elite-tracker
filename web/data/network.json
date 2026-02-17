@@ -1,0 +1,4441 @@
+{
+"nodes": [
+{
+"id": "Albert DeSilver",
+"name": "Albert DeSilver",
+"type": "secret-society",
+"connections": 3,
+"cohort_year": "1910",
+"position": "co-founder American Civil Liberties Union[23]:\u200a1442"
+},
+{
+"id": "Albert Elijah Dunning",
+"name": "Albert Elijah Dunning",
+"type": "secret-society",
+"connections": 3,
+"cohort_year": "1867",
+"position": "American theologian and author[18]:\u200a1081"
+},
+{
+"id": "Albert Hessberg II",
+"name": "Albert Hessberg II",
+"type": "secret-society",
+"connections": 2,
+"cohort_year": "1938",
+"position": "lawyer, first Jewish member of Skull and Bones[100][101]"
+},
+{
+"id": "Alfred Cowles III",
+"name": "Alfred Cowles III",
+"type": "secret-society",
+"connections": 1,
+"cohort_year": "1913",
+"position": "economist, founder of the Cowles Commission[65]"
+},
+{
+"id": "Alfred Gwynne Vanderbilt",
+"name": "Alfred Gwynne Vanderbilt",
+"type": "secret-society",
+"connections": 2,
+"cohort_year": "1899",
+"position": "member of the Vanderbilt family[56]"
+},
+{
+"id": "Allen Ferdinand Owen",
+"name": "Allen Ferdinand Owen",
+"type": "secret-society",
+"connections": 4,
+"cohort_year": "1837",
+"position": "US Representative from Georgia[2]"
+},
+{
+"id": "Allen Trafford Klots",
+"name": "Allen Trafford Klots",
+"type": "secret-society",
+"connections": 1,
+"cohort_year": "1909",
+"position": "New York City lawyer and president of the New York City Bar Association, partner at Winthrop & Stimson[3]:\u200a183\u20134"
+},
+{
+"id": "Almet Francis Jenks",
+"name": "Almet Francis Jenks",
+"type": "secret-society",
+"connections": 1,
+"cohort_year": "1875",
+"position": "Justice of the New York Supreme Court[23]:\u200a1326"
+},
+{
+"id": "Alphonso Taft",
+"name": "Alphonso Taft",
+"type": "secret-society",
+"connections": 5,
+"cohort_year": "1833",
+"position": "U.S. Attorney General (1876\u20131877), Secretary of War (1876), Ambassador to Austria-Hungary (1882) and Russia (1884\u20131885), father of William Howard Taft"
+},
+{
+"id": "Ambrose Tighe",
+"name": "Ambrose Tighe",
+"type": "secret-society",
+"connections": 3,
+"cohort_year": "1879",
+"position": "member Minnesota House of Representatives[9]:\u200a77"
+},
+{
+"id": "Amos Alonzo Stagg",
+"name": "Amos Alonzo Stagg",
+"type": "secret-society",
+"connections": 4,
+"cohort_year": "1888",
+"position": "college football Hall of Fame coach[3]:\u200a126\u200a[45]"
+},
+{
+"id": "Amos Richards Eno Pinchot",
+"name": "Amos Richards Eno Pinchot",
+"type": "secret-society",
+"connections": 2,
+"cohort_year": "1897",
+"position": "Progressive leader[53]:\u200a88\u20139"
+},
+{
+"id": "Andrew Downey Orrick",
+"name": "Andrew Downey Orrick",
+"type": "secret-society",
+"connections": 1,
+"cohort_year": "1940",
+"position": "acting chairman of the Securities and Exchange Commission[103]"
+},
+{
+"id": "Angela Buchdahl",
+"name": "Angela Buchdahl",
+"type": "secret-society",
+"connections": 1,
+"cohort_year": "1994",
+"position": "first East-Asian American ordained Rabbi and Chief Rabbi of Central Synagogue[141]"
+},
+{
+"id": "Anson Phelps Stokes",
+"name": "Anson Phelps Stokes",
+"type": "secret-society",
+"connections": 2,
+"cohort_year": "1896",
+"position": "clergyman and Secretary of Yale University (1899\u20131921)[3]:\u200a74"
+},
+{
+"id": "Anthony Higgins",
+"name": "Anthony Higgins",
+"type": "secret-society",
+"connections": 1,
+"cohort_year": "1861",
+"position": "US Senator[4]:\u200a94"
+},
+{
+"id": "Archibald MacLeish",
+"name": "Archibald MacLeish",
+"type": "secret-society",
+"connections": 1,
+"cohort_year": "1915",
+"position": "poet and diplomat[3]:\u200a185,\u200a187\u20139"
+},
+{
+"id": "Artemus Lamb Gates",
+"name": "Artemus Lamb Gates",
+"type": "secret-society",
+"connections": 5,
+"cohort_year": "1918",
+"position": "businessman, US Assistant Secretary of the Navy for Air[69]"
+},
+{
+"id": "Arthur Twining Hadley",
+"name": "Arthur Twining Hadley",
+"type": "secret-society",
+"connections": 2,
+"cohort_year": "1876",
+"position": "Yale President 1899\u20131921[3]:\u200a48,\u200a58,\u200a142"
+},
+{
+"id": "Asahel Hooker Lewis",
+"name": "Asahel Hooker Lewis",
+"type": "secret-society",
+"connections": 5,
+"cohort_year": "1833",
+"position": "newspaper editor and member of the Ohio General Assembly[2]"
+},
+{
+"id": "Ashley Day Leavitt",
+"name": "Ashley Day Leavitt",
+"type": "secret-society",
+"connections": 2,
+"cohort_year": "1900",
+"position": "Congregational minister, Harvard Congregational Church, Brookline, Massachusetts, frequent lecturer and public speaker[4]:\u200a175"
+},
+{
+"id": "Augustus Brandegee",
+"name": "Augustus Brandegee",
+"type": "secret-society",
+"connections": 2,
+"cohort_year": "1849",
+"position": "US Representative from Connecticut.[11]:\u200a87"
+},
+{
+"id": "Austan Goolsbee",
+"name": "Austan Goolsbee",
+"type": "secret-society",
+"connections": 1,
+"cohort_year": "1991",
+"position": "staff director to and chief economist of President Barack Obama's Economic Recovery Advisory Board[139]"
+},
+{
+"id": "Averell Harriman",
+"name": "Averell Harriman",
+"type": "secret-society",
+"connections": 1,
+"cohort_year": "1913",
+"position": "businessman, founding partner in Harriman Brothers & Company and later Brown Brothers Harriman & Co., U.S. Ambassador and Secretary of Commerce, Gover"
+},
+{
+"id": "Benjamin Brewster",
+"name": "Benjamin Brewster",
+"type": "secret-society",
+"connections": 2,
+"cohort_year": "1882",
+"position": "Bishop of Maine and Missionary Bishop of Western Colorado[22]:\u200a19"
+},
+{
+"id": "Benjamin Silliman Jr.",
+"name": "Benjamin Silliman Jr.",
+"type": "secret-society",
+"connections": 4,
+"cohort_year": "1837",
+"position": "Yale professor of chemistry[3]:\u200a64"
+},
+{
+"id": "Benjamin Tucker Eames",
+"name": "Benjamin Tucker Eames",
+"type": "secret-society",
+"connections": 2,
+"cohort_year": "1843",
+"position": "US Representative from Rhode Island[4]:\u200a69"
+},
+{
+"id": "Brendan Gill",
+"name": "Brendan Gill",
+"type": "secret-society",
+"connections": 3,
+"cohort_year": "1936",
+"position": "author and New Yorker contributor[3]:\u200a127"
+},
+{
+"id": "Brian John Dowling",
+"name": "Brian John Dowling",
+"type": "secret-society",
+"connections": 1,
+"cohort_year": "1969",
+"position": "National Football League player, inspiration for B.D. in Doonesbury[2]"
+},
+{
+"id": "Briton Hadden",
+"name": "Briton Hadden",
+"type": "secret-society",
+"connections": 4,
+"cohort_year": "1920",
+"position": "co-founder of Time-Life Enterprises[3]:\u200a127,\u200a150"
+},
+{
+"id": "Burton Norvell Harrison",
+"name": "Burton Norvell Harrison",
+"type": "secret-society",
+"connections": 1,
+"cohort_year": "1859",
+"position": "private secretary to Jefferson Davis[4]:\u200a90"
+},
+{
+"id": "Caldwell Esselstyn",
+"name": "Caldwell Esselstyn",
+"type": "secret-society",
+"connections": 1,
+"cohort_year": "1956",
+"position": "Olympic medal-winning rower, physician, author[121]"
+},
+{
+"id": "Carroll Cutler",
+"name": "Carroll Cutler",
+"type": "secret-society",
+"connections": 1,
+"cohort_year": "1854",
+"position": "President of Western Reserve College, now known as Case Western Reserve University."
+},
+{
+"id": "Charles Edwin Lord II",
+"name": "Charles Edwin Lord II",
+"type": "secret-society",
+"connections": 4,
+"cohort_year": "1949",
+"position": "banker, Vice-chairman of the Export-Import Bank of the United States[116]"
+},
+{
+"id": "Charles Fraser MacLean",
+"name": "Charles Fraser MacLean",
+"type": "secret-society",
+"connections": 1,
+"cohort_year": "1864",
+"position": "New York Supreme Court judge[18]"
+},
+{
+"id": "Charles Merville Spofford",
+"name": "Charles Merville Spofford",
+"type": "secret-society",
+"connections": 1,
+"cohort_year": "1924",
+"position": "lawyer and NATO official[82]"
+},
+{
+"id": "Charles Newell Fowler",
+"name": "Charles Newell Fowler",
+"type": "secret-society",
+"connections": 2,
+"cohort_year": "1876",
+"position": "US Representative from New Jersey[30]:\u200a35"
+},
+{
+"id": "Charles Otis Gill",
+"name": "Charles Otis Gill",
+"type": "secret-society",
+"connections": 4,
+"cohort_year": "1888",
+"position": "clergyman, author, college football coach[11]:\u200a179"
+},
+{
+"id": "Charles Phelps Taft II",
+"name": "Charles Phelps Taft II",
+"type": "secret-society",
+"connections": 5,
+"cohort_year": "1918",
+"position": "son of President William Howard Taft, Mayor of Cincinnati, Ohio[76]"
+},
+{
+"id": "Charles S. Whitehouse",
+"name": "Charles S. Whitehouse",
+"type": "secret-society",
+"connections": 2,
+"cohort_year": "1947",
+"position": "CIA Agent (1947\u20131956), U.S. Ambassador to Laos and Thailand in the 1970s.[3]:\u200a174"
+},
+{
+"id": "Charles Seymour",
+"name": "Charles Seymour",
+"type": "secret-society",
+"connections": 2,
+"cohort_year": "1908",
+"position": "President of Yale (1937\u20131951), founding member of The Council on Foreign Relations[3]:\u200a127,\u200a147\u200a[32]"
+},
+{
+"id": "Charles Sherman Haight Jr.",
+"name": "Charles Sherman Haight Jr.",
+"type": "secret-society",
+"connections": 1,
+"cohort_year": "1952",
+"position": "Connecticut District Court judge[2]"
+},
+{
+"id": "Chauncey Bunce Brewster",
+"name": "Chauncey Bunce Brewster",
+"type": "secret-society",
+"connections": 1,
+"cohort_year": "1868",
+"position": "Bishop of the Episcopal Diocese of Connecticut[22]:\u200a7"
+},
+{
+"id": "Chester Smith Lyman",
+"name": "Chester Smith Lyman",
+"type": "secret-society",
+"connections": 4,
+"cohort_year": "1837",
+"position": "astronomer, Yale professor of Industrial Mechanics and Physics[2]"
+},
+{
+"id": "Clarence Mann Fincke",
+"name": "Clarence Mann Fincke",
+"type": "secret-society",
+"connections": 2,
+"cohort_year": "1897",
+"position": "All-America football player[2]"
+},
+{
+"id": "Clinton Frank",
+"name": "Clinton Frank",
+"type": "secret-society",
+"connections": 2,
+"cohort_year": "1938",
+"position": "advertising, College Football Hall of Fame and Heisman Trophy-winning player[99]"
+},
+{
+"id": "Clinton Larue Hare",
+"name": "Clinton Larue Hare",
+"type": "secret-society",
+"connections": 3,
+"cohort_year": "1887",
+"position": "lawyer, college football coach[41]"
+},
+{
+"id": "Clive Day",
+"name": "Clive Day",
+"type": "secret-society",
+"connections": 6,
+"cohort_year": "1892",
+"position": "Professor of economic history at Yale[49]:\u200a10\u201311"
+},
+{
+"id": "Constantine Canaris Esty",
+"name": "Constantine Canaris Esty",
+"type": "secret-society",
+"connections": 2,
+"cohort_year": "1845",
+"position": "US Representative from Massachusetts[4]:\u200a71"
+},
+{
+"id": "Daniel Coit Gilman",
+"name": "Daniel Coit Gilman",
+"type": "secret-society",
+"connections": 2,
+"cohort_year": "1852",
+"position": "president of the University of California, Johns Hopkins University, and the Carnegie Institution, founder of the Russell Trust Association[3]:\u200a83\u20135"
+},
+{
+"id": "Daniel Henry Chamberlain",
+"name": "Daniel Henry Chamberlain",
+"type": "secret-society",
+"connections": 1,
+"cohort_year": "1862",
+"position": "Governor of South Carolina[4]:\u200a95"
+},
+{
+"id": "Daniel Pomeroy Davison",
+"name": "Daniel Pomeroy Davison",
+"type": "secret-society",
+"connections": 4,
+"cohort_year": "1949",
+"position": "banker, president United States Trust Corporation[113]"
+},
+{
+"id": "David Acheson",
+"name": "David Acheson",
+"type": "secret-society",
+"connections": 1,
+"cohort_year": "1943",
+"position": "author, lawyer, son of Dean Acheson[3]:\u200a188"
+},
+{
+"id": "David L. Boren",
+"name": "David L. Boren",
+"type": "secret-society",
+"connections": 2,
+"cohort_year": "1963",
+"position": "Governor of Oklahoma, U.S. Senator, President of the University of Oklahoma[3]:\u200a124,\u200a158\u200a[124]"
+},
+{
+"id": "David Leonhardt",
+"name": "David Leonhardt",
+"type": "secret-society",
+"connections": 1,
+"cohort_year": "1994",
+"position": "journalist and columnist at The New York Times[140]"
+},
+{
+"id": "David McCord Lippincott",
+"name": "David McCord Lippincott",
+"type": "secret-society",
+"connections": 4,
+"cohort_year": "1949",
+"position": "novelist and composer[115]"
+},
+{
+"id": "David Rumsey",
+"name": "David Rumsey",
+"type": "secret-society",
+"connections": 3,
+"cohort_year": "1966",
+"position": "founder of the David Rumsey Map Collection and president of Cartography Associates[2]"
+},
+{
+"id": "David Sinton Ingalls",
+"name": "David Sinton Ingalls",
+"type": "secret-society",
+"connections": 4,
+"cohort_year": "1920",
+"position": "WWI Navy Flying Ace, Ohio State Representative, Assistant Secretary of the Navy[69]"
+},
+{
+"id": "David Thorne",
+"name": "David Thorne",
+"type": "secret-society",
+"connections": 3,
+"cohort_year": "1966",
+"position": "United States Ambassador to Italy[3]:\u200a85"
+},
+{
+"id": "Debevoise & Plimpton",
+"name": "Debevoise & Plimpton",
+"type": "secret-society",
+"connections": 1,
+"cohort_year": "1943",
+"position": "lawyer, partner Debevoise & Plimpton[2]"
+},
+{
+"id": "Don Schollander",
+"name": "Don Schollander",
+"type": "secret-society",
+"connections": 5,
+"cohort_year": "1968",
+"position": "developer; author; US Olympic Hall of Fame inductee; four-time Olympic Gold medallist swimmer[3]:\u200a126,\u200a177"
+},
+{
+"id": "Douglas Preston Woodlock",
+"name": "Douglas Preston Woodlock",
+"type": "secret-society",
+"connections": 1,
+"cohort_year": "1969",
+"position": "US federal judge[134]"
+},
+{
+"id": "E. Roland Harriman",
+"name": "E. Roland Harriman",
+"type": "secret-society",
+"connections": 4,
+"cohort_year": "1917",
+"position": "co-founder Harriman Brothers & Company[69]"
+},
+{
+"id": "Eben Alexander",
+"name": "Eben Alexander",
+"type": "secret-society",
+"connections": 2,
+"cohort_year": "1873",
+"position": "American scholar, educator, dean and ambassador[4]:\u200a114"
+},
+{
+"id": "Edwin Arthur Burtt",
+"name": "Edwin Arthur Burtt",
+"type": "secret-society",
+"connections": 1,
+"cohort_year": "1915",
+"position": "philosopher[67]:\u200a983"
+},
+{
+"id": "Edwin Edgerton Aiken",
+"name": "Edwin Edgerton Aiken",
+"type": "secret-society",
+"connections": 1,
+"cohort_year": "1881",
+"position": "missionary[3]:\u200a196\u200a[35]:\u200a6"
+},
+{
+"id": "Edwin Forrest Sweet",
+"name": "Edwin Forrest Sweet",
+"type": "secret-society",
+"connections": 3,
+"cohort_year": "1871",
+"position": "US Representative from Michigan[27]:\u200a15"
+},
+{
+"id": "Edwin Foster Blair",
+"name": "Edwin Foster Blair",
+"type": "secret-society",
+"connections": 1,
+"cohort_year": "1924",
+"position": "lawyer[82]"
+},
+{
+"id": "Eli Whitney Blake Jr.",
+"name": "Eli Whitney Blake Jr.",
+"type": "secret-society",
+"connections": 2,
+"cohort_year": "1857",
+"position": "American scientist and educator, great-nephew of Eli Whitney[2]"
+},
+{
+"id": "Eliakim Hastings Moore",
+"name": "Eliakim Hastings Moore",
+"type": "secret-society",
+"connections": 3,
+"cohort_year": "1883",
+"position": "mathematician, namesake of the Moore\u2013Penrose pseudoinverse[37]:\u200a47\u20138"
+},
+{
+"id": "Elihu Brintnal Frost",
+"name": "Elihu Brintnal Frost",
+"type": "secret-society",
+"connections": 3,
+"cohort_year": "1883",
+"position": "lawyer, president of several early submarine companies[13]:\u200a112"
+},
+{
+"id": "Eugene Lytton Scott",
+"name": "Eugene Lytton Scott",
+"type": "secret-society",
+"connections": 1,
+"cohort_year": "1960",
+"position": "tennis player, founder Tennis Week[122]"
+},
+{
+"id": "Eugene O'Neill Jr.",
+"name": "Eugene O'Neill Jr.",
+"type": "secret-society",
+"connections": 3,
+"cohort_year": "1932",
+"position": "professor of Greek literature, son of Eugene O'Neill[35]:\u200a94"
+},
+{
+"id": "Eugene Schuyler",
+"name": "Eugene Schuyler",
+"type": "secret-society",
+"connections": 1,
+"cohort_year": "1859",
+"position": "US Ambassador, author and translator[4]:\u200a91"
+},
+{
+"id": "Evan G. Galbraith",
+"name": "Evan G. Galbraith",
+"type": "policy",
+"connections": 3,
+"cohort_year": "1950",
+"position": "US Ambassador to France; managing director of Morgan Stanley[3]:\u200a181,\u200a187\u200a[117]"
+},
+{
+"id": "F. O. Matthiessen",
+"name": "F. O. Matthiessen",
+"type": "secret-society",
+"connections": 2,
+"cohort_year": "1923",
+"position": "historian, literary critic[3]:\u200a126"
+},
+{
+"id": "F. Trubee Davison",
+"name": "F. Trubee Davison",
+"type": "secret-society",
+"connections": 5,
+"cohort_year": "1918",
+"position": "WWI aviator, Assistant US Secretary of War, New York State Representative, Director of Personnel at the CIA[3]:\u200a108,\u200a187\u200a[72][73]"
+},
+{
+"id": "Fairfax Harrison",
+"name": "Fairfax Harrison",
+"type": "secret-society",
+"connections": 1,
+"cohort_year": "1890",
+"position": "president Southern Railway Company[46]:\u200a56\u201357"
+},
+{
+"id": "Fergus Reid Buckley",
+"name": "Fergus Reid Buckley",
+"type": "secret-society",
+"connections": 1,
+"cohort_year": "1952",
+"position": "author and public speaker[2]"
+},
+{
+"id": "Fortune",
+"name": "Fortune",
+"type": "secret-society",
+"connections": 2,
+"cohort_year": "1929",
+"position": "editor and publisher (Fortune)[91]"
+},
+{
+"id": "Foster Rockwell",
+"name": "Foster Rockwell",
+"type": "secret-society",
+"connections": 1,
+"cohort_year": "1906",
+"position": "All-America football player and coach[59]:\u200a116"
+},
+{
+"id": "Francis Burton Harrison",
+"name": "Francis Burton Harrison",
+"type": "secret-society",
+"connections": 2,
+"cohort_year": "1895",
+"position": "US Representative from New York, Governor-General of the Philippines[4]:\u200a166"
+},
+{
+"id": "Francis Miles Finch",
+"name": "Francis Miles Finch",
+"type": "secret-society",
+"connections": 2,
+"cohort_year": "1849",
+"position": "New York Court of Appeals judge, Cornell University professor[4]:\u200a74"
+},
+{
+"id": "Francis Thayer Hobson",
+"name": "Francis Thayer Hobson",
+"type": "secret-society",
+"connections": 4,
+"cohort_year": "1920",
+"position": "chair of William Morrow[2][78]"
+},
+{
+"id": "Frank Augustus Hinkey",
+"name": "Frank Augustus Hinkey",
+"type": "secret-society",
+"connections": 2,
+"cohort_year": "1895",
+"position": "zinc smelting business, College Football Hall of Fame player and coach[13]:\u200a169\u201370"
+},
+{
+"id": "Frank Bigelow Tarbell",
+"name": "Frank Bigelow Tarbell",
+"type": "secret-society",
+"connections": 2,
+"cohort_year": "1873",
+"position": "classicist, professor of Greek and history at Yale, Harvard, and the University of Chicago[11]:\u200a137"
+},
+{
+"id": "Frank Seiler Butterworth",
+"name": "Frank Seiler Butterworth",
+"type": "secret-society",
+"connections": 2,
+"cohort_year": "1895",
+"position": "member Connecticut State Senate, All-American football player and coach[35]:\u200a30"
+},
+{
+"id": "Franklin MacVeagh",
+"name": "Franklin MacVeagh",
+"type": "secret-society",
+"connections": 1,
+"cohort_year": "1862",
+"position": "US Secretary of the Treasury[3]:\u200a182"
+},
+{
+"id": "Frederick Baldwin Adams",
+"name": "Frederick Baldwin Adams",
+"type": "secret-society",
+"connections": 2,
+"cohort_year": "1900",
+"position": "railroad executive[57]"
+},
+{
+"id": "Frederick Baldwin Adams Jr.",
+"name": "Frederick Baldwin Adams Jr.",
+"type": "secret-society",
+"connections": 3,
+"cohort_year": "1932",
+"position": "bibliophile, director of the Pierpont Morgan Library[91]"
+},
+{
+"id": "Frederick Collin",
+"name": "Frederick Collin",
+"type": "secret-society",
+"connections": 3,
+"cohort_year": "1871",
+"position": "judge, mayor of Elmira, New York[26]:\u200a9"
+},
+{
+"id": "Frederick Ellsworth Mather",
+"name": "Frederick Ellsworth Mather",
+"type": "secret-society",
+"connections": 5,
+"cohort_year": "1833",
+"position": "New York State Assembly (1854\u20131857)[2]"
+},
+{
+"id": "Frederick H. Brooke",
+"name": "Frederick H. Brooke",
+"type": "secret-society",
+"connections": 2,
+"cohort_year": "1899",
+"position": "architect from Washington, D.C.[55]"
+},
+{
+"id": "Frederick Wallace Smith",
+"name": "Frederick Wallace Smith",
+"type": "secret-society",
+"connections": 3,
+"cohort_year": "1966",
+"position": "founder of FedEx[3]:\u200a172,\u200a180\u20131\u200a[127]"
+},
+{
+"id": "George Chandler Holt",
+"name": "George Chandler Holt",
+"type": "secret-society",
+"connections": 1,
+"cohort_year": "1866",
+"position": "US District Court Judge[21]:\u200a14"
+},
+{
+"id": "George Crile Jr.",
+"name": "George Crile Jr.",
+"type": "secret-society",
+"connections": 2,
+"cohort_year": "1929",
+"position": "surgeon[89]:\u200a50"
+},
+{
+"id": "George Foot Moore",
+"name": "George Foot Moore",
+"type": "secret-society",
+"connections": 1,
+"cohort_year": "1872",
+"position": "author, Professor of theology at Harvard University[21]:\u200a31"
+},
+{
+"id": "George Griswold Haven Jr.",
+"name": "George Griswold Haven Jr.",
+"type": "secret-society",
+"connections": 3,
+"cohort_year": "1887",
+"position": "businessman[13]:\u200a126"
+},
+{
+"id": "George Griswold Sill",
+"name": "George Griswold Sill",
+"type": "secret-society",
+"connections": 2,
+"cohort_year": "1852",
+"position": "Lieutenant Governor of Connecticut[2]"
+},
+{
+"id": "George H. W. Bush",
+"name": "George H. W. Bush",
+"type": "secret-society",
+"connections": 1,
+"cohort_year": "1948",
+"position": "41st President of the United States, 11th Director of Central Intelligence (CIA), son of Prescott Bush, father of George W. Bush. His Skull and Bones "
+},
+{
+"id": "George Herbert Walker III",
+"name": "George Herbert Walker III",
+"type": "secret-society",
+"connections": 4,
+"cohort_year": "1953",
+"position": "US Ambassador to Hungary[3]:\u200a164"
+},
+{
+"id": "George Herbert Walker Jr.",
+"name": "George Herbert Walker Jr.",
+"type": "secret-society",
+"connections": 1,
+"cohort_year": "1927",
+"position": "financier and co-founder of the New York Mets; uncle to President George Herbert Walker Bush[3]:\u200a164"
+},
+{
+"id": "George Ingersoll Wood",
+"name": "George Ingersoll Wood",
+"type": "secret-society",
+"connections": 5,
+"cohort_year": "1833",
+"position": "clergyman[2]"
+},
+{
+"id": "George Leslie Harrison",
+"name": "George Leslie Harrison",
+"type": "secret-society",
+"connections": 3,
+"cohort_year": "1910",
+"position": "President of the Federal Reserve Bank of New York[3][63]"
+},
+{
+"id": "George Peabody Wetmore",
+"name": "George Peabody Wetmore",
+"type": "secret-society",
+"connections": 3,
+"cohort_year": "1867",
+"position": "US Senator and Governor of Rhode Island[4]:\u200a104"
+},
+{
+"id": "George W. Bush",
+"name": "George W. Bush",
+"type": "secret-society",
+"connections": 5,
+"cohort_year": "1968",
+"position": "grandson of Prescott Bush; son of George H. W. Bush; 46th Governor of Texas; 43rd President of the United States. His nickname was either \"Gog\"[3]:\u200a4~"
+},
+{
+"id": "George Washington Woodruff",
+"name": "George Washington Woodruff",
+"type": "secret-society",
+"connections": 1,
+"cohort_year": "1889",
+"position": "College Hall of Fame football coach, Acting Secretary of the Interior and Pennsylvania Attorney General[25]:\u200a65"
+},
+{
+"id": "Gerald Clery Murphy",
+"name": "Gerald Clery Murphy",
+"type": "secret-society",
+"connections": 1,
+"cohort_year": "1912",
+"position": "painter[64]:\u200a237"
+},
+{
+"id": "Gifford Pinchot",
+"name": "Gifford Pinchot",
+"type": "secret-society",
+"connections": 1,
+"cohort_year": "1889",
+"position": "First Chief of U.S. Forest Service[32]"
+},
+{
+"id": "Granger Kent Costikyan",
+"name": "Granger Kent Costikyan",
+"type": "secret-society",
+"connections": 2,
+"cohort_year": "1929",
+"position": "partner Brown Brothers Harriman[88]"
+},
+{
+"id": "H. J. Heinz II",
+"name": "H. J. Heinz II",
+"type": "secret-society",
+"connections": 2,
+"cohort_year": "1931",
+"position": "heir to H. J. Heinz Company; father of H. John Heinz III[3]:\u200a174"
+},
+{
+"id": "H. Neil Mallon",
+"name": "H. Neil Mallon",
+"type": "secret-society",
+"connections": 4,
+"cohort_year": "1917",
+"position": "CEO of Dresser Industries[3]:\u200a126,\u200a145,\u200a168"
+},
+{
+"id": "Harold Stanley",
+"name": "Harold Stanley",
+"type": "secret-society",
+"connections": 2,
+"cohort_year": "1908",
+"position": "co-founder of Morgan Stanley[62]"
+},
+{
+"id": "Harry Payne Whitney",
+"name": "Harry Payne Whitney",
+"type": "secret-society",
+"connections": 3,
+"cohort_year": "1894",
+"position": "investment banker, husband of Gertrude Vanderbilt Whitney[3]:\u200a187"
+},
+{
+"id": "Harry William LeGore",
+"name": "Harry William LeGore",
+"type": "secret-society",
+"connections": 4,
+"cohort_year": "1917",
+"position": "All-America college football player[70]"
+},
+{
+"id": "Harvey Hollister Bundy",
+"name": "Harvey Hollister Bundy",
+"type": "secret-society",
+"connections": 1,
+"cohort_year": "1909",
+"position": "Assistant Secretary of State (1931\u20131933)[3]:\u200a183"
+},
+{
+"id": "Henry Baldwin Harrison",
+"name": "Henry Baldwin Harrison",
+"type": "secret-society",
+"connections": 2,
+"cohort_year": "1846",
+"position": "Governor of Connecticut[2]"
+},
+{
+"id": "Henry Farnum Dimock",
+"name": "Henry Farnum Dimock",
+"type": "secret-society",
+"connections": 1,
+"cohort_year": "1863",
+"position": "Whitney family attorney, Director of the Yale Corporation[2]"
+},
+{
+"id": "Henry L. Stimson",
+"name": "Henry L. Stimson",
+"type": "secret-society",
+"connections": 4,
+"cohort_year": "1888",
+"position": "Governor-General of the Philippines, US Secretary of War, US Secretary of State[3]:\u200a182\u200a[32]"
+},
+{
+"id": "Henry Luce",
+"name": "Henry Luce",
+"type": "secret-society",
+"connections": 4,
+"cohort_year": "1920",
+"position": "co-founder of Time-Life Enterprises[3]:\u200a109\u201310"
+},
+{
+"id": "Henry Morton Dexter",
+"name": "Henry Morton Dexter",
+"type": "secret-society",
+"connections": 3,
+"cohort_year": "1867",
+"position": "clergyman, editor, author[4]:\u200a103"
+},
+{
+"id": "Henry S. Graves",
+"name": "Henry S. Graves",
+"type": "secret-society",
+"connections": 6,
+"cohort_year": "1892",
+"position": "co-founder and first Dean of Yale School of Forestry, 2nd chief of the U.S. Forest Service, founding member and 4th president of the Society of Americ"
+},
+{
+"id": "Henry Sloane Coffin",
+"name": "Henry Sloane Coffin",
+"type": "secret-society",
+"connections": 2,
+"cohort_year": "1897",
+"position": "president of the Union Theological Seminary[3]:\u200a127"
+},
+{
+"id": "Henry Stevens",
+"name": "Henry Stevens",
+"type": "secret-society",
+"connections": 2,
+"cohort_year": "1843",
+"position": "bibliographer[8]"
+},
+{
+"id": "Henry Waters Taft",
+"name": "Henry Waters Taft",
+"type": "secret-society",
+"connections": 2,
+"cohort_year": "1880",
+"position": "lawyer, Cadwalader, Wickersham & Taft[34]:\u200a7"
+},
+{
+"id": "Horace Dutton Taft",
+"name": "Horace Dutton Taft",
+"type": "secret-society",
+"connections": 3,
+"cohort_year": "1883",
+"position": "educator, founder of the Taft School[38]:\u200a14\u201315"
+},
+{
+"id": "Howell Cheney",
+"name": "Howell Cheney",
+"type": "secret-society",
+"connections": 6,
+"cohort_year": "1892",
+"position": "manufacturer, founded Howell Cheney Technical High School[4]:\u200a160"
+},
+{
+"id": "Hugh Aiken Bayne",
+"name": "Hugh Aiken Bayne",
+"type": "secret-society",
+"connections": 6,
+"cohort_year": "1892",
+"position": "lawyer Strong & Cadwalader, Adjutant General's Office and War Department during World War I[48]"
+},
+{
+"id": "Hugh Smith Knox",
+"name": "Hugh Smith Knox",
+"type": "secret-society",
+"connections": 2,
+"cohort_year": "1907",
+"position": "All-America football player[61]:\u200a102"
+},
+{
+"id": "ISBN",
+"name": "ISBN",
+"type": "secret-society",
+"connections": 4,
+"cohort_year": "1991",
+"position": ". Vietnam, a history. Viking. p.\u00a0571. ISBN\u00a0978-0-14-014533-5."
+},
+{
+"id": "Irving Fisher",
+"name": "Irving Fisher",
+"type": "secret-society",
+"connections": 4,
+"cohort_year": "1888",
+"position": "economist and eugenicist[44]:\u200a14"
+},
+{
+"id": "Isaacson, Walter",
+"name": "Isaacson, Walter",
+"type": "secret-society",
+"connections": 1,
+"cohort_year": "1997",
+"position": ". The Wise Men: Six Friends and the World They Made. Simon and Schuster. p.\u00a0690."
+},
+{
+"id": "J. Richardson Dilworth",
+"name": "J. Richardson Dilworth",
+"type": "secret-society",
+"connections": 2,
+"cohort_year": "1938",
+"position": "Rockefeller family lawyer[98]"
+},
+{
+"id": "Jack Edwin McGregor",
+"name": "Jack Edwin McGregor",
+"type": "secret-society",
+"connections": 1,
+"cohort_year": "1956",
+"position": "Pennsylvania State Senator, founder Pittsburgh Penguins[110]"
+},
+{
+"id": "James Emanuel Boasberg",
+"name": "James Emanuel Boasberg",
+"type": "secret-society",
+"connections": 2,
+"cohort_year": "1985",
+"position": "judge, United States District Court for the District of Columbia[110]"
+},
+{
+"id": "James Jeremiah Wadsworth",
+"name": "James Jeremiah Wadsworth",
+"type": "secret-society",
+"connections": 1,
+"cohort_year": "1927",
+"position": "diplomat, US Ambassador to the UN[85]"
+},
+{
+"id": "James L. Buckley",
+"name": "James L. Buckley",
+"type": "secret-society",
+"connections": 4,
+"cohort_year": "1944",
+"position": "U.S. Senator (R-New York 1971\u20131977) and brother of William F. Buckley Jr.[3]:\u200a168,\u200a174\u200a[106][107]"
+},
+{
+"id": "James Mason Hoppin",
+"name": "James Mason Hoppin",
+"type": "secret-society",
+"connections": 1,
+"cohort_year": "1840",
+"position": "professor emeritus at Yale[6]"
+},
+{
+"id": "James McDevitt Magee",
+"name": "James McDevitt Magee",
+"type": "secret-society",
+"connections": 2,
+"cohort_year": "1899",
+"position": "US Representative from Pennsylvania[47]:\u200a41"
+},
+{
+"id": "James Price McLane",
+"name": "James Price McLane",
+"type": "secret-society",
+"connections": 4,
+"cohort_year": "1953",
+"position": "Olympic medal-winning swimmer[120]"
+},
+{
+"id": "James Whitmore",
+"name": "James Whitmore",
+"type": "secret-society",
+"connections": 4,
+"cohort_year": "1944",
+"position": "actor[110]"
+},
+{
+"id": "James William Husted Jr.",
+"name": "James William Husted Jr.",
+"type": "secret-society",
+"connections": 6,
+"cohort_year": "1892",
+"position": "US Representative[23]:\u200a1392"
+},
+{
+"id": "James Wolcott Wadsworth Jr.",
+"name": "James Wolcott Wadsworth Jr.",
+"type": "secret-society",
+"connections": 1,
+"cohort_year": "1898",
+"position": "U.S. Senator from New York[49]:\u200a35"
+},
+{
+"id": "John Bannister Goodenough",
+"name": "John Bannister Goodenough",
+"type": "secret-society",
+"connections": 4,
+"cohort_year": "1944",
+"position": "solid-state physicist at the University of Texas at Austin[108] and winner of the 2019 Nobel Prize in Chemistry"
+},
+{
+"id": "John Birnie Marshall",
+"name": "John Birnie Marshall",
+"type": "secret-society",
+"connections": 4,
+"cohort_year": "1953",
+"position": "Olympic medal-winning swimmer[2]"
+},
+{
+"id": "John Chafee",
+"name": "John Chafee",
+"type": "policy",
+"connections": 2,
+"cohort_year": "1947",
+"position": "U.S. Senator, Secretary of the Navy and Governor of Rhode Island, father of Lincoln Chafee[3]:\u200a168,\u200a171"
+},
+{
+"id": "John Chipman Farrar",
+"name": "John Chipman Farrar",
+"type": "secret-society",
+"connections": 5,
+"cohort_year": "1918",
+"position": "publisher, founder of Farrar & Rinehart and Farrar, Straus and Giroux[3]:\u200a127"
+},
+{
+"id": "John Forbes Kerry",
+"name": "John Forbes Kerry",
+"type": "secret-society",
+"connections": 3,
+"cohort_year": "1966",
+"position": "68th United States Secretary of State (2013\u20132017); U.S. Senator (D-Massachusetts; 1985\u20132013);  Lieutenant Governor of Massachusetts (1983\u20131985); 2004 "
+},
+{
+"id": "John Gillespie Magee",
+"name": "John Gillespie Magee",
+"type": "secret-society",
+"connections": 1,
+"cohort_year": "1906",
+"position": "Yale Chaplain, documenter of the Rape of Nanking[11]:\u200a205"
+},
+{
+"id": "John Hersey",
+"name": "John Hersey",
+"type": "secret-society",
+"connections": 3,
+"cohort_year": "1936",
+"position": "author[3]:\u200a127"
+},
+{
+"id": "John Howland",
+"name": "John Howland",
+"type": "secret-society",
+"connections": 3,
+"cohort_year": "1894",
+"position": "pediatrician at the Johns Hopkins Hospital[52]"
+},
+{
+"id": "John Hubbard Tweedy",
+"name": "John Hubbard Tweedy",
+"type": "secret-society",
+"connections": 2,
+"cohort_year": "1834",
+"position": "delegate to the United States Congress from Wisconsin Territory (1847\u20131848)[2]"
+},
+{
+"id": "John M. Walker",
+"name": "John M. Walker",
+"type": "secret-society",
+"connections": 2,
+"cohort_year": "1931",
+"position": "physician, investment banker[3]:\u200a164"
+},
+{
+"id": "John Manning Hall",
+"name": "John Manning Hall",
+"type": "secret-society",
+"connections": 1,
+"cohort_year": "1866",
+"position": "lawyer, politician, and railroad executive[20]"
+},
+{
+"id": "John Martin Vorys",
+"name": "John Martin Vorys",
+"type": "secret-society",
+"connections": 5,
+"cohort_year": "1918",
+"position": "US Representative from Ohio[71][77]:\u200a427"
+},
+{
+"id": "John Merrill Knapp",
+"name": "John Merrill Knapp",
+"type": "secret-society",
+"connections": 3,
+"cohort_year": "1936",
+"position": "musicologist, professor at Princeton University[2]"
+},
+{
+"id": "John Patton Jr.",
+"name": "John Patton Jr.",
+"type": "secret-society",
+"connections": 1,
+"cohort_year": "1875",
+"position": "US Senator[2]"
+},
+{
+"id": "John Perkins Jr.",
+"name": "John Perkins Jr.",
+"type": "secret-society",
+"connections": 1,
+"cohort_year": "1840",
+"position": "U.S. Representative from Louisiana, and then a senator in the Confederate States Congress[2]"
+},
+{
+"id": "John Rockefeller Prentice",
+"name": "John Rockefeller Prentice",
+"type": "secret-society",
+"connections": 1,
+"cohort_year": "1928",
+"position": "lawyer and cattle breeder[86]"
+},
+{
+"id": "John Shattuck",
+"name": "John Shattuck",
+"type": "secret-society",
+"connections": 1,
+"cohort_year": "1965",
+"position": "US diplomat and ambassador, university administrator[110]"
+},
+{
+"id": "John Sherman Cooper",
+"name": "John Sherman Cooper",
+"type": "secret-society",
+"connections": 2,
+"cohort_year": "1923",
+"position": "US Senator from Kentucky[80]:\u200a19"
+},
+{
+"id": "John Thomas Croxton",
+"name": "John Thomas Croxton",
+"type": "secret-society",
+"connections": 2,
+"cohort_year": "1857",
+"position": "Civil War Brigadier General, United States Ambassador to Bolivia[11]:\u200a103"
+},
+{
+"id": "John Wallace Houston",
+"name": "John Wallace Houston",
+"type": "secret-society",
+"connections": 2,
+"cohort_year": "1834",
+"position": "Secretary of State of Delaware (1841\u20131844), associate judge Delaware Superior Court (1855\u20131893)[2]"
+},
+{
+"id": "John William Sterling",
+"name": "John William Sterling",
+"type": "secret-society",
+"connections": 1,
+"cohort_year": "1864",
+"position": "lawyer, co-founder Shearman & Sterling[19]"
+},
+{
+"id": "Jonathan Brewster Bingham",
+"name": "Jonathan Brewster Bingham",
+"type": "secret-society",
+"connections": 3,
+"cohort_year": "1936",
+"position": "U.S. Representative (D-New York)[3]:\u200a165"
+},
+{
+"id": "Jonathan James Bush",
+"name": "Jonathan James Bush",
+"type": "secret-society",
+"connections": 4,
+"cohort_year": "1953",
+"position": "banker, son of Prescott Bush[3]:\u200a145,\u200a179"
+},
+{
+"id": "Joseph Robinson Parrott",
+"name": "Joseph Robinson Parrott",
+"type": "secret-society",
+"connections": 3,
+"cohort_year": "1883",
+"position": "president of the Florida East Coast Railway[11]:\u200a162"
+},
+{
+"id": "Josiah Augustus Spaulding",
+"name": "Josiah Augustus Spaulding",
+"type": "secret-society",
+"connections": 2,
+"cohort_year": "1947",
+"position": "lawyer, partner Bingham Dana & Gould[111]"
+},
+{
+"id": "Jules Henri de Sibour",
+"name": "Jules Henri de Sibour",
+"type": "secret-society",
+"connections": 2,
+"cohort_year": "1896",
+"position": "architect[40]:\u200a92\u201393"
+},
+{
+"id": "Kenneth Farrand Simpson",
+"name": "Kenneth Farrand Simpson",
+"type": "secret-society",
+"connections": 4,
+"cohort_year": "1917",
+"position": "member of the United States House of Representatives from New York[22]:\u200a144\u200a[32]"
+},
+{
+"id": "Lanny Ross",
+"name": "Lanny Ross",
+"type": "secret-society",
+"connections": 1,
+"cohort_year": "1928",
+"position": "singer.[32][86][87]"
+},
+{
+"id": "LeBaron Bradford Colt",
+"name": "LeBaron Bradford Colt",
+"type": "secret-society",
+"connections": 1,
+"cohort_year": "1868",
+"position": "US Senator and Circuit Court Judge[23]:\u200a1302"
+},
+{
+"id": "Leonard Eugene Wales",
+"name": "Leonard Eugene Wales",
+"type": "secret-society",
+"connections": 2,
+"cohort_year": "1845",
+"position": "US District Court judge[4]:\u200a71"
+},
+{
+"id": "Lewis Abbot Lapham",
+"name": "Lewis Abbot Lapham",
+"type": "secret-society",
+"connections": 2,
+"cohort_year": "1931",
+"position": "banking and shipping executive[3]"
+},
+{
+"id": "Lewis Greenleaf Adams",
+"name": "Lewis Greenleaf Adams",
+"type": "secret-society",
+"connections": 4,
+"cohort_year": "1920",
+"position": "architect[2][78]"
+},
+{
+"id": "Linden Stanley Blue",
+"name": "Linden Stanley Blue",
+"type": "secret-society",
+"connections": 1,
+"cohort_year": "1958",
+"position": "aviation executive[2]"
+},
+{
+"id": "Lloyd Wheaton Bowers",
+"name": "Lloyd Wheaton Bowers",
+"type": "secret-society",
+"connections": 3,
+"cohort_year": "1879",
+"position": "Solicitor General of the United States[4]:\u200a127"
+},
+{
+"id": "Lowndes Henry Davis",
+"name": "Lowndes Henry Davis",
+"type": "secret-society",
+"connections": 1,
+"cohort_year": "1860",
+"position": "US Representative from Missouri[2]"
+},
+{
+"id": "Lucius Horatio Biglow",
+"name": "Lucius Horatio Biglow",
+"type": "secret-society",
+"connections": 2,
+"cohort_year": "1908",
+"position": "All-America football player and coach[4]:\u200a189"
+},
+{
+"id": "Luzon Buritt Morris",
+"name": "Luzon Buritt Morris",
+"type": "secret-society",
+"connections": 1,
+"cohort_year": "1854",
+"position": "Governor of Connecticut[15]"
+},
+{
+"id": "Lyman Spitzer",
+"name": "Lyman Spitzer",
+"type": "secret-society",
+"connections": 2,
+"cohort_year": "1935",
+"position": "theoretical physicist and namesake of the NASA Spitzer Space Telescope[95]"
+},
+{
+"id": "Maxwell Evarts",
+"name": "Maxwell Evarts",
+"type": "secret-society",
+"connections": 1,
+"cohort_year": "1884",
+"position": "member of the Vermont House of Representatives, attorney for E. H. Harriman[3]:\u200a165"
+},
+{
+"id": "McGeorge Bundy",
+"name": "McGeorge Bundy",
+"type": "policy",
+"connections": 1,
+"cohort_year": "1940",
+"position": "Special Assistant for National Security Affairs; National Security Advisor; Professor of History, brother of William Bundy[3]:\u200a53"
+},
+{
+"id": "Michael Gates Gill",
+"name": "Michael Gates Gill",
+"type": "secret-society",
+"connections": 2,
+"cohort_year": "1963",
+"position": "advertising executive, author[125]"
+},
+{
+"id": "Michael Johnson Pyle",
+"name": "Michael Johnson Pyle",
+"type": "secret-society",
+"connections": 1,
+"cohort_year": "1960",
+"position": "National Football League player[2]"
+},
+{
+"id": "Morrison Remmick Waite",
+"name": "Morrison Remmick Waite",
+"type": "secret-society",
+"connections": 4,
+"cohort_year": "1837",
+"position": "Chief Justice of the U.S. Supreme Court[3]:\u200a89"
+},
+{
+"id": "Moses Coit Tyler",
+"name": "Moses Coit Tyler",
+"type": "secret-society",
+"connections": 2,
+"cohort_year": "1857",
+"position": "professor of history at Cornell University[16]"
+},
+{
+"id": "Noah P. Hood",
+"name": "Noah P. Hood",
+"type": "secret-society",
+"connections": 1,
+"cohort_year": "2008",
+"position": "justice, Michigan Supreme Court[143]"
+},
+{
+"id": "Oliver David Thompson",
+"name": "Oliver David Thompson",
+"type": "secret-society",
+"connections": 3,
+"cohort_year": "1879",
+"position": "lawyer, American football player and manager[23]:\u200a1347"
+},
+{
+"id": "Oliver Gould Jennings",
+"name": "Oliver Gould Jennings",
+"type": "secret-society",
+"connections": 3,
+"cohort_year": "1887",
+"position": "financier, member of Connecticut House of Representatives[42]:\u200a42"
+},
+{
+"id": "Orde Musgrave Coombs",
+"name": "Orde Musgrave Coombs",
+"type": "secret-society",
+"connections": 1,
+"cohort_year": "1965",
+"position": "author, editor, first black member of Skull and Bones[126]"
+},
+{
+"id": "Orris Sanford Ferry",
+"name": "Orris Sanford Ferry",
+"type": "secret-society",
+"connections": 1,
+"cohort_year": "1844",
+"position": "US Senator from Connecticut, US Representative, US Brigadier General[4]:\u200a70"
+},
+{
+"id": "Paul Giamatti",
+"name": "Paul Giamatti",
+"type": "secret-society",
+"connections": 1,
+"cohort_year": "1989",
+"position": "American actor and producer; son of A. Bartlett Giamatti, President of Yale 1978-86[137]"
+},
+{
+"id": "Percy Rockefeller",
+"name": "Percy Rockefeller",
+"type": "secret-society",
+"connections": 2,
+"cohort_year": "1900",
+"position": "director of Brown Brothers Harriman, Standard Oil, and Remington Arms[3]:\u200a165\u200a[27]:\u200a104\u200a[32]"
+},
+{
+"id": "Phineas Timothy Miller",
+"name": "Phineas Timothy Miller",
+"type": "secret-society",
+"connections": 5,
+"cohort_year": "1833",
+"position": "physician[2]"
+},
+{
+"id": "Pierre Jay",
+"name": "Pierre Jay",
+"type": "secret-society",
+"connections": 6,
+"cohort_year": "1892",
+"position": "first chairman of the Federal Reserve Bank of New York[50]"
+},
+{
+"id": "Prescott Bush",
+"name": "Prescott Bush",
+"type": "secret-society",
+"connections": 4,
+"cohort_year": "1917",
+"position": "founding partner in Brown Brothers Harriman & Co., US Senator from Connecticut.[3]:\u200a126,\u200a144\u20135\u200a His nickname was \"The Japanese\"."
+},
+{
+"id": "Presidential appointee",
+"name": "Presidential appointee",
+"type": "secret-society",
+"connections": 1,
+"cohort_year": "1869",
+"position": "Presidential appointee, United States Solicitor, Department of State, son of Henry Jarvis Raymond, founder NY Times, and prominent in forming the Repu"
+},
+{
+"id": "PublishAmerica",
+"name": "PublishAmerica",
+"type": "secret-society",
+"connections": 1,
+"cohort_year": "2008",
+"position": ". Witness to Grace. PublishAmerica. ISBN\u00a09781462607570. Retrieved November 15, 2015."
+},
+{
+"id": "Ralph Delahaye Paine",
+"name": "Ralph Delahaye Paine",
+"type": "secret-society",
+"connections": 3,
+"cohort_year": "1894",
+"position": "journalist and author[23]"
+},
+{
+"id": "Rensselaer Russell Nelson",
+"name": "Rensselaer Russell Nelson",
+"type": "secret-society",
+"connections": 2,
+"cohort_year": "1846",
+"position": "US District Court judge[4]:\u200a71"
+},
+{
+"id": "Rex William Cowdry",
+"name": "Rex William Cowdry",
+"type": "secret-society",
+"connections": 5,
+"cohort_year": "1968",
+"position": "Acting Director National Institute of Mental Health (1994\u201396)[3]:\u200a177"
+},
+{
+"id": "Richard Melancthon Hurd",
+"name": "Richard Melancthon Hurd",
+"type": "secret-society",
+"connections": 4,
+"cohort_year": "1888",
+"position": "real estate executive[22]:\u200a36\u201337"
+},
+{
+"id": "Richard Taylor",
+"name": "Richard Taylor",
+"type": "secret-society",
+"connections": 2,
+"cohort_year": "1845",
+"position": "Confederate General, Louisiana State Senator[2]"
+},
+{
+"id": "Robert A. Lovett",
+"name": "Robert A. Lovett",
+"type": "secret-society",
+"connections": 5,
+"cohort_year": "1918",
+"position": "US Secretary of Defense[3]:\u200a184\u20138\u200a[74]"
+},
+{
+"id": "Robert Abbe Gardner",
+"name": "Robert Abbe Gardner",
+"type": "secret-society",
+"connections": 1,
+"cohort_year": "1912",
+"position": "two-time U.S. Amateur-winning golfer[64]:\u200a142"
+},
+{
+"id": "Robert Alphonso Taft",
+"name": "Robert Alphonso Taft",
+"type": "secret-society",
+"connections": 3,
+"cohort_year": "1910",
+"position": "US Senator from Ohio[3]:\u200a126\u200a[32][63]"
+},
+{
+"id": "Robert Campbell",
+"name": "Robert Campbell",
+"type": "secret-society",
+"connections": 2,
+"cohort_year": "1882",
+"position": "son of businessman Robert Campbell, Harvard Law 1888.[36]"
+},
+{
+"id": "Robert McCallum Jr",
+"name": "Robert McCallum Jr",
+"type": "secret-society",
+"connections": 5,
+"cohort_year": "1968",
+"position": "Ambassador to Australia[3]:\u200a177,\u200a181\u200a[131]"
+},
+{
+"id": "Robert McCallum, Jr",
+"name": "Robert McCallum, Jr",
+"type": "secret-society",
+"connections": 5,
+"cohort_year": "1968",
+"position": "Ambassador to Australia[3]:\u200a177,\u200a181\u200a[136]"
+},
+{
+"id": "Robert Morey",
+"name": "Robert Morey",
+"type": "secret-society",
+"connections": 1,
+"cohort_year": "1958",
+"position": "Olympic medal-winning rower[2]"
+},
+{
+"id": "Roger Sherman Baldwin Foster",
+"name": "Roger Sherman Baldwin Foster",
+"type": "secret-society",
+"connections": 1,
+"cohort_year": "1878",
+"position": "lawyer and author[18]:\u200a1018"
+},
+{
+"id": "Roswell Hart",
+"name": "Roswell Hart",
+"type": "secret-society",
+"connections": 2,
+"cohort_year": "1843",
+"position": "US Representative from New York[2]"
+},
+{
+"id": "Roy Leslie Austin",
+"name": "Roy Leslie Austin",
+"type": "secret-society",
+"connections": 5,
+"cohort_year": "1968",
+"position": "appointed ambassador to Trinidad and Tobago by George W. Bush[3]:\u200a177,\u200a181\u20132\u200a[129]"
+},
+{
+"id": "Russell Cheney",
+"name": "Russell Cheney",
+"type": "secret-society",
+"connections": 1,
+"cohort_year": "1904",
+"position": "American painter and noted portrait artist.[3]:\u200a86"
+},
+{
+"id": "Russell Davenport",
+"name": "Russell Davenport",
+"type": "secret-society",
+"connections": 2,
+"cohort_year": "1923",
+"position": "editor of Fortune magazine; created Fortune 500 list[81]"
+},
+{
+"id": "Samuel Brinckerhoff Thorne",
+"name": "Samuel Brinckerhoff Thorne",
+"type": "secret-society",
+"connections": 2,
+"cohort_year": "1896",
+"position": "mining engineer and executive, College Football Hall of Fame[33]:\u200a149\u201351"
+},
+{
+"id": "Samuel Carnes Collier",
+"name": "Samuel Carnes Collier",
+"type": "secret-society",
+"connections": 2,
+"cohort_year": "1935",
+"position": "advertising, racecar driver[35]"
+},
+{
+"id": "Samuel Finley Brown Morse",
+"name": "Samuel Finley Brown Morse",
+"type": "secret-society",
+"connections": 2,
+"cohort_year": "1907",
+"position": "developer and conservationist, All-America football player[11]:\u200a206"
+},
+{
+"id": "Samuel Hazard Gillespie Jr.",
+"name": "Samuel Hazard Gillespie Jr.",
+"type": "secret-society",
+"connections": 3,
+"cohort_year": "1932",
+"position": "U.S. Attorney for the Southern District of New York, senior counsel at Davis Polk & Wardwell[92]"
+},
+{
+"id": "Samuel Oscar Prentice",
+"name": "Samuel Oscar Prentice",
+"type": "secret-society",
+"connections": 2,
+"cohort_year": "1873",
+"position": "Chief Justice of the Supreme Court of Connecticut[23]:\u200a1320"
+},
+{
+"id": "Sidney Catlin Partridge",
+"name": "Sidney Catlin Partridge",
+"type": "secret-society",
+"connections": 2,
+"cohort_year": "1880",
+"position": "Bishop of Kyoto, Japan, Bishop of the Episcopal Diocese of West Missouri[33]:\u200a80"
+},
+{
+"id": "Simeon E. Baldwin",
+"name": "Simeon E. Baldwin",
+"type": "secret-society",
+"connections": 1,
+"cohort_year": "1861",
+"position": "Governor and Chief Justice of the State of Connecticut, son of Roger Sherman Baldwin[3]:\u200a39"
+},
+{
+"id": "Sonny Tufts",
+"name": "Sonny Tufts",
+"type": "secret-society",
+"connections": 2,
+"cohort_year": "1935",
+"position": "actor[96]"
+},
+{
+"id": "Stephen Adams",
+"name": "Stephen Adams",
+"type": "secret-society",
+"connections": 1,
+"cohort_year": "1959",
+"position": "American businessman, founder Adams Outdoor[3]:\u200a180"
+},
+{
+"id": "Stephen Philbin",
+"name": "Stephen Philbin",
+"type": "secret-society",
+"connections": 3,
+"cohort_year": "1910",
+"position": "All-American football player, lawyer[63]"
+},
+{
+"id": "Stephen Wright Kellogg",
+"name": "Stephen Wright Kellogg",
+"type": "secret-society",
+"connections": 2,
+"cohort_year": "1846",
+"position": "US Representative from Connecticut[2]"
+},
+{
+"id": "Steven Mnuchin",
+"name": "Steven Mnuchin",
+"type": "secret-society",
+"connections": 2,
+"cohort_year": "1985",
+"position": "United States Treasury Secretary[110]"
+},
+{
+"id": "Tali Farhadian Weinstein",
+"name": "Tali Farhadian Weinstein",
+"type": "secret-society",
+"connections": 1,
+"cohort_year": "1997",
+"position": "attorney, professor, and former candidate for New York County District Attorney [142]"
+},
+{
+"id": "Tex McCrary",
+"name": "Tex McCrary",
+"type": "secret-society",
+"connections": 3,
+"cohort_year": "1932",
+"position": "journalist, public relations and political strategist to President Eisenhower[3]:\u200a125\u200a[93]"
+},
+{
+"id": "Theodore Salisbury Woolsey",
+"name": "Theodore Salisbury Woolsey",
+"type": "secret-society",
+"connections": 1,
+"cohort_year": "1872",
+"position": "co-founder of the Yale Review, professor of international law[3]:\u200a99"
+},
+{
+"id": "Thomas Burr Osborne",
+"name": "Thomas Burr Osborne",
+"type": "secret-society",
+"connections": 1,
+"cohort_year": "1881",
+"position": "chemist, co-discoverer of Vitamin A[9]:\u200a83\u201384"
+},
+{
+"id": "Thomas Cochran",
+"name": "Thomas Cochran",
+"type": "secret-society",
+"connections": 3,
+"cohort_year": "1894",
+"position": "partner in J.P. Morgan & Company[42]:\u200a64"
+},
+{
+"id": "Thomas Day Thacher",
+"name": "Thomas Day Thacher",
+"type": "secret-society",
+"connections": 1,
+"cohort_year": "1904",
+"position": "US District Court judge, Solicitor General[3]:\u200a183\u200a[4]:\u200a183"
+},
+{
+"id": "Thomas F. Bayard Jr.",
+"name": "Thomas F. Bayard Jr.",
+"type": "secret-society",
+"connections": 1,
+"cohort_year": "1890",
+"position": "US Senator[38]:\u200a29"
+},
+{
+"id": "Thomas Hedge",
+"name": "Thomas Hedge",
+"type": "secret-society",
+"connections": 3,
+"cohort_year": "1867",
+"position": "US Representative from Iowa[11]:\u200a123"
+},
+{
+"id": "Thomas Henry Guinzburg",
+"name": "Thomas Henry Guinzburg",
+"type": "secret-society",
+"connections": 3,
+"cohort_year": "1950",
+"position": "president Viking Press[118]"
+},
+{
+"id": "Thomas Lee McClung",
+"name": "Thomas Lee McClung",
+"type": "secret-society",
+"connections": 6,
+"cohort_year": "1892",
+"position": "Treasurer of the United States, College Football Hall of Fame player[51]"
+},
+{
+"id": "Thomas Thacher",
+"name": "Thomas Thacher",
+"type": "secret-society",
+"connections": 3,
+"cohort_year": "1871",
+"position": "lawyer[28]"
+},
+{
+"id": "Thomas William Ludlow Ashley",
+"name": "Thomas William Ludlow Ashley",
+"type": "secret-society",
+"connections": 1,
+"cohort_year": "1948",
+"position": "US Representative from Ohio[3]:\u200a167\u201372"
+},
+{
+"id": "Timothy Dwight V",
+"name": "Timothy Dwight V",
+"type": "secret-society",
+"connections": 2,
+"cohort_year": "1849",
+"position": "Yale President (1886\u20131899)[3]:\u200a50"
+},
+{
+"id": "Timothy Lester Woodruff",
+"name": "Timothy Lester Woodruff",
+"type": "secret-society",
+"connections": 3,
+"cohort_year": "1879",
+"position": "Lieutenant Governor of New York[2]"
+},
+{
+"id": "Tony Lavelli",
+"name": "Tony Lavelli",
+"type": "secret-society",
+"connections": 4,
+"cohort_year": "1949",
+"position": "basketball player[3]:\u200a169\u200a[114]"
+},
+{
+"id": "Townsend Walter Hoopes II",
+"name": "Townsend Walter Hoopes II",
+"type": "secret-society",
+"connections": 4,
+"cohort_year": "1944",
+"position": "historian, Under Secretary of the Air Force (1967\u201369)[3]:\u200a188"
+},
+{
+"id": "Tudor Storrs Jenks",
+"name": "Tudor Storrs Jenks",
+"type": "secret-society",
+"connections": 1,
+"cohort_year": "1878",
+"position": "author[31]"
+},
+{
+"id": "Walker Blaine",
+"name": "Walker Blaine",
+"type": "secret-society",
+"connections": 2,
+"cohort_year": "1876",
+"position": "United States Department of State official[11]:\u200a144"
+},
+{
+"id": "Walter Camp",
+"name": "Walter Camp",
+"type": "secret-society",
+"connections": 2,
+"cohort_year": "1880",
+"position": "father of American football and exercise proponent[3]:\u200a166\u200a[23]:\u200a1348"
+},
+{
+"id": "Wilbur Franklin Booth",
+"name": "Wilbur Franklin Booth",
+"type": "secret-society",
+"connections": 1,
+"cohort_year": "1884",
+"position": "US federal judge[39]:\u200a14"
+},
+{
+"id": "William Barrett Washburn",
+"name": "William Barrett Washburn",
+"type": "secret-society",
+"connections": 1,
+"cohort_year": "1844",
+"position": "US Senator, Governor of Massachusetts.[2]"
+},
+{
+"id": "William Collins Whitney",
+"name": "William Collins Whitney",
+"type": "secret-society",
+"connections": 1,
+"cohort_year": "1863",
+"position": "US Secretary of the Navy[3]:\u200a183\u200a[17]:\u200a1099"
+},
+{
+"id": "William Dawbney Nordhaus",
+"name": "William Dawbney Nordhaus",
+"type": "secret-society",
+"connections": 2,
+"cohort_year": "1963",
+"position": "Sterling Professor of Economics at Yale University and winner of the 2018 Nobel Prize in Economics[2]"
+},
+{
+"id": "William F. Buckley Jr.",
+"name": "William F. Buckley Jr.",
+"type": "policy",
+"connections": 3,
+"cohort_year": "1950",
+"position": "founder of National Review,[3]:\u200a41\u200a former CIA officer"
+},
+{
+"id": "William H. Donaldson",
+"name": "William H. Donaldson",
+"type": "secret-society",
+"connections": 4,
+"cohort_year": "1953",
+"position": "appointed chairman of the U.S. Securities and Exchange Commission by George W. Bush; founding dean of Yale School of Management; co-founder of Donalds"
+},
+{
+"id": "William Henry Draper III",
+"name": "William Henry Draper III",
+"type": "secret-society",
+"connections": 3,
+"cohort_year": "1950",
+"position": "Chair of United Nations Development Programme and Export-Import Bank of the United States[3]:\u200a174\u20135,\u200a179"
+},
+{
+"id": "William Henry Washington",
+"name": "William Henry Washington",
+"type": "secret-society",
+"connections": 2,
+"cohort_year": "1834",
+"position": "Whig U.S. Congressman from North Carolina (1841\u20131843)[2]"
+},
+{
+"id": "William Huntington Russell",
+"name": "William Huntington Russell",
+"type": "secret-society",
+"connections": 5,
+"cohort_year": "1833",
+"position": "Connecticut State Legislator, Major General[3]:\u200a82"
+},
+{
+"id": "William Kent",
+"name": "William Kent",
+"type": "secret-society",
+"connections": 3,
+"cohort_year": "1887",
+"position": "United States Congressman for California[43]:\u200a107"
+},
+{
+"id": "William Kneeland Townsend",
+"name": "William Kneeland Townsend",
+"type": "secret-society",
+"connections": 3,
+"cohort_year": "1871",
+"position": "US Appeals Court judge[4]:\u200a111"
+},
+{
+"id": "William Maxwell Evarts",
+"name": "William Maxwell Evarts",
+"type": "secret-society",
+"connections": 4,
+"cohort_year": "1837",
+"position": "U.S. Secretary of State, Attorney General, Senator, grandson of Roger Sherman[3]:\u200a131,\u200a199\u200a[5]"
+},
+{
+"id": "William McCormick Blair",
+"name": "William McCormick Blair",
+"type": "secret-society",
+"connections": 2,
+"cohort_year": "1907",
+"position": "American financier, heir to the McCormick reaper fortune[60]"
+},
+{
+"id": "William P. Bundy",
+"name": "William P. Bundy",
+"type": "secret-society",
+"connections": 1,
+"cohort_year": "1939",
+"position": "State Department liaison for the Bay of Pigs invasion, brother of McGeorge Bundy[3]:\u200a186"
+},
+{
+"id": "William Payne Whitney",
+"name": "William Payne Whitney",
+"type": "secret-society",
+"connections": 1,
+"cohort_year": "1898",
+"position": "Whitney family businessman and philanthropist[54]:\u200a171"
+},
+{
+"id": "William Phelps Eno",
+"name": "William Phelps Eno",
+"type": "secret-society",
+"connections": 2,
+"cohort_year": "1882",
+"position": "traffic planner called the \"Father of Traffic Safety\"[34]:\u200a9"
+},
+{
+"id": "William Singer Moorhead",
+"name": "William Singer Moorhead",
+"type": "secret-society",
+"connections": 4,
+"cohort_year": "1944",
+"position": "US Representative from Pennsylvania[77][109]"
+},
+{
+"id": "William Sloane Coffin",
+"name": "William Sloane Coffin",
+"type": "secret-society",
+"connections": 4,
+"cohort_year": "1949",
+"position": "CIA agent (1950\u20131953), clergyman and peace activist[3]:\u200a127,\u200a196"
+},
+{
+"id": "William Wallace Crapo",
+"name": "William Wallace Crapo",
+"type": "secret-society",
+"connections": 2,
+"cohort_year": "1852",
+"position": "US Representative from Massachusetts[13]:\u200a3"
+},
+{
+"id": "William Walter Phelps",
+"name": "William Walter Phelps",
+"type": "secret-society",
+"connections": 1,
+"cohort_year": "1860",
+"position": "US Representative from New Jersey[4]:\u200a92"
+},
+{
+"id": "William Welch Kellogg",
+"name": "William Welch Kellogg",
+"type": "secret-society",
+"connections": 1,
+"cohort_year": "1939",
+"position": "climatologist, associate director National Center for Atmospheric Research[102]"
+},
+{
+"id": "Wilson Shannon Bissell",
+"name": "Wilson Shannon Bissell",
+"type": "secret-society",
+"connections": 1,
+"cohort_year": "1869",
+"position": "Postmaster General[24]:\u200a489"
+},
+{
+"id": "Winston Lord",
+"name": "Winston Lord",
+"type": "policy",
+"connections": 1,
+"cohort_year": "1959",
+"position": "Chairman of Council on Foreign Relations; Ambassador to China; Assistant U.S. Secretary of State[3]:\u200a174\u20135,\u200a189\u200a[117]"
+}
+],
+"edges": [
+{
+"source": "Frederick Ellsworth Mather",
+"target": "Phineas Timothy Miller",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Frederick Ellsworth Mather",
+"target": "William Huntington Russell",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Frederick Ellsworth Mather",
+"target": "Alphonso Taft",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Frederick Ellsworth Mather",
+"target": "George Ingersoll Wood",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Frederick Ellsworth Mather",
+"target": "Asahel Hooker Lewis",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Phineas Timothy Miller",
+"target": "William Huntington Russell",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Phineas Timothy Miller",
+"target": "Alphonso Taft",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Phineas Timothy Miller",
+"target": "George Ingersoll Wood",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Phineas Timothy Miller",
+"target": "Asahel Hooker Lewis",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "William Huntington Russell",
+"target": "Alphonso Taft",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "William Huntington Russell",
+"target": "George Ingersoll Wood",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "William Huntington Russell",
+"target": "Asahel Hooker Lewis",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Alphonso Taft",
+"target": "George Ingersoll Wood",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Alphonso Taft",
+"target": "Asahel Hooker Lewis",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "George Ingersoll Wood",
+"target": "Asahel Hooker Lewis",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "John Wallace Houston",
+"target": "John Hubbard Tweedy",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "John Wallace Houston",
+"target": "William Henry Washington",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "John Hubbard Tweedy",
+"target": "William Henry Washington",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "William Maxwell Evarts",
+"target": "Chester Smith Lyman",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "William Maxwell Evarts",
+"target": "Allen Ferdinand Owen",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "William Maxwell Evarts",
+"target": "Benjamin Silliman Jr.",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "William Maxwell Evarts",
+"target": "Morrison Remmick Waite",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Chester Smith Lyman",
+"target": "Allen Ferdinand Owen",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Chester Smith Lyman",
+"target": "Benjamin Silliman Jr.",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Chester Smith Lyman",
+"target": "Morrison Remmick Waite",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Allen Ferdinand Owen",
+"target": "Benjamin Silliman Jr.",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Allen Ferdinand Owen",
+"target": "Morrison Remmick Waite",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Benjamin Silliman Jr.",
+"target": "Morrison Remmick Waite",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "James Mason Hoppin",
+"target": "John Perkins Jr.",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Benjamin Tucker Eames",
+"target": "Roswell Hart",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Benjamin Tucker Eames",
+"target": "Henry Stevens",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Roswell Hart",
+"target": "Henry Stevens",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Orris Sanford Ferry",
+"target": "William Barrett Washburn",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Constantine Canaris Esty",
+"target": "Richard Taylor",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Constantine Canaris Esty",
+"target": "Leonard Eugene Wales",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Richard Taylor",
+"target": "Leonard Eugene Wales",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Henry Baldwin Harrison",
+"target": "Stephen Wright Kellogg",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Henry Baldwin Harrison",
+"target": "Rensselaer Russell Nelson",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Stephen Wright Kellogg",
+"target": "Rensselaer Russell Nelson",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Augustus Brandegee",
+"target": "Timothy Dwight V",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Augustus Brandegee",
+"target": "Francis Miles Finch",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Timothy Dwight V",
+"target": "Francis Miles Finch",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "William Wallace Crapo",
+"target": "Daniel Coit Gilman",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "William Wallace Crapo",
+"target": "George Griswold Sill",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Daniel Coit Gilman",
+"target": "George Griswold Sill",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Carroll Cutler",
+"target": "Luzon Buritt Morris",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Eli Whitney Blake Jr.",
+"target": "John Thomas Croxton",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Eli Whitney Blake Jr.",
+"target": "Moses Coit Tyler",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "John Thomas Croxton",
+"target": "Moses Coit Tyler",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Burton Norvell Harrison",
+"target": "Eugene Schuyler",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Lowndes Henry Davis",
+"target": "William Walter Phelps",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Simeon E. Baldwin",
+"target": "Anthony Higgins",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Daniel Henry Chamberlain",
+"target": "Franklin MacVeagh",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Henry Farnum Dimock",
+"target": "William Collins Whitney",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Charles Fraser MacLean",
+"target": "John William Sterling",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "John Manning Hall",
+"target": "George Chandler Holt",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Henry Morton Dexter",
+"target": "Albert Elijah Dunning",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Henry Morton Dexter",
+"target": "Thomas Hedge",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Henry Morton Dexter",
+"target": "George Peabody Wetmore",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Albert Elijah Dunning",
+"target": "Thomas Hedge",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Albert Elijah Dunning",
+"target": "George Peabody Wetmore",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Thomas Hedge",
+"target": "George Peabody Wetmore",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Chauncey Bunce Brewster",
+"target": "LeBaron Bradford Colt",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Wilson Shannon Bissell",
+"target": "Presidential appointee",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Frederick Collin",
+"target": "Edwin Forrest Sweet",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Frederick Collin",
+"target": "Thomas Thacher",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Frederick Collin",
+"target": "William Kneeland Townsend",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Edwin Forrest Sweet",
+"target": "Thomas Thacher",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Edwin Forrest Sweet",
+"target": "William Kneeland Townsend",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Thomas Thacher",
+"target": "William Kneeland Townsend",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "George Foot Moore",
+"target": "Theodore Salisbury Woolsey",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Eben Alexander",
+"target": "Samuel Oscar Prentice",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Eben Alexander",
+"target": "Frank Bigelow Tarbell",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Samuel Oscar Prentice",
+"target": "Frank Bigelow Tarbell",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Almet Francis Jenks",
+"target": "John Patton Jr.",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Walker Blaine",
+"target": "Charles Newell Fowler",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Walker Blaine",
+"target": "Arthur Twining Hadley",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Charles Newell Fowler",
+"target": "Arthur Twining Hadley",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Roger Sherman Baldwin Foster",
+"target": "Tudor Storrs Jenks",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Lloyd Wheaton Bowers",
+"target": "Oliver David Thompson",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Lloyd Wheaton Bowers",
+"target": "Ambrose Tighe",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Lloyd Wheaton Bowers",
+"target": "Timothy Lester Woodruff",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Oliver David Thompson",
+"target": "Ambrose Tighe",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Oliver David Thompson",
+"target": "Timothy Lester Woodruff",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Ambrose Tighe",
+"target": "Timothy Lester Woodruff",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Walter Camp",
+"target": "Sidney Catlin Partridge",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Walter Camp",
+"target": "Henry Waters Taft",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Sidney Catlin Partridge",
+"target": "Henry Waters Taft",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Edwin Edgerton Aiken",
+"target": "Thomas Burr Osborne",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Benjamin Brewster",
+"target": "William Phelps Eno",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Benjamin Brewster",
+"target": "Robert Campbell",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "William Phelps Eno",
+"target": "Robert Campbell",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Elihu Brintnal Frost",
+"target": "Eliakim Hastings Moore",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Elihu Brintnal Frost",
+"target": "Joseph Robinson Parrott",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Elihu Brintnal Frost",
+"target": "Horace Dutton Taft",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Eliakim Hastings Moore",
+"target": "Joseph Robinson Parrott",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Eliakim Hastings Moore",
+"target": "Horace Dutton Taft",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Joseph Robinson Parrott",
+"target": "Horace Dutton Taft",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Wilbur Franklin Booth",
+"target": "Maxwell Evarts",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Clinton Larue Hare",
+"target": "George Griswold Haven Jr.",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Clinton Larue Hare",
+"target": "Oliver Gould Jennings",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Clinton Larue Hare",
+"target": "William Kent",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "George Griswold Haven Jr.",
+"target": "Oliver Gould Jennings",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "George Griswold Haven Jr.",
+"target": "William Kent",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Oliver Gould Jennings",
+"target": "William Kent",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Irving Fisher",
+"target": "Richard Melancthon Hurd",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Irving Fisher",
+"target": "Amos Alonzo Stagg",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Irving Fisher",
+"target": "Charles Otis Gill",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Irving Fisher",
+"target": "Henry L. Stimson",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Richard Melancthon Hurd",
+"target": "Amos Alonzo Stagg",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Richard Melancthon Hurd",
+"target": "Charles Otis Gill",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Richard Melancthon Hurd",
+"target": "Henry L. Stimson",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Amos Alonzo Stagg",
+"target": "Charles Otis Gill",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Amos Alonzo Stagg",
+"target": "Henry L. Stimson",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Charles Otis Gill",
+"target": "Henry L. Stimson",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Gifford Pinchot",
+"target": "George Washington Woodruff",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Thomas F. Bayard Jr.",
+"target": "Fairfax Harrison",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Hugh Aiken Bayne",
+"target": "Howell Cheney",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Hugh Aiken Bayne",
+"target": "Clive Day",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Hugh Aiken Bayne",
+"target": "Henry S. Graves",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Hugh Aiken Bayne",
+"target": "James William Husted Jr.",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Hugh Aiken Bayne",
+"target": "Pierre Jay",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Hugh Aiken Bayne",
+"target": "Thomas Lee McClung",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Howell Cheney",
+"target": "Clive Day",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Howell Cheney",
+"target": "Henry S. Graves",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Howell Cheney",
+"target": "James William Husted Jr.",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Howell Cheney",
+"target": "Pierre Jay",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Howell Cheney",
+"target": "Thomas Lee McClung",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Clive Day",
+"target": "Henry S. Graves",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Clive Day",
+"target": "James William Husted Jr.",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Clive Day",
+"target": "Pierre Jay",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Clive Day",
+"target": "Thomas Lee McClung",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Henry S. Graves",
+"target": "James William Husted Jr.",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Henry S. Graves",
+"target": "Pierre Jay",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Henry S. Graves",
+"target": "Thomas Lee McClung",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "James William Husted Jr.",
+"target": "Pierre Jay",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "James William Husted Jr.",
+"target": "Thomas Lee McClung",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Pierre Jay",
+"target": "Thomas Lee McClung",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Thomas Cochran",
+"target": "John Howland",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Thomas Cochran",
+"target": "Ralph Delahaye Paine",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Thomas Cochran",
+"target": "Harry Payne Whitney",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "John Howland",
+"target": "Ralph Delahaye Paine",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "John Howland",
+"target": "Harry Payne Whitney",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Ralph Delahaye Paine",
+"target": "Harry Payne Whitney",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Frank Seiler Butterworth",
+"target": "Francis Burton Harrison",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Frank Seiler Butterworth",
+"target": "Frank Augustus Hinkey",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Francis Burton Harrison",
+"target": "Frank Augustus Hinkey",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Jules Henri de Sibour",
+"target": "Anson Phelps Stokes",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Jules Henri de Sibour",
+"target": "Samuel Brinckerhoff Thorne",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Anson Phelps Stokes",
+"target": "Samuel Brinckerhoff Thorne",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Henry Sloane Coffin",
+"target": "Clarence Mann Fincke",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Henry Sloane Coffin",
+"target": "Amos Richards Eno Pinchot",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Clarence Mann Fincke",
+"target": "Amos Richards Eno Pinchot",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "James Wolcott Wadsworth Jr.",
+"target": "William Payne Whitney",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Frederick H. Brooke",
+"target": "James McDevitt Magee",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Frederick H. Brooke",
+"target": "Alfred Gwynne Vanderbilt",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "James McDevitt Magee",
+"target": "Alfred Gwynne Vanderbilt",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Frederick Baldwin Adams",
+"target": "Ashley Day Leavitt",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Frederick Baldwin Adams",
+"target": "Percy Rockefeller",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Ashley Day Leavitt",
+"target": "Percy Rockefeller",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Russell Cheney",
+"target": "Thomas Day Thacher",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "John Gillespie Magee",
+"target": "Foster Rockwell",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "William McCormick Blair",
+"target": "Hugh Smith Knox",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "William McCormick Blair",
+"target": "Samuel Finley Brown Morse",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Hugh Smith Knox",
+"target": "Samuel Finley Brown Morse",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Lucius Horatio Biglow",
+"target": "Charles Seymour",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Lucius Horatio Biglow",
+"target": "Harold Stanley",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Charles Seymour",
+"target": "Harold Stanley",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Harvey Hollister Bundy",
+"target": "Allen Trafford Klots",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Albert DeSilver",
+"target": "George Leslie Harrison",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Albert DeSilver",
+"target": "Stephen Philbin",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Albert DeSilver",
+"target": "Robert Alphonso Taft",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "George Leslie Harrison",
+"target": "Stephen Philbin",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "George Leslie Harrison",
+"target": "Robert Alphonso Taft",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Stephen Philbin",
+"target": "Robert Alphonso Taft",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Robert Abbe Gardner",
+"target": "Gerald Clery Murphy",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Alfred Cowles III",
+"target": "Averell Harriman",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Edwin Arthur Burtt",
+"target": "Archibald MacLeish",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Prescott Bush",
+"target": "E. Roland Harriman",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Prescott Bush",
+"target": "Harry William LeGore",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Prescott Bush",
+"target": "H. Neil Mallon",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Prescott Bush",
+"target": "Kenneth Farrand Simpson",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "E. Roland Harriman",
+"target": "Harry William LeGore",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "E. Roland Harriman",
+"target": "H. Neil Mallon",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "E. Roland Harriman",
+"target": "Kenneth Farrand Simpson",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Harry William LeGore",
+"target": "H. Neil Mallon",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Harry William LeGore",
+"target": "Kenneth Farrand Simpson",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "H. Neil Mallon",
+"target": "Kenneth Farrand Simpson",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "F. Trubee Davison",
+"target": "John Chipman Farrar",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "F. Trubee Davison",
+"target": "Artemus Lamb Gates",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "F. Trubee Davison",
+"target": "Robert A. Lovett",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "F. Trubee Davison",
+"target": "Charles Phelps Taft II",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "F. Trubee Davison",
+"target": "John Martin Vorys",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "John Chipman Farrar",
+"target": "Artemus Lamb Gates",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "John Chipman Farrar",
+"target": "Robert A. Lovett",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "John Chipman Farrar",
+"target": "Charles Phelps Taft II",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "John Chipman Farrar",
+"target": "John Martin Vorys",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Artemus Lamb Gates",
+"target": "Robert A. Lovett",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Artemus Lamb Gates",
+"target": "Charles Phelps Taft II",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Artemus Lamb Gates",
+"target": "John Martin Vorys",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Robert A. Lovett",
+"target": "Charles Phelps Taft II",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Robert A. Lovett",
+"target": "John Martin Vorys",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Charles Phelps Taft II",
+"target": "John Martin Vorys",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Lewis Greenleaf Adams",
+"target": "Briton Hadden",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Lewis Greenleaf Adams",
+"target": "Francis Thayer Hobson",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Lewis Greenleaf Adams",
+"target": "David Sinton Ingalls",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Lewis Greenleaf Adams",
+"target": "Henry Luce",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Briton Hadden",
+"target": "Francis Thayer Hobson",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Briton Hadden",
+"target": "David Sinton Ingalls",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Briton Hadden",
+"target": "Henry Luce",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Francis Thayer Hobson",
+"target": "David Sinton Ingalls",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Francis Thayer Hobson",
+"target": "Henry Luce",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "David Sinton Ingalls",
+"target": "Henry Luce",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "John Sherman Cooper",
+"target": "Russell Davenport",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "John Sherman Cooper",
+"target": "F. O. Matthiessen",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Russell Davenport",
+"target": "F. O. Matthiessen",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Edwin Foster Blair",
+"target": "Charles Merville Spofford",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "James Jeremiah Wadsworth",
+"target": "George Herbert Walker Jr.",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "John Rockefeller Prentice",
+"target": "Lanny Ross",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Granger Kent Costikyan",
+"target": "George Crile Jr.",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Granger Kent Costikyan",
+"target": "Fortune",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "George Crile Jr.",
+"target": "Fortune",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "H. J. Heinz II",
+"target": "Lewis Abbot Lapham",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "H. J. Heinz II",
+"target": "John M. Walker",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Lewis Abbot Lapham",
+"target": "John M. Walker",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Frederick Baldwin Adams Jr.",
+"target": "Samuel Hazard Gillespie Jr.",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Frederick Baldwin Adams Jr.",
+"target": "Tex McCrary",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Frederick Baldwin Adams Jr.",
+"target": "Eugene O'Neill Jr.",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Samuel Hazard Gillespie Jr.",
+"target": "Tex McCrary",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Samuel Hazard Gillespie Jr.",
+"target": "Eugene O'Neill Jr.",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Tex McCrary",
+"target": "Eugene O'Neill Jr.",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Samuel Carnes Collier",
+"target": "Lyman Spitzer",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Samuel Carnes Collier",
+"target": "Sonny Tufts",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Lyman Spitzer",
+"target": "Sonny Tufts",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Jonathan Brewster Bingham",
+"target": "Brendan Gill",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Jonathan Brewster Bingham",
+"target": "John Hersey",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Jonathan Brewster Bingham",
+"target": "John Merrill Knapp",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Brendan Gill",
+"target": "John Hersey",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Brendan Gill",
+"target": "John Merrill Knapp",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "John Hersey",
+"target": "John Merrill Knapp",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "J. Richardson Dilworth",
+"target": "Clinton Frank",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "J. Richardson Dilworth",
+"target": "Albert Hessberg II",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Clinton Frank",
+"target": "Albert Hessberg II",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "William P. Bundy",
+"target": "William Welch Kellogg",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "McGeorge Bundy",
+"target": "Andrew Downey Orrick",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "David Acheson",
+"target": "Debevoise & Plimpton",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "James L. Buckley",
+"target": "John Bannister Goodenough",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "James L. Buckley",
+"target": "Townsend Walter Hoopes II",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "James L. Buckley",
+"target": "William Singer Moorhead",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "James L. Buckley",
+"target": "James Whitmore",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "John Bannister Goodenough",
+"target": "Townsend Walter Hoopes II",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "John Bannister Goodenough",
+"target": "William Singer Moorhead",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "John Bannister Goodenough",
+"target": "James Whitmore",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Townsend Walter Hoopes II",
+"target": "William Singer Moorhead",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Townsend Walter Hoopes II",
+"target": "James Whitmore",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "William Singer Moorhead",
+"target": "James Whitmore",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "John Chafee",
+"target": "Josiah Augustus Spaulding",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "John Chafee",
+"target": "Charles S. Whitehouse",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Josiah Augustus Spaulding",
+"target": "Charles S. Whitehouse",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Thomas William Ludlow Ashley",
+"target": "George H. W. Bush",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "William Sloane Coffin",
+"target": "Daniel Pomeroy Davison",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "William Sloane Coffin",
+"target": "Tony Lavelli",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "William Sloane Coffin",
+"target": "David McCord Lippincott",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "William Sloane Coffin",
+"target": "Charles Edwin Lord II",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Daniel Pomeroy Davison",
+"target": "Tony Lavelli",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Daniel Pomeroy Davison",
+"target": "David McCord Lippincott",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Daniel Pomeroy Davison",
+"target": "Charles Edwin Lord II",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Tony Lavelli",
+"target": "David McCord Lippincott",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Tony Lavelli",
+"target": "Charles Edwin Lord II",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "David McCord Lippincott",
+"target": "Charles Edwin Lord II",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "William F. Buckley Jr.",
+"target": "William Henry Draper III",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "William F. Buckley Jr.",
+"target": "Evan G. Galbraith",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "William F. Buckley Jr.",
+"target": "Thomas Henry Guinzburg",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "William Henry Draper III",
+"target": "Evan G. Galbraith",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "William Henry Draper III",
+"target": "Thomas Henry Guinzburg",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Evan G. Galbraith",
+"target": "Thomas Henry Guinzburg",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Fergus Reid Buckley",
+"target": "Charles Sherman Haight Jr.",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Jonathan James Bush",
+"target": "William H. Donaldson",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Jonathan James Bush",
+"target": "John Birnie Marshall",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Jonathan James Bush",
+"target": "James Price McLane",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Jonathan James Bush",
+"target": "George Herbert Walker III",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "William H. Donaldson",
+"target": "John Birnie Marshall",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "William H. Donaldson",
+"target": "James Price McLane",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "William H. Donaldson",
+"target": "George Herbert Walker III",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "John Birnie Marshall",
+"target": "James Price McLane",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "John Birnie Marshall",
+"target": "George Herbert Walker III",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "James Price McLane",
+"target": "George Herbert Walker III",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Caldwell Esselstyn",
+"target": "Jack Edwin McGregor",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Linden Stanley Blue",
+"target": "Robert Morey",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Stephen Adams",
+"target": "Winston Lord",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Eugene Lytton Scott",
+"target": "Michael Johnson Pyle",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "David L. Boren",
+"target": "Michael Gates Gill",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "David L. Boren",
+"target": "William Dawbney Nordhaus",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Michael Gates Gill",
+"target": "William Dawbney Nordhaus",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Orde Musgrave Coombs",
+"target": "John Shattuck",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "John Forbes Kerry",
+"target": "David Rumsey",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "John Forbes Kerry",
+"target": "Frederick Wallace Smith",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "John Forbes Kerry",
+"target": "David Thorne",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "David Rumsey",
+"target": "Frederick Wallace Smith",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "David Rumsey",
+"target": "David Thorne",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Frederick Wallace Smith",
+"target": "David Thorne",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Roy Leslie Austin",
+"target": "George W. Bush",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Roy Leslie Austin",
+"target": "Rex William Cowdry",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Roy Leslie Austin",
+"target": "Robert McCallum Jr",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Roy Leslie Austin",
+"target": "Don Schollander",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Roy Leslie Austin",
+"target": "Robert McCallum, Jr",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "George W. Bush",
+"target": "Rex William Cowdry",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "George W. Bush",
+"target": "Robert McCallum Jr",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "George W. Bush",
+"target": "Don Schollander",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "George W. Bush",
+"target": "Robert McCallum, Jr",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Rex William Cowdry",
+"target": "Robert McCallum Jr",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Rex William Cowdry",
+"target": "Don Schollander",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Rex William Cowdry",
+"target": "Robert McCallum, Jr",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Robert McCallum Jr",
+"target": "Don Schollander",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Robert McCallum Jr",
+"target": "Robert McCallum, Jr",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Don Schollander",
+"target": "Robert McCallum, Jr",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Brian John Dowling",
+"target": "Douglas Preston Woodlock",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "James Emanuel Boasberg",
+"target": "Steven Mnuchin",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "James Emanuel Boasberg",
+"target": "ISBN",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Steven Mnuchin",
+"target": "ISBN",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Paul Giamatti",
+"target": "ISBN",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Austan Goolsbee",
+"target": "ISBN",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "David Leonhardt",
+"target": "Angela Buchdahl",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Tali Farhadian Weinstein",
+"target": "Isaacson, Walter",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+},
+{
+"source": "Noah P. Hood",
+"target": "PublishAmerica",
+"type": "society-connection",
+"weight": 3,
+"relationship": "Skull and Bones cohort"
+}
+]
+}

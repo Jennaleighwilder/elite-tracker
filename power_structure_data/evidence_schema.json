@@ -1,0 +1,52 @@
+{
+  "evidence_layers": [
+    {
+      "id": "board_interlock",
+      "name": "Board Interlock",
+      "source": "SEC EDGAR (DEF 14A, 10-K, Form 4)",
+      "strength": "strongest",
+      "description": "Same individual across multiple companies - legally mandated disclosure",
+      "node_type": "corporate_control"
+    },
+    {
+      "id": "institutional_affiliation",
+      "name": "Institutional Affiliation",
+      "source": "IRS Form 990",
+      "strength": "strong",
+      "description": "Board members, officers, grants - non-profit required disclosure",
+      "node_type": "policy_network"
+    },
+    {
+      "id": "legal_relationship",
+      "name": "Legal Relationship",
+      "source": "Vital records, probate, property",
+      "strength": "strong",
+      "description": "Marriage, wills, trustees - legally binding documents",
+      "node_type": "family"
+    },
+    {
+      "id": "cohort_membership",
+      "name": "Cohort Membership",
+      "source": "Alumni directories, trustee boards, donor rolls",
+      "strength": "predictive",
+      "description": "Same class year, same school - predictive of collaboration",
+      "node_type": "education"
+    },
+    {
+      "id": "selective_association",
+      "name": "Selective Association",
+      "source": "Published member lists, conference rosters, official bios",
+      "strength": "documented",
+      "description": "Documented membership - no speculation",
+      "node_type": "organization"
+    }
+  ],
+  "edge_types": [
+    {"id": "board_seat", "layer": "board_interlock", "evidence": "SEC filing"},
+    {"id": "org_board", "layer": "institutional_affiliation", "evidence": "Form 990"},
+    {"id": "marriage", "layer": "legal_relationship", "evidence": "Vital record"},
+    {"id": "probate", "layer": "legal_relationship", "evidence": "Will/trust"},
+    {"id": "cohort", "layer": "cohort_membership", "evidence": "Alumni/trustee list"},
+    {"id": "membership", "layer": "selective_association", "evidence": "Published list"}
+  ]
+}
