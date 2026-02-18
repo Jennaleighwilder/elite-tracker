@@ -1,266 +1,202 @@
-/* THE HIDDEN NETWORKS - Real Data */
-let graphData = { nodes: [], edges: [] };
-let filteredData = { nodes: [], edges: [] };
-let simulation = null, svg = null, g = null, selectedNode = null;
+/* The Hidden Networks - All elite networks */
+let allData = { nodes: [], edges: [] };
+let filtered = { nodes: [], edges: [] };
+let sim = null, svg = null, g = null;
 
 document.addEventListener('DOMContentLoaded', () => {
-    initializeGraph();
-    initializeParticles();
-    initializeEventListeners();
+    initGraph();
     loadData();
+    initEvents();
 });
 
 async function loadData() {
     try {
-        const res = await fetch('data/network.json');
-        const data = await res.json();
-        graphData.nodes = data.nodes.map(n => ({
+        const r = await fetch('data/network.json');
+        const d = await r.json();
+        allData.nodes = (d.nodes || []).map(n => ({
             ...n,
             id: n.id || n.name,
-            societies: n.type === 'policy' ? ['Skull & Bones', 'Bilderberg'] : ['Skull & Bones']
+            orgs: n.orgs || [],
+            type: n.type || 'unknown',
         }));
-        graphData.edges = data.edges.map(e => ({
+        allData.edges = (d.edges || []).map(e => ({
             source: e.source,
             target: e.target,
-            type: e.type || 'society-connection',
-            weight: e.weight || 2
+            type: e.type || 'connection',
+            weight: e.weight || 1,
         }));
-        filteredData = { nodes: [...graphData.nodes], edges: [...graphData.edges] };
-        updateGraph();
-        updateStatistics();
-        document.getElementById('search-input').addEventListener('input', handleSearch);
+        applyFilters();
+        document.getElementById('search').addEventListener('input', onSearch);
     } catch (err) {
-        console.error('Failed to load data:', err);
-        document.body.innerHTML += '<div style="position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);color:#8B0000;font-size:1.2rem;">Failed to load data. Run: python3 web/build_data.py</div>';
+        console.error(err);
+        document.getElementById('detail').innerHTML = '<p style="color:#8B0000">Failed to load. Run: python3 web/build_data.py</p>';
     }
 }
 
-function handleSearch(e) {
-    const q = e.target.value.toLowerCase().trim();
-    if (!q) { filteredData = { nodes: [...graphData.nodes], edges: [...graphData.edges] }; updateGraph(); return; }
-    const matches = graphData.nodes.filter(n => n.name.toLowerCase().includes(q));
-    const ids = new Set(matches.map(m => m.id));
-    filteredData.nodes = matches;
-    filteredData.edges = graphData.edges.filter(ed => {
-        const s = typeof ed.source === 'object' ? ed.source.id : ed.source;
-        const t = typeof ed.target === 'object' ? ed.target.id : ed.target;
+function nodeMatchesOrg(node, org) {
+    const o = (node.orgs || []).map(x => String(x).toLowerCase());
+    if (org === 'skull') return o.some(x => x.includes('skull') || x.includes('bones'));
+    if (org === 'bilderberg') return o.some(x => x.includes('bilderberg'));
+    if (org === 'trilateral') return o.some(x => x.includes('trilateral'));
+    if (org === 'cross-ref') return node.type === 'cross-ref' || o.some(x => x.includes('cross'));
+    return false;
+}
+
+function applyFilters() {
+    const orgs = Array.from(document.querySelectorAll('input[name="org"]:checked')).map(c => c.value);
+    const start = +document.querySelector('.era-btn.active')?.dataset.start || 1833;
+    const end = +document.querySelector('.era-btn.active')?.dataset.end || 1982;
+    const q = document.getElementById('search').value.toLowerCase().trim();
+
+    let nodes = allData.nodes.filter(n => {
+        if (!orgs.some(org => nodeMatchesOrg(n, org))) return false;
+        const y = +(n.cohort_year || n.year || 1900);
+        if (y && (y < start || y > end)) return false;
+        if (q && !String(n.name || '').toLowerCase().includes(q)) return false;
+        return true;
+    });
+
+    const ids = new Set(nodes.map(n => n.id));
+    let edges = allData.edges.filter(e => {
+        const s = typeof e.source === 'object' ? e.source.id : e.source;
+        const t = typeof e.target === 'object' ? e.target.id : e.target;
         return ids.has(s) && ids.has(t);
     });
+
+    filtered = { nodes, edges };
     updateGraph();
 }
 
-function initializeGraph() {
-    const container = document.getElementById('network-graph');
-    const width = container.clientWidth, height = container.clientHeight;
-    svg = d3.select('#network-graph').attr('width', width).attr('height', height);
-    const zoom = d3.zoom().scaleExtent([0.1, 4]).on('zoom', e => g.attr('transform', e.transform));
-    svg.call(zoom);
+function onSearch() {
+    applyFilters();
+    const q = document.getElementById('search').value.toLowerCase().trim();
+    if (q && filtered.nodes.length === 1) {
+        showDetail(filtered.nodes[0]);
+        highlight(filtered.nodes[0]);
+    } else if (filtered.nodes.length === 0 && q) {
+        document.getElementById('detail').innerHTML = '<p>No matches.</p>';
+    } else {
+        document.getElementById('detail').innerHTML = '<p class="detail-placeholder">Click a node or search to view details</p>';
+    }
+}
+
+function initGraph() {
+    const wrap = document.querySelector('.graph-wrapper');
+    const w = wrap.clientWidth, h = wrap.clientHeight;
+    svg = d3.select('#graph').attr('width', w).attr('height', h);
+    svg.call(d3.zoom().scaleExtent([0.15, 4]).on('zoom', e => g.attr('transform', e.transform)));
     g = svg.append('g');
-    simulation = d3.forceSimulation()
-        .force('link', d3.forceLink().id(d => d.id).distance(80))
-        .force('charge', d3.forceManyBody().strength(-400))
-        .force('center', d3.forceCenter(width / 2, height / 2))
-        .force('collision', d3.forceCollide().radius(25));
+    sim = d3.forceSimulation()
+        .force('link', d3.forceLink().id(d => d.id).distance(60))
+        .force('charge', d3.forceManyBody().strength(-200))
+        .force('center', d3.forceCenter(w / 2, h / 2))
+        .force('collision', d3.forceCollide().radius(18));
+    window.addEventListener('resize', () => {
+        const W = wrap.clientWidth, H = wrap.clientHeight;
+        svg.attr('width', W).attr('height', H);
+        sim.force('center', d3.forceCenter(W / 2, H / 2));
+        sim.alpha(0.2).restart();
+    });
+}
+
+function nodeColor(n) {
+    if (n.type === 'cross-ref') return '#E63946';
+    if ((n.orgs || []).some(x => String(x).includes('Bilderberg')) && (n.orgs || []).some(x => String(x).includes('Skull'))) return '#FFD60A';
+    if ((n.orgs || []).some(x => String(x).includes('Skull') || String(x).includes('Bones'))) return '#FFFFFF';
+    if ((n.orgs || []).some(x => String(x).includes('Trilateral'))) return '#FF6B35';
+    return '#888888';
+}
+
+function edgeColor(e) {
+    const t = e.type || '';
+    if (t.includes('skull') || t.includes('cohort')) return '#FFFFFF';
+    if (t.includes('bilderberg')) return '#FFD60A';
+    if (t.includes('trilateral')) return '#FF6B35';
+    return '#666666';
 }
 
 function updateGraph() {
     g.selectAll('*').remove();
-    if (filteredData.nodes.length === 0) return;
+    if (filtered.nodes.length === 0) return;
 
-    const link = g.append('g').attr('class', 'links')
-        .selectAll('line').data(filteredData.edges).enter().append('line')
+    const link = g.append('g').selectAll('line').data(filtered.edges).enter().append('line')
         .attr('class', 'edge')
-        .style('stroke', d => getEdgeColor(d.type))
-        .style('stroke-width', d => (d.weight || 1) * 1.5)
-        .style('stroke-opacity', 0.5);
+        .style('stroke', edgeColor)
+        .style('stroke-width', d => (d.weight || 1))
+        .style('stroke-opacity', 0.4);
 
-    const node = g.append('g').attr('class', 'nodes')
-        .selectAll('circle').data(filteredData.nodes).enter().append('circle')
-        .attr('class', 'node').attr('r', d => getNodeSize(d))
-        .style('fill', d => getNodeColor(d.type))
-        .style('stroke', '#C5A572').style('stroke-width', 2)
-        .style('filter', d => `drop-shadow(0 0 6px ${getNodeColor(d.type)})`)
-        .call(drag(simulation))
-        .on('click', (e, d) => { selectedNode = d; showNodeDetails(d); highlightNode(d); })
-        .on('mouseenter', (e, d) => showTooltip(e, d))
-        .on('mouseleave', () => hideTooltip());
+    const node = g.append('g').selectAll('circle').data(filtered.nodes).enter().append('circle')
+        .attr('class', 'node')
+        .attr('r', d => Math.min(6 + (d.connections || 0) * 0.15, 20))
+        .style('fill', nodeColor)
+        .style('stroke', 'rgba(255,255,255,0.3)')
+        .style('stroke-width', 1)
+        .call(d3.drag()
+            .on('start', e => { if (!e.active) sim.alphaTarget(0.3).restart(); e.subject.fx = e.subject.x; e.subject.fy = e.subject.y; })
+            .on('drag', e => { e.subject.fx = e.x; e.subject.fy = e.y; })
+            .on('end', e => { if (!e.active) sim.alphaTarget(0); e.subject.fx = null; e.subject.fy = null; }))
+        .on('click', (e, d) => { showDetail(d); highlight(d); })
+        .on('mouseenter', showTooltip)
+        .on('mouseleave', hideTooltip);
 
-    const label = g.append('g').attr('class', 'labels')
-        .selectAll('text').data(filteredData.nodes).enter().append('text')
-        .text(d => d.name).attr('font-size', 9).attr('font-family', "'EB Garamond', serif")
-        .attr('fill', '#E8DCC4').attr('text-anchor', 'middle').attr('dy', -18)
-        .style('pointer-events', 'none');
-
-    simulation.nodes(filteredData.nodes);
-    simulation.force('link').links(filteredData.edges);
-    simulation.on('tick', () => {
+    sim.nodes(filtered.nodes);
+    sim.force('link').links(filtered.edges);
+    sim.on('tick', () => {
         link.attr('x1', d => d.source.x).attr('y1', d => d.source.y).attr('x2', d => d.target.x).attr('y2', d => d.target.y);
         node.attr('cx', d => d.x).attr('cy', d => d.y);
-        label.attr('x', d => d.x).attr('y', d => d.y);
     });
-    simulation.alpha(1).restart();
+    sim.alpha(1).restart();
 }
 
-function getNodeColor(type) {
-    return { 'secret-society': '#660000', 'policy': '#8B7355' }[type] || '#C5A572';
-}
-function getEdgeColor(type) {
-    return { 'society-connection': '#8B0000', 'policy-connection': '#8B7355' }[type] || '#8B7355';
-}
-function getNodeSize(node) {
-    return Math.min(12 + (node.connections || 0) * 0.3, 28);
-}
-
-function drag(sim) {
-    function dragstarted(e) { if (!e.active) sim.alphaTarget(0.3).restart(); e.subject.fx = e.subject.x; e.subject.fy = e.subject.y; }
-    function dragged(e) { e.subject.fx = e.x; e.subject.fy = e.y; }
-    function dragended(e) { if (!e.active) sim.alphaTarget(0); e.subject.fx = null; e.subject.fy = null; }
-    return d3.drag().on('start', dragstarted).on('drag', dragged).on('end', dragended);
-}
-
-function showTooltip(e, node) {
-    const t = document.getElementById('node-tooltip');
-    let c = `<strong>${node.type}</strong><br>`;
-    if (node.cohort_year) c += `Cohort: ${node.cohort_year}<br>`;
-    if (node.position) c += node.position.substring(0, 80) + (node.position.length > 80 ? '…' : '') + '<br>';
-    c += `Connections: ${node.connections || 0}`;
-    t.querySelector('.tooltip-name').textContent = node.name;
-    t.querySelector('.tooltip-type').textContent = node.type === 'policy' ? 'Skull & Bones + Bilderberg' : 'Skull & Bones';
-    t.querySelector('.tooltip-content').innerHTML = c;
-    t.style.left = (e.pageX + 15) + 'px'; t.style.top = (e.pageY + 15) + 'px';
+function showTooltip(e, d) {
+    const t = document.getElementById('tooltip');
+    const wrap = document.querySelector('.graph-wrapper');
+    const r = wrap.getBoundingClientRect();
+    t.innerHTML = `<strong>${d.name}</strong><br>${(d.orgs || []).join(', ')}${d.cohort_year ? ' · ' + d.cohort_year : ''}`;
+    t.style.left = (e.clientX - r.left + 12) + 'px';
+    t.style.top = (e.clientY - r.top + 12) + 'px';
     t.classList.remove('hidden');
 }
-function hideTooltip() { document.getElementById('node-tooltip').classList.add('hidden'); }
-
-function showNodeDetails(node) {
-    const panel = document.getElementById('details-panel');
-    const content = document.getElementById('details-content');
-    let html = `<h3 style="font-family:var(--font-header);color:var(--gold-leaf);margin-bottom:1rem">${node.name}</h3>`;
-    html += `<div><strong>Type:</strong> ${node.type}<br>`;
-    if (node.cohort_year) html += `<strong>Cohort:</strong> ${node.cohort_year}<br>`;
-    if (node.position) html += `<strong>Position:</strong> ${node.position}<br>`;
-    html += `<strong>Connections:</strong> ${node.connections || 0}</div>`;
-    const conns = filteredData.edges.filter(e => e.source.id === node.id || e.target.id === node.id);
-    html += `<div style="margin-top:1rem"><strong>Direct links:</strong> ${conns.slice(0, 8).map(c => {
-        const o = c.source.id === node.id ? c.target : c.source;
-        return o.name;
-    }).join(', ')}${conns.length > 8 ? '…' : ''}</div>`;
-    content.innerHTML = html;
-    panel.classList.remove('hidden');
+function hideTooltip() {
+    document.getElementById('tooltip').classList.add('hidden');
 }
 
-function highlightNode(node) {
-    d3.selectAll('.node').style('opacity', 0.2).style('stroke-width', 2);
-    d3.selectAll('.node').filter(d => d.id === node.id).style('opacity', 1).style('stroke', '#8B0000').style('stroke-width', 4).style('filter', 'drop-shadow(0 0 15px #8B0000)');
-    const ids = new Set(filteredData.edges.filter(e => e.source.id === node.id || e.target.id === node.id).flatMap(e => [e.source.id, e.target.id]));
-    d3.selectAll('.node').filter(d => ids.has(d.id)).style('opacity', 0.8).style('stroke', '#C5A572');
+function showDetail(d) {
+    const el = document.getElementById('detail');
+    let html = `<h3>${d.name}</h3>`;
+    html += `<p><strong>Organizations:</strong> ${(d.orgs || []).join(', ') || '—'}</p>`;
+    if (d.cohort_year) html += `<p><strong>Cohort:</strong> ${d.cohort_year}</p>`;
+    if (d.position) html += `<p><strong>Notable:</strong> ${d.position}</p>`;
+    html += `<p><strong>Connections:</strong> ${d.connections || 0}</p>`;
+    const conns = filtered.edges.filter(e => (e.source?.id || e.source) === d.id || (e.target?.id || e.target) === d.id);
+    const others = conns.slice(0, 8).map(c => {
+        const o = (c.source?.id || c.source) === d.id ? (c.target?.name || c.target) : (c.source?.name || c.source);
+        return o;
+    });
+    if (others.length) html += `<p><strong>Linked:</strong> ${others.join(', ')}${conns.length > 8 ? '…' : ''}</p>`;
+    el.innerHTML = html;
+}
+
+function highlight(d) {
+    d3.selectAll('.node').style('opacity', 0.2).style('stroke-width', 1);
+    d3.selectAll('.node').filter(n => n.id === d.id).style('opacity', 1).style('stroke-width', 3);
+    const ids = new Set(filtered.edges.filter(e => (e.source?.id || e.source) === d.id || (e.target?.id || e.target) === d.id).flatMap(e => [e.source?.id || e.source, e.target?.id || e.target]));
+    d3.selectAll('.node').filter(n => ids.has(n.id)).style('opacity', 0.9).style('stroke-width', 2);
     d3.selectAll('.edge').style('opacity', 0.05);
-    d3.selectAll('.edge').filter(e => e.source.id === node.id || e.target.id === node.id).style('opacity', 0.9).style('stroke-width', 3);
+    d3.selectAll('.edge').filter(e => (e.source?.id || e.source) === d.id || (e.target?.id || e.target) === d.id).style('opacity', 0.8);
 }
 
-function initializeParticles() {
-    const canvas = document.getElementById('particle-canvas');
-    const ctx = canvas.getContext('2d');
-    canvas.width = window.innerWidth; canvas.height = window.innerHeight;
-    const symbols = ['☠', '👁', '🗝', '⚰', '🕯', '✦', '☥', '⛤', '⛧'];
-    const particles = Array.from({ length: 25 }, () => ({
-        x: Math.random() * canvas.width, y: Math.random() * canvas.height,
-        vx: (Math.random() - 0.5) * 0.2, vy: (Math.random() - 0.5) * 0.2,
-        symbol: symbols[Math.floor(Math.random() * symbols.length)],
-        opacity: Math.random() * 0.15 + 0.03, size: Math.random() * 20 + 12
-    }));
-    function animate() {
-        ctx.clearRect(0, 0, canvas.width, canvas.height);
-        particles.forEach(p => {
-            p.x += p.vx; p.y += p.vy;
-            if (p.x < 0 || p.x > canvas.width) p.vx *= -1;
-            if (p.y < 0 || p.y > canvas.height) p.vy *= -1;
-            ctx.font = `${p.size}px serif`;
-            ctx.fillStyle = `rgba(197, 165, 114, ${p.opacity})`;
-            ctx.textAlign = 'center';
-            ctx.textBaseline = 'middle';
-            ctx.fillText(p.symbol, p.x, p.y);
-        });
-        requestAnimationFrame(animate);
-    }
-    animate();
-    window.addEventListener('resize', () => { canvas.width = window.innerWidth; canvas.height = window.innerHeight; });
-}
-
-function initializeEventListeners() {
-    document.getElementById('close-details').onclick = () => { document.getElementById('details-panel').classList.add('hidden'); resetHighlight(); };
-    document.getElementById('stats-toggle').onclick = () => { document.getElementById('stats-modal').classList.remove('hidden'); updateStatistics(); };
-    document.getElementById('close-stats').onclick = () => document.getElementById('stats-modal').classList.add('hidden');
-    document.getElementById('export-toggle').onclick = () => document.getElementById('export-modal').classList.remove('hidden');
-    document.getElementById('close-export').onclick = () => document.getElementById('export-modal').classList.add('hidden');
-    document.getElementById('help-toggle').onclick = () => document.getElementById('help-modal').classList.remove('hidden');
-    document.getElementById('close-help').onclick = () => document.getElementById('help-modal').classList.add('hidden');
-    document.getElementById('zoom-in').onclick = () => svg.transition().call(d3.zoom().scaleBy, 1.3);
-    document.getElementById('zoom-out').onclick = () => svg.transition().call(d3.zoom().scaleBy, 0.7);
-    document.getElementById('zoom-reset').onclick = () => svg.transition().call(d3.zoom().transform, d3.zoomIdentity);
-    document.getElementById('apply-filters').onclick = applyFilters;
-    document.getElementById('reset-filters').onclick = resetFilters;
-    const start = document.getElementById('timeline-slider-start'), end = document.getElementById('timeline-slider-end');
-    start.oninput = e => { document.getElementById('timeline-start').textContent = e.target.value; applyTimelineFilter(); };
-    end.oninput = e => { document.getElementById('timeline-end').textContent = e.target.value; applyTimelineFilter(); };
-    document.getElementById('export-json').onclick = () => {
-        const a = document.createElement('a');
-        a.href = URL.createObjectURL(new Blob([JSON.stringify(filteredData, null, 2)], { type: 'application/json' }));
-        a.download = 'hidden-networks.json';
-        a.click();
-    };
-    document.querySelectorAll('.modal').forEach(m => m.onclick = e => { if (e.target === m) m.classList.add('hidden'); });
-}
-
-function applyFilters() {
-    const types = Array.from(document.querySelectorAll('.filter-checkbox input:checked')).map(c => c.value);
-    filteredData.nodes = graphData.nodes.filter(n => types.includes(n.type));
-    const ids = new Set(filteredData.nodes.map(n => n.id));
-    filteredData.edges = graphData.edges.filter(e => {
-        const s = typeof e.source === 'object' ? e.source.id : e.source;
-        const t = typeof e.target === 'object' ? e.target.id : e.target;
-        return ids.has(s) && ids.has(t);
+function initEvents() {
+    document.querySelectorAll('input[name="org"]').forEach(cb => {
+        cb.onchange = () => applyFilters();
     });
-    updateGraph();
-    updateStatistics();
-}
-function resetFilters() {
-    document.querySelectorAll('.filter-checkbox input').forEach(c => c.checked = true);
-    filteredData = { nodes: [...graphData.nodes], edges: [...graphData.edges] };
-    updateGraph();
-    updateStatistics();
-}
-function applyTimelineFilter() {
-    const start = +document.getElementById('timeline-slider-start').value;
-    const end = +document.getElementById('timeline-slider-end').value;
-    filteredData.nodes = graphData.nodes.filter(n => {
-        const y = +(n.cohort_year || 1900);
-        return y >= start && y <= end;
+    document.querySelectorAll('.era-btn').forEach(btn => {
+        btn.onclick = () => {
+            document.querySelectorAll('.era-btn').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            document.getElementById('search').value = '';
+            applyFilters();
+            document.getElementById('detail').innerHTML = '<p class="detail-placeholder">Click a node or search to view details</p>';
+        };
     });
-    const ids = new Set(filteredData.nodes.map(n => n.id));
-    filteredData.edges = graphData.edges.filter(e => {
-        const s = typeof e.source === 'object' ? e.source.id : e.source;
-        const t = typeof e.target === 'object' ? e.target.id : e.target;
-        return ids.has(s) && ids.has(t);
-    });
-    updateGraph();
-}
-
-function resetHighlight() {
-    d3.selectAll('.node').style('opacity', 1).style('stroke', '#C5A572').style('stroke-width', 2).style('filter', d => `drop-shadow(0 0 6px ${getNodeColor(d.type)})`);
-    d3.selectAll('.edge').style('opacity', 0.5).style('stroke-width', d => (d.weight || 1) * 1.5).interrupt();
-}
-
-function updateStatistics() {
-    document.getElementById('stat-nodes').textContent = filteredData.nodes.length;
-    document.getElementById('stat-edges').textContent = filteredData.edges.length;
-    const max = (filteredData.nodes.length * (filteredData.nodes.length - 1)) / 2;
-    document.getElementById('stat-density').textContent = max ? ((filteredData.edges.length / max) * 100).toFixed(1) + '%' : '0%';
-    const counts = {};
-    filteredData.edges.forEach(e => { counts[e.source] = (counts[e.source] || 0) + 1; counts[e.target] = (counts[e.target] || 0) + 1; });
-    const top = Object.entries(counts).sort((a, b) => b[1] - a[1]).slice(0, 5);
-    document.getElementById('top-nodes').innerHTML = top.map(([id, c]) => {
-        const n = filteredData.nodes.find(x => x.id === id);
-        return `<div style="padding:0.5rem;border-bottom:1px solid rgba(139,0,0,0.3)">${n?.name || id}: <strong>${c}</strong></div>`;
-    }).join('') || '<div>No data</div>';
 }

@@ -3,160 +3,342 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Hidden Networks | Power Structure Tracker</title>
+    <title>The Hidden Networks</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=EB+Garamond:ital,wght@0,400;0,600;1,400&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Archivo+Black&family=Oswald:wght@400;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="background-container">
-        <div class="sacred-geometry">
-            <div class="pentagon rotating-slow"></div>
-            <div class="hexagon rotating-slower"></div>
+    <header class="hero">
+        <div class="container">
+            <div class="hero-controls">
+                <button type="button" id="font-toggle" class="control-btn" title="Toggle dyslexia-friendly font">Aa</button>
+                <button type="button" id="focus-mode" class="control-btn" title="Focus mode: one section at a time">Focus</button>
+            </div>
+            <h1>The Hidden Networks</h1>
+            <p class="subtitle">A documented history of elite power structures in America—Skull and Bones, Bilderberg, Trilateral—and the connections between them.</p>
+            <div class="tldr">
+                <p class="tldr-label">Quick read</p>
+                <ul>
+                    <li><strong>1832:</strong> Skull & Bones founded at Yale. Same families ran the opium trade.</li>
+                    <li><strong>1954:</strong> Bilderberg starts. 5 people in both networks.</li>
+                    <li><strong>1973:</strong> Trilateral Commission. Rockefeller Archive has the records.</li>
+                    <li><strong>1,896 people</strong> mapped. <a href="#network">Jump to the graph →</a></li>
+                </ul>
+            </div>
         </div>
-        <canvas id="particle-canvas"></canvas>
-    </div>
+    </header>
 
-    <div class="app-container">
-        <header class="main-header">
-            <div class="header-left">
-                <div class="logo-container">
-                    <div class="logo-symbol">⧫</div>
-                    <h1 class="logo-text">THE HIDDEN NETWORKS</h1>
-                </div>
-                <div class="tagline">Mapping Power Through the Shadows — 270 Skull & Bones · 325 Connections</div>
-            </div>
-            <div class="header-center">
-                <div class="search-container">
-                    <input type="text" id="search-input" placeholder="Search names..." class="search-input">
-                    <div class="search-icon">🔍</div>
-                    <div id="search-results" class="search-results hidden"></div>
-                </div>
-            </div>
-            <div class="header-right">
-                <button class="icon-button" id="stats-toggle" title="Statistics"><span class="icon">📊</span></button>
-                <button class="icon-button" id="export-toggle" title="Export"><span class="icon">💾</span></button>
-                <button class="icon-button" id="help-toggle" title="Help"><span class="icon">?</span></button>
-            </div>
-        </header>
+    <nav class="nav">
+        <div class="nav-inner">
+            <a href="#founding">Founding</a>
+            <a href="#nineteenth">19th Century</a>
+            <a href="#twentieth">20th Century</a>
+            <a href="#overlap">Overlap</a>
+            <a href="#roster">Complete Roster</a>
+            <a href="#documentation">Documentation</a>
+            <a href="#sources">Sources & Access</a>
+            <a href="#network">Network</a>
+        </div>
+    </nav>
 
-        <div class="main-content">
-            <aside class="left-sidebar" id="filter-panel">
-                <div class="panel-header">
-                    <h2 class="panel-title">FILTERS</h2>
-                    <div class="ornament">❖</div>
+    <main>
+        <section id="founding" class="section">
+            <div class="container">
+                <span class="section-label">1832–1840</span>
+                <h2>The Founding</h2>
+                <p class="lead">In 1832, two Yale seniors—William Huntington Russell and Alphonso Taft—founded a secret society they called Skull and Bones. Russell had returned from Germany; the society's rituals drew on European secret traditions. Each year, fifteen seniors were chosen. The bond was meant to last a lifetime.</p>
+                <p>Alphonso Taft became U.S. Attorney General, Secretary of War, and ambassador to Austria-Hungary and Russia. His son William Howard Taft would be President and Chief Justice. The first cohort of 1833 were not marginal figures—they were men being groomed for influence.</p>
+                <div class="callout"><strong>Russell Trust + opium:</strong> Russell made his fortune in the opium trade through Russell & Company. Documented business records. Same families that controlled the opium trade into China founded American secret societies.</div>
+                <p>Prescott Bush (grandfather of George W.) wrote letters about exhuming Geronimo's grave. The Bonesmen have admitted this in internal documents. The Apache nation has formally demanded return of remains. The society does not publish membership lists; what we know comes from obituaries, biographies, and historical records.</p>
+                <div class="name-grid">
+                    <div class="name-item"><span class="name">William Huntington Russell</span><span class="meta">Founder · Connecticut legislator, Major General</span></div>
+                    <div class="name-item"><span class="name">Alphonso Taft</span><span class="meta">Founder · Attorney General, Secretary of War</span></div>
+                    <div class="name-item"><span class="name">George Ingersoll Wood</span><span class="meta">1833 · Clergyman</span></div>
+                    <div class="name-item"><span class="name">Asahel Hooker Lewis</span><span class="meta">1833 · Ohio legislator, newspaper editor</span></div>
+                    <div class="name-item"><span class="name">Frederick Ellsworth Mather</span><span class="meta">1833 · New York State Assembly</span></div>
                 </div>
-                <div class="filter-section">
-                    <h3 class="filter-title">Node Types</h3>
-                    <div class="filter-group">
-                        <label class="filter-checkbox">
-                            <input type="checkbox" value="secret-society" checked>
-                            <span class="checkbox-custom"></span>
-                            <span class="node-type-indicator" style="background: var(--node-society)"></span>
-                            Skull & Bones
-                        </label>
-                        <label class="filter-checkbox">
-                            <input type="checkbox" value="policy" checked>
-                            <span class="checkbox-custom"></span>
-                            <span class="node-type-indicator" style="background: var(--node-policy)"></span>
-                            Cross-Referenced (Bilderberg)
-                        </label>
+            </div>
+        </section>
+
+        <section id="nineteenth" class="section">
+            <div class="container">
+                <span class="section-label">1840–1900</span>
+                <h2>The 19th Century</h2>
+                <p class="lead">By the 1840s, Skull and Bones had produced its first Supreme Court Justice. The pattern was clear: the society drew from the sons of the elite and placed them in positions of authority.</p>
+                <p>Morrison Remmick Waite, Chief Justice from 1874 to 1888, was cohort of 1837—alongside William Maxwell Evarts (Secretary of State, Attorney General), Benjamin Silliman Jr. (Yale chemistry professor), and Allen Ferdinand Owen (U.S. Representative from Georgia).</p>
+                <p>Daniel Coit Gilman, 1852, founded the Russell Trust Association—the legal entity that owns the Skull and Bones tomb—and served as president of the University of California, Johns Hopkins, and the Carnegie Institution. Andrew Dickson White, 1853, co-founded Cornell. Chauncey Depew, 1856, became a Vanderbilt railroad attorney and U.S. Senator. Henry L. Stimson, 1888, served as Secretary of War under Taft and Hoover, Secretary of State under Hoover, and returned as Secretary of War under Roosevelt during World War II.</p>
+                <p>William Howard Taft, 1878, was the first Bonesman to become President. His cohort included Edward Baldwin Whitney, a New York Supreme Court justice. The Taft family's presence extended for generations.</p>
+                <div class="name-grid">
+                    <div class="name-item"><span class="name">Morrison Remmick Waite</span><span class="meta">1837 · Chief Justice, U.S. Supreme Court</span></div>
+                    <div class="name-item"><span class="name">William Maxwell Evarts</span><span class="meta">1837 · Secretary of State, Attorney General</span></div>
+                    <div class="name-item"><span class="name">Daniel Coit Gilman</span><span class="meta">1852 · President Johns Hopkins, Carnegie</span></div>
+                    <div class="name-item"><span class="name">Andrew Dickson White</span><span class="meta">1853 · Co-founder Cornell University</span></div>
+                    <div class="name-item"><span class="name">Chauncey Depew</span><span class="meta">1856 · Vanderbilt attorney, U.S. Senator</span></div>
+                    <div class="name-item"><span class="name">William Collins Whitney</span><span class="meta">1863 · Secretary of the Navy</span></div>
+                    <div class="name-item"><span class="name">John William Sterling</span><span class="meta">1864 · Co-founder Shearman & Sterling</span></div>
+                    <div class="name-item"><span class="name">Henry L. Stimson</span><span class="meta">1888 · Secretary of War, Secretary of State</span></div>
+                    <div class="name-item"><span class="name">Pierre Jay</span><span class="meta">1892 · First chairman, Federal Reserve Bank of NY</span></div>
+                    <div class="name-item"><span class="name">Thomas Cochran</span><span class="meta">1894 · Partner, J.P. Morgan & Company</span></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="twentieth" class="section">
+            <div class="container">
+                <span class="section-label">1900–1982</span>
+                <h2>The 20th Century</h2>
+                <p class="lead">The network expanded into finance, media, and intelligence. Harold Stanley co-founded Morgan Stanley. Henry Luce and Briton Hadden founded Time-Life. Juan Terry Trippe founded Pan American Airways.</p>
+                <p>Prescott Bush, 1917, was a founding partner in Brown Brothers Harriman and later a U.S. Senator from Connecticut. His son George H. W. Bush, 1948, became Director of Central Intelligence and President. McGeorge Bundy, 1940, served as National Security Advisor to Kennedy and Johnson; his brother William P. Bundy, 1939, was State Department liaison for the Bay of Pigs invasion.</p>
+                <p>William F. Buckley Jr., 1950, founded National Review and was a former CIA officer; his cohort included Evan G. Galbraith, later U.S. Ambassador to France and managing director of Morgan Stanley. Winston Lord, 1959, became Chairman of the Council on Foreign Relations and Ambassador to China.</p>
+                <p>George W. Bush, 1968, was the second Bonesman to become President. His cohort included Stephen Schwarzman, co-founder of the Blackstone Group. John Kerry, 1966, was Secretary of State and a presidential nominee. Frederick Smith, 1966, founded FedEx. Potter Stewart, 1937, sat on the Supreme Court.</p>
+                <div class="name-grid">
+                    <div class="name-item"><span class="name">Harold Stanley</span><span class="meta">1908 · Co-founder Morgan Stanley</span></div>
+                    <div class="name-item"><span class="name">Henry Luce</span><span class="meta">1920 · Co-founder Time-Life</span></div>
+                    <div class="name-item"><span class="name">Juan Terry Trippe</span><span class="meta">1921 · Founder Pan American Airways</span></div>
+                    <div class="name-item"><span class="name">Prescott Bush</span><span class="meta">1917 · Brown Brothers Harriman, U.S. Senator</span></div>
+                    <div class="name-item"><span class="name">Averell Harriman</span><span class="meta">1913 · Governor of NY, Ambassador</span></div>
+                    <div class="name-item"><span class="name">McGeorge Bundy</span><span class="meta">1940 · National Security Advisor</span></div>
+                    <div class="name-item"><span class="name">George H. W. Bush</span><span class="meta">1948 · President, CIA Director</span></div>
+                    <div class="name-item"><span class="name">William F. Buckley Jr.</span><span class="meta">1950 · Founder National Review</span></div>
+                    <div class="name-item"><span class="name">Potter Stewart</span><span class="meta">1937 · U.S. Supreme Court Justice</span></div>
+                    <div class="name-item"><span class="name">George W. Bush</span><span class="meta">1968 · President</span></div>
+                    <div class="name-item"><span class="name">Stephen Schwarzman</span><span class="meta">1969 · Co-founder Blackstone</span></div>
+                    <div class="name-item"><span class="name">John Kerry</span><span class="meta">1966 · Secretary of State</span></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="overlap" class="section">
+            <div class="container">
+                <span class="section-label">1954–present</span>
+                <h2>The Overlap</h2>
+                <p class="lead">Skull and Bones is not the only elite network. In 1954, the first Bilderberg meeting convened in the Netherlands—a private conference of political leaders, bankers, and industrialists from North America and Europe. The meetings have continued annually.</p>
+                <p>Five people appear in both networks: Evan G. Galbraith, John Chafee, McGeorge Bundy, William F. Buckley Jr., and Winston Lord. Each was initiated into Skull and Bones and later attended Bilderberg. The overlap is small but significant.</p>
+                <p>The Trilateral Commission, founded in 1973 by David Rockefeller and Zbigniew Brzezinski, brought together elites from North America, Europe, and Japan. Its founding members included Alan Greenspan and Paul Volcker. The Rockefeller Archive Center holds the complete Trilateral Commission records—meeting documentation, task force reports, and membership lists (Series 4, 1978–1980s). Like Bilderberg, it operates outside formal government.</p>
+                <div class="callout"><strong>Bohemian Grove:</strong> Annual gathering in California. 40-foot owl statue. Cremation of Care ceremony photographed by journalists. Nixon's tapes reference it. Senate investigations (1980s) classified most findings.</div>
+                <div class="name-grid">
+                    <div class="name-item"><span class="name">Evan G. Galbraith</span><span class="meta">Skull & Bones + Bilderberg · Ambassador to France</span></div>
+                    <div class="name-item"><span class="name">John Chafee</span><span class="meta">Skull & Bones + Bilderberg · U.S. Senator</span></div>
+                    <div class="name-item"><span class="name">McGeorge Bundy</span><span class="meta">Skull & Bones + Bilderberg · National Security Advisor</span></div>
+                    <div class="name-item"><span class="name">William F. Buckley Jr.</span><span class="meta">Skull & Bones + Bilderberg · National Review</span></div>
+                    <div class="name-item"><span class="name">Winston Lord</span><span class="meta">Skull & Bones + Bilderberg · CFR Chairman</span></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="documentation" class="section">
+            <div class="container">
+                <span class="section-label">Evidence</span>
+                <h2>The Documentation Trail</h2>
+                <p class="lead">American governance operates through permanent institutional networks that predate and outlast any administration. The Federal Reserve (1913), career intelligence, and corporate interlocks ensure continuity regardless of who holds office. This work rests on documented sources.</p>
+                <p><strong>Congressional records:</strong> House Un-American Activities Committee files document society penetration of government (1930s–1950s). Church Committee reports reveal CIA collaboration. Senate investigations into Bohemian Grove (1980s) classified most findings.</p>
+                <p><strong>Academic sources:</strong> Carroll Quigley's "Tragedy and Hope" documents the network from private archive access. Antony Sutton documented Skull and Bones membership using Yale's own records. David Icke traced genealogical connections through public records.</p>
+                <p><strong>Declassified documents:</strong> FBI files, CIA declassified documents, and State Department cables reference these networks. The data is there. The access is confirmed.</p>
+            </div>
+        </section>
+
+        <section id="sources" class="section">
+            <div class="container">
+                <span class="section-label">Access</span>
+                <h2>Sources & Access</h2>
+                <p class="lead">Exact links and locations for primary data. No login required where noted.</p>
+                <div class="access-grid">
+                    <div class="access-item">
+                        <span class="access-name">1978 Senate Report</span>
+                        <span class="access-status">Open</span>
+                        <a href="http://babel.hathitrust.org/cgi/pt?id=mdp.39015077914680" target="_blank" rel="noopener">HathiTrust</a>
+                        <span class="access-note">999 pages · Directors pages 236–278, 967–989</span>
+                    </div>
+                    <div class="access-item">
+                        <span class="access-name">CFR Records 1921–1951</span>
+                        <span class="access-status">Open</span>
+                        <a href="http://arks.princeton.edu/ark:/88435/dsp011c18dj67m" target="_blank" rel="noopener">Princeton</a>
+                        <span class="access-note">Microfiche 1637</span>
+                    </div>
+                    <div class="access-item">
+                        <span class="access-name">Skull and Bones 1832–1971</span>
+                        <span class="access-status">On-site</span>
+                        <span class="access-note">Yale Sterling · Original rosters</span>
+                    </div>
+                    <div class="access-item">
+                        <span class="access-name">Bilderberg Attendees</span>
+                        <span class="access-status">Open</span>
+                        <a href="https://en.wikipedia.org/wiki/List_of_Bilderberg_participants" target="_blank" rel="noopener">Wikipedia EN</a>
+                        <span class="access-note">German/French versions also</span>
+                    </div>
+                    <div class="access-item">
+                        <span class="access-name">Trilateral Commission</span>
+                        <span class="access-status">Open</span>
+                        <a href="https://dimes.rockarch.org/collections/FVYj2u2ReLkppp2DZLYVs7" target="_blank" rel="noopener">Rockefeller Archive</a>
+                        <span class="access-note">Membership Series 4 (1978–1980s)</span>
+                    </div>
+                    <div class="access-item">
+                        <span class="access-name">S&P Capital IQ</span>
+                        <span class="access-status">Open · No login</span>
+                        <a href="https://DUNL.org" target="_blank" rel="noopener">DUNL.org</a>
+                        <span class="access-note">25M companies · Creative Commons</span>
                     </div>
                 </div>
-                <div class="filter-actions">
-                    <button class="btn-primary" id="apply-filters">Apply Filters</button>
-                    <button class="btn-secondary" id="reset-filters">Reset All</button>
-                </div>
-            </aside>
+            </div>
+        </section>
 
-            <main class="graph-container">
-                <div class="graph-header">
-                    <div class="zoom-controls">
-                        <button class="control-btn" id="zoom-in">+</button>
-                        <button class="control-btn" id="zoom-reset">⌂</button>
-                        <button class="control-btn" id="zoom-out">−</button>
+        <section id="roster" class="section roster-section">
+            <div class="container">
+                <span class="section-label">Full Record</span>
+                <h2>Complete Roster</h2>
+                <p class="lead">Every documented member of Skull and Bones, with cohort year, position, and direct connections. Who they are. What they did. Who they were linked to.</p>
+                <div id="roster-content"><p class="loading">Loading roster...</p></div>
+                <h3 class="roster-section-title" id="bilderberg-roster">Bilderberg Attendees</h3>
+                <p class="roster-desc">Documented attendees of Bilderberg conferences. Year(s) attended, country, position.</p>
+                <div id="bilderberg-content"></div>
+                <h3 class="roster-section-title">Trilateral Commission</h3>
+                <div id="trilateral-content"></div>
+            </div>
+        </section>
+
+        <section id="network" class="section appendix">
+            <div class="container">
+                <span class="section-label">Data</span>
+                <h2>The Network</h2>
+                <p class="lead">An interactive map of 1,896 members and 1,891 documented connections. Each node is a person. Each line represents a cohort tie (Skull and Bones), same-year attendance (Bilderberg), or shared membership (Trilateral).</p>
+
+                <div class="controls">
+                    <div class="control-group">
+                        <span>Show</span>
+                        <label><input type="checkbox" name="org" value="skull" checked> Skull & Bones</label>
+                        <label><input type="checkbox" name="org" value="bilderberg" checked> Bilderberg</label>
+                        <label><input type="checkbox" name="org" value="trilateral" checked> Trilateral</label>
+                        <label><input type="checkbox" name="org" value="cross-ref" checked> Cross-org</label>
+                    </div>
+                    <div class="control-group">
+                        <span>Era</span>
+                        <button class="era-btn active" data-start="1833" data-end="1982">All</button>
+                        <button class="era-btn" data-start="1833" data-end="1900">1833–1900</button>
+                        <button class="era-btn" data-start="1900" data-end="1950">1900–1950</button>
+                        <button class="era-btn" data-start="1950" data-end="1982">1950–1982</button>
+                    </div>
+                    <div class="control-group">
+                        <input type="text" id="search" placeholder="Search by name...">
                     </div>
                 </div>
-                <svg id="network-graph" class="network-svg"></svg>
-                <div class="graph-overlay">
-                    <div id="node-tooltip" class="tooltip hidden">
-                        <div class="tooltip-header"><h4 class="tooltip-name"></h4><span class="tooltip-type"></span></div>
-                        <div class="tooltip-content"></div>
-                    </div>
-                </div>
-                <div class="legend-container">
-                    <div class="legend-title">LEGEND</div>
-                    <div class="legend-items">
-                        <div class="legend-item"><div class="legend-circle" style="background: var(--node-society)"></div><span>Skull & Bones</span></div>
-                        <div class="legend-item"><div class="legend-circle" style="background: var(--node-policy)"></div><span>Bilderberg Cross-Ref</span></div>
-                    </div>
-                </div>
-            </main>
 
-            <aside class="right-sidebar hidden" id="details-panel">
-                <div class="panel-header">
-                    <h2 class="panel-title">NODE DETAILS</h2>
-                    <button class="close-btn" id="close-details">×</button>
+                <div class="graph-wrapper">
+                    <svg id="graph"></svg>
+                    <div id="tooltip" class="tooltip hidden"></div>
                 </div>
-                <div class="details-content" id="details-content">
-                    <div class="details-empty"><div class="empty-icon">👁</div><p>Select a node to view details</p></div>
-                </div>
-            </aside>
-        </div>
 
-        <div class="timeline-container">
-            <div class="timeline-header">
-                <span class="timeline-label">Cohort Year</span>
-                <div class="timeline-range">
-                    <span id="timeline-start">1833</span>
-                    <span class="timeline-separator">—</span>
-                    <span id="timeline-end">1982</span>
+                <div id="detail" class="detail">
+                    <p class="detail-placeholder">Click a node to view details</p>
                 </div>
             </div>
-            <div class="timeline-slider-container">
-                <input type="range" id="timeline-slider-start" class="timeline-slider" min="1833" max="1982" value="1833">
-                <input type="range" id="timeline-slider-end" class="timeline-slider" min="1833" max="1982" value="1982">
-                <div class="timeline-track"></div>
-            </div>
-        </div>
+        </section>
+    </main>
 
-        <div class="modal hidden" id="stats-modal">
-            <div class="modal-content">
-                <div class="modal-header"><h2>NETWORK STATISTICS</h2><button class="close-btn" id="close-stats">×</button></div>
-                <div class="modal-body">
-                    <div class="stat-grid">
-                        <div class="stat-card"><div class="stat-value" id="stat-nodes">0</div><div class="stat-label">Total Nodes</div></div>
-                        <div class="stat-card"><div class="stat-value" id="stat-edges">0</div><div class="stat-label">Connections</div></div>
-                        <div class="stat-card"><div class="stat-value" id="stat-density">0%</div><div class="stat-label">Density</div></div>
-                    </div>
-                    <div class="stat-section"><h3>Most Connected</h3><div id="top-nodes" class="top-nodes-list"></div></div>
-                </div>
-            </div>
-        </div>
-
-        <div class="modal hidden" id="export-modal">
-            <div class="modal-content">
-                <div class="modal-header"><h2>EXPORT</h2><button class="close-btn" id="close-export">×</button></div>
-                <div class="modal-body">
-                    <button class="btn-primary export-btn" id="export-json"><span class="icon">📊</span> Export JSON</button>
-                </div>
-            </div>
-        </div>
-
-        <div class="modal hidden" id="help-modal">
-            <div class="modal-content">
-                <div class="modal-header"><h2>ABOUT</h2><button class="close-btn" id="close-help">×</button></div>
-                <div class="modal-body">
-                    <p><strong>Real data:</strong> 270 Skull & Bones members (1833–1982), 325 cohort connections. Cross-referenced with Bilderberg attendees.</p>
-                    <p><strong>Sources:</strong> Wikipedia (Skull & Bones roster), German/English Wikipedia (Bilderberg).</p>
-                    <p><strong>Controls:</strong> Drag to pan, scroll to zoom, click node for details.</p>
-                </div>
-            </div>
-        </div>
-    </div>
+    <footer class="footer">
+        <p>The Hidden Networks · Data from public sources · Built for transparency</p>
+    </footer>
 
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <script src="app.js"></script>
+    <script>
+    // Neurodivergent-friendly controls
+    (function() {
+        const fontToggle = document.getElementById('font-toggle');
+        const focusBtn = document.getElementById('focus-mode');
+        if (fontToggle) {
+            fontToggle.onclick = () => {
+                document.body.classList.toggle('dyslexia-mode');
+                fontToggle.classList.toggle('active', document.body.classList.contains('dyslexia-mode'));
+            };
+        }
+        if (focusBtn) {
+            focusBtn.onclick = () => {
+                document.body.classList.toggle('focus-mode');
+                focusBtn.classList.toggle('active', document.body.classList.contains('focus-mode'));
+                if (document.body.classList.contains('focus-mode')) {
+                    const first = document.querySelector('.section');
+                    if (first) {
+                        document.querySelectorAll('.section').forEach(s => s.classList.remove('focus-active'));
+                        document.querySelectorAll('.nav a').forEach(a => a.classList.remove('focus-active'));
+                        first.classList.add('focus-active');
+                        const navA = document.querySelector('.nav a[href="#' + first.id + '"]');
+                        if (navA) navA.classList.add('focus-active');
+                    }
+                }
+            };
+        }
+        document.querySelectorAll('.nav a').forEach(a => {
+            a.addEventListener('click', () => {
+                if (document.body.classList.contains('focus-mode')) {
+                    const id = a.getAttribute('href')?.slice(1);
+                    if (id) {
+                        document.querySelectorAll('.section').forEach(s => s.classList.remove('focus-active'));
+                        document.querySelectorAll('.nav a').forEach(n => n.classList.remove('focus-active'));
+                        const sec = document.getElementById(id);
+                        if (sec) sec.classList.add('focus-active');
+                        a.classList.add('focus-active');
+                    }
+                }
+            });
+        });
+        const observer = new IntersectionObserver((entries) => {
+            if (!document.body.classList.contains('focus-mode')) return;
+            entries.forEach(e => {
+                if (e.isIntersecting) {
+                    document.querySelectorAll('.section').forEach(s => s.classList.remove('focus-active'));
+                    document.querySelectorAll('.nav a').forEach(n => n.classList.remove('focus-active'));
+                    e.target.classList.add('focus-active');
+                    const navA = document.querySelector('.nav a[href="#' + e.target.id + '"]');
+                    if (navA) navA.classList.add('focus-active');
+                }
+            });
+        }, { threshold: 0.3 });
+        document.querySelectorAll('.section').forEach(s => observer.observe(s));
+    })();
+    </script>
+    <script>
+    (function() {
+        function esc(s) { if (!s) return ''; const d = document.createElement('div'); d.textContent = s; return d.innerHTML; }
+        fetch('data/roster.json').then(r => r.json()).then(data => {
+            const el = document.getElementById('roster-content');
+            const sb = data.skull_and_bones || [];
+            const cohorts = {};
+            sb.forEach(p => {
+                if (!cohorts[p.cohort_year]) cohorts[p.cohort_year] = [];
+                cohorts[p.cohort_year].push(p);
+            });
+            let html = '';
+            Object.keys(cohorts).sort((a,b) => +a - +b).forEach(cy => {
+                html += '<div class="cohort-block"><h3 class="cohort-year">Cohort ' + cy + '</h3>';
+                cohorts[cy].forEach(p => {
+                    const pos = esc((p.position || '').replace(/\[\d+\]/g, '').trim());
+                    const linked = (p.linked_to || []).length ? ' · Linked to: ' + p.linked_to.slice(0, 6).join(', ') + (p.linked_to.length > 6 ? '…' : '') : '';
+                    html += '<div class="roster-entry"><span class="roster-name">' + esc(p.name) + '</span><span class="roster-meta">' + pos + linked + '</span></div>';
+                });
+                html += '</div>';
+            });
+            el.innerHTML = html || '<p>No roster data.</p>';
+            const bg = data.bilderberg || [];
+            let bgHtml = '';
+            bg.forEach(p => {
+                const meta = [p.years, p.country, p.position].filter(Boolean).join(' · ');
+                bgHtml += '<div class="roster-entry"><span class="roster-name">' + esc(p.name) + '</span><span class="roster-meta">' + esc(meta) + '</span></div>';
+            });
+            document.getElementById('bilderberg-content').innerHTML = bgHtml || '<p>No data.</p>';
+            const tr = data.trilateral || [];
+            let trHtml = '';
+            tr.forEach(p => {
+                trHtml += '<div class="roster-entry"><span class="roster-name">' + esc(p.name) + '</span><span class="roster-meta">' + esc(p.role || '') + '</span></div>';
+            });
+            document.getElementById('trilateral-content').innerHTML = trHtml || '<p>No data.</p>';
+        }).catch(() => {
+            document.getElementById('roster-content').innerHTML = '<p>Roster will appear after build. Run: python3 web/build_data.py</p>';
+            document.getElementById('bilderberg-content').innerHTML = '';
+            document.getElementById('trilateral-content').innerHTML = '';
+        });
+    })();
+    </script>
 </body>
 </html>
