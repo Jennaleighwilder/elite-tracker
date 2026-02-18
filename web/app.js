@@ -100,19 +100,19 @@ function initGraph() {
 }
 
 function nodeColor(n) {
-    if (n.type === 'cross-ref') return '#E63946';
-    if ((n.orgs || []).some(x => String(x).includes('Bilderberg')) && (n.orgs || []).some(x => String(x).includes('Skull'))) return '#FFD60A';
+    if (n.type === 'cross-ref') return '#FF1744';
+    if ((n.orgs || []).some(x => String(x).includes('Bilderberg')) && (n.orgs || []).some(x => String(x).includes('Skull'))) return '#FFEA00';
     if ((n.orgs || []).some(x => String(x).includes('Skull') || String(x).includes('Bones'))) return '#FFFFFF';
-    if ((n.orgs || []).some(x => String(x).includes('Trilateral'))) return '#FF6B35';
-    return '#888888';
+    if ((n.orgs || []).some(x => String(x).includes('Trilateral'))) return '#FF6D00';
+    return '#00E5FF';
 }
 
 function edgeColor(e) {
     const t = e.type || '';
     if (t.includes('skull') || t.includes('cohort')) return '#FFFFFF';
-    if (t.includes('bilderberg')) return '#FFD60A';
-    if (t.includes('trilateral')) return '#FF6B35';
-    return '#666666';
+    if (t.includes('bilderberg')) return '#FFEA00';
+    if (t.includes('trilateral')) return '#FF6D00';
+    return '#888888';
 }
 
 function updateGraph() {

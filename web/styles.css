@@ -7,21 +7,20 @@
 }
 
 :root {
-    /* Aggressive magazine — bright, punchy, exciting */
+    /* Aggressive magazine — gray base, bright red pops, no beige */
     --white: #FFFFFF;
-    --black: #0A0A0A;
-    --cream: #FFF9E6;
-    --ink: #0A0A0A;
-    --ink-light: #2A2A2A;
-    --ink-muted: #444444;
-    --accent: #0A0A0A;
-    --red: #E63946;
-    --red-dark: #C1121F;
-    --yellow: #FFD60A;
-    --yellow-dark: #F4C430;
-    --orange: #FF6B35;
-    --rule: #DDDDDD;
-    --highlight: #FFD60A;
+    --gray-dark: #2D2D2D;
+    --gray: #4A4A4A;
+    --gray-light: #E8E8E8;
+    --ink: #2D2D2D;
+    --ink-light: #4A4A4A;
+    --ink-muted: #5C5C5C;
+    --red: #FF1744;
+    --red-bright: #FF0040;
+    --yellow: #FFEA00;
+    --orange: #FF6D00;
+    --cyan: #00E5FF;
+    --rule: #D0D0D0;
     --font-display: 'Bebas Neue', 'Archivo Black', sans-serif;
     --font-heading: 'Oswald', sans-serif;
     --font-body: 'Source Serif 4', Georgia, serif;
@@ -50,7 +49,7 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
-/* Hero — full impact */
+/* Hero — gray base, bright pops */
 .hero {
     position: relative;
     min-height: 90vh;
@@ -58,7 +57,7 @@ body {
     flex-direction: column;
     justify-content: center;
     padding: 5rem 2rem 6rem;
-    background: var(--black);
+    background: var(--gray-dark);
     color: var(--white);
     overflow: hidden;
 }
@@ -70,7 +69,7 @@ body {
     left: 0;
     right: 0;
     height: 8px;
-    background: var(--yellow);
+    background: var(--red);
 }
 
 .hero h1 {
@@ -88,8 +87,8 @@ body {
 .hero .subtitle {
     font-family: var(--font-heading);
     font-size: 1.25rem;
-    font-weight: 400;
-    color: rgba(255,255,255,0.85);
+    font-weight: 600;
+    color: var(--white);
     max-width: 42ch;
     letter-spacing: 0.05em;
 }
@@ -116,23 +115,23 @@ body {
 
 .control-btn:hover {
     background: var(--white);
-    color: var(--black);
+    color: var(--gray-dark);
     border-color: var(--white);
 }
 
 .control-btn.active {
-    background: var(--yellow);
-    border-color: var(--yellow);
-    color: var(--black);
+    background: var(--red);
+    border-color: var(--red);
+    color: var(--white);
 }
 
 .tldr {
     margin-top: 2.5rem;
     padding: 1.75rem;
-    background: var(--yellow);
-    color: var(--black);
+    background: var(--red);
+    color: var(--white);
     max-width: 38ch;
-    box-shadow: 4px 4px 0 var(--red);
+    box-shadow: 4px 4px 0 var(--yellow);
 }
 
 .tldr-label {
@@ -141,7 +140,7 @@ body {
     font-weight: 700;
     letter-spacing: 0.25em;
     text-transform: uppercase;
-    color: var(--red);
+    color: var(--yellow);
     margin-bottom: 0.75rem;
 }
 
@@ -153,12 +152,13 @@ body {
 .tldr li {
     margin-bottom: 0.4rem;
     font-size: 1.05rem;
+    font-weight: 600;
     line-height: 1.6;
-    color: var(--black);
+    color: var(--white);
 }
 
 .tldr a {
-    color: var(--red);
+    color: var(--yellow);
     font-weight: 700;
 }
 
@@ -201,11 +201,11 @@ body.focus-mode .nav a.focus-active {
     padding: 0 2.5rem;
 }
 
-/* Navigation — bold strip */
+/* Navigation — gray strip */
 .nav {
     position: sticky;
     top: 0;
-    background: var(--black);
+    background: var(--gray-dark);
     z-index: 100;
 }
 
@@ -222,27 +222,28 @@ body.focus-mode .nav a.focus-active {
 }
 
 .nav a {
-    color: rgba(255,255,255,0.8);
+    color: var(--white);
     text-decoration: none;
+    font-weight: 700;
 }
 
-.nav a:hover { color: var(--yellow); }
+.nav a:hover { color: var(--red); }
 
-/* Sections — alternating punch */
+/* Sections — white/gray, red accents */
 .section {
     padding: 5rem 0;
-    border-bottom: 4px solid var(--yellow);
+    border-bottom: 4px solid var(--red);
 }
 
 .section:nth-child(even) {
-    background: var(--cream);
+    background: var(--gray-light);
 }
 
 .section:last-of-type { border-bottom: none; }
 
 .section-label {
     font-family: var(--font-heading);
-    font-size: 0.7rem;
+    font-size: 0.75rem;
     font-weight: 700;
     letter-spacing: 0.3em;
     text-transform: uppercase;
@@ -270,13 +271,15 @@ body.focus-mode .nav a.focus-active {
 .callout {
     padding: 1.25rem 1.5rem;
     margin: 2rem 0;
-    background: var(--yellow);
-    border-left: 6px solid var(--red);
+    background: var(--red);
+    color: var(--white);
+    border-left: 6px solid var(--yellow);
     font-size: 1rem;
-    box-shadow: 3px 3px 0 rgba(0,0,0,0.1);
+    font-weight: 600;
+    box-shadow: 3px 3px 0 var(--gray-dark);
 }
 
-.callout strong { color: var(--red); }
+.callout strong { color: var(--yellow); }
 
 /* Name blocks - gallery style */
 .name-grid {
@@ -300,55 +303,86 @@ body.focus-mode .nav a.focus-active {
 }
 
 .name-item .meta {
-    font-size: 0.8rem;
-    color: var(--ink-muted);
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: var(--ink-light);
 }
 
-/* Appendix / Graph */
+/* Appendix / Graph — all text bold and visible */
 .appendix {
-    background: var(--black);
+    background: var(--gray-dark);
     color: var(--white);
-    border-top: 8px solid var(--yellow);
+    border-top: 8px solid var(--red);
 }
 
-.appendix .section-label { color: var(--yellow); }
-.appendix .section h2 { color: var(--white); }
+.appendix .section-label {
+    color: var(--yellow);
+    font-weight: 700;
+}
+.appendix .section h2 {
+    color: var(--white);
+    font-weight: 400;
+}
 .appendix .section p.lead,
-.appendix .section p { color: rgba(255,255,255,0.9); }
-.appendix .control-group span,
-.appendix .control-group label { color: rgba(255,255,255,0.8); }
+.appendix .section p {
+    color: var(--white);
+    font-weight: 600;
+}
+.appendix .control-group span {
+    color: var(--yellow);
+    font-weight: 700;
+}
+.appendix .control-group label {
+    color: var(--white);
+    font-weight: 700;
+}
 .appendix .era-btn {
-    border-color: rgba(255,255,255,0.5);
-    color: rgba(255,255,255,0.9);
+    border-color: var(--white);
+    color: var(--white);
+    font-weight: 700;
 }
 .appendix .era-btn:hover {
-    border-color: var(--yellow);
-    color: var(--yellow);
+    border-color: var(--red);
+    color: var(--red);
 }
 .appendix .era-btn.active {
-    background: var(--yellow);
-    border-color: var(--yellow);
-    color: var(--black);
-}
-.appendix .controls input[type="text"] {
-    background: var(--black);
-    border-color: rgba(255,255,255,0.4);
+    background: var(--red);
+    border-color: var(--red);
     color: var(--white);
 }
+.appendix .controls input[type="text"] {
+    background: var(--gray);
+    border: 2px solid var(--white);
+    color: var(--white);
+    font-weight: 600;
+}
+.appendix .controls input[type="text"]::placeholder {
+    color: rgba(255,255,255,0.7);
+}
 .appendix .graph-wrapper {
-    background: var(--black);
-    border-color: rgba(255,255,255,0.2);
+    background: var(--gray);
+    border: 2px solid var(--white);
 }
 .appendix .detail {
-    background: rgba(255,255,255,0.05);
-    border-color: rgba(255,255,255,0.2);
+    background: var(--gray);
+    border: 2px solid var(--red);
 }
-.appendix .detail-placeholder { color: rgba(255,255,255,0.5); }
-.appendix .detail h3,
-.appendix .detail p { color: var(--white); }
+.appendix .detail-placeholder {
+    color: var(--yellow);
+    font-weight: 700;
+    font-size: 1rem;
+}
+.appendix .detail h3 {
+    color: var(--white);
+    font-weight: 700;
+}
+.appendix .detail p {
+    color: var(--white);
+    font-weight: 600;
+}
 .appendix .controls {
-    border-top-color: rgba(255,255,255,0.2);
-    border-bottom-color: rgba(255,255,255,0.2);
+    border-top-color: var(--red);
+    border-bottom-color: var(--red);
 }
 
 .controls {
@@ -370,18 +404,20 @@ body.focus-mode .nav a.focus-active {
 
 .control-group span {
     font-size: 0.75rem;
+    font-weight: 700;
     letter-spacing: 0.1em;
     text-transform: uppercase;
-    color: var(--ink-muted);
+    color: var(--ink);
 }
 
 .control-group label {
     display: flex;
     align-items: center;
     gap: 0.4rem;
-    font-size: 0.9rem;
+    font-size: 0.95rem;
+    font-weight: 600;
     cursor: pointer;
-    color: var(--ink-light);
+    color: var(--ink);
 }
 
 .era-btn {
@@ -439,14 +475,15 @@ body.focus-mode .nav a.focus-active {
 
 .tooltip {
     position: absolute;
-    background: var(--black);
+    background: var(--gray-dark);
     color: var(--white);
-    padding: 0.6rem 1rem;
-    font-size: 0.85rem;
+    padding: 0.75rem 1rem;
+    font-size: 0.95rem;
+    font-weight: 600;
     max-width: 280px;
     pointer-events: none;
     z-index: 100;
-    border-left: 4px solid var(--yellow);
+    border-left: 4px solid var(--red);
 }
 
 .tooltip.hidden { display: none; }
@@ -455,24 +492,28 @@ body.focus-mode .nav a.focus-active {
     margin-top: 1.5rem;
     padding: 1.5rem;
     background: var(--white);
-    border: 1px solid var(--rule);
+    border: 2px solid var(--red);
 }
 
 .detail-placeholder {
-    color: var(--ink-muted);
-    font-size: 0.95rem;
+    color: var(--ink);
+    font-size: 1rem;
+    font-weight: 600;
 }
 
 .detail h3 {
     font-family: var(--font-display);
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     font-weight: 600;
     margin-bottom: 0.5rem;
+    color: var(--ink);
 }
 
 .detail p {
     margin-bottom: 0.35rem;
-    font-size: 0.9rem;
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: var(--ink);
 }
 
 /* Footer */
@@ -480,16 +521,16 @@ body.focus-mode .nav a.focus-active {
     padding: 4rem 2rem;
     text-align: center;
     font-family: var(--font-heading);
-    font-size: 0.85rem;
-    font-weight: 600;
+    font-size: 0.9rem;
+    font-weight: 700;
     letter-spacing: 0.1em;
-    background: var(--black);
-    color: rgba(255,255,255,0.7);
-    border-top: 4px solid var(--yellow);
+    background: var(--gray-dark);
+    color: var(--white);
+    border-top: 4px solid var(--red);
 }
 
 /* Roster - full record */
-.roster-section .loading { color: var(--ink-muted); font-style: italic; }
+.roster-section .loading { color: var(--ink); font-weight: 600; }
 
 .cohort-block {
     margin-bottom: 2.5rem;
@@ -521,12 +562,13 @@ body.focus-mode .nav a.focus-active {
 .roster-entry:last-child { border-bottom: none; }
 
 .roster-name {
-    font-weight: 500;
+    font-weight: 700;
     color: var(--ink);
 }
 
 .roster-meta {
-    color: var(--ink-muted);
+    color: var(--ink-light);
+    font-weight: 500;
     line-height: 1.5;
 }
 
@@ -536,14 +578,15 @@ body.focus-mode .nav a.focus-active {
     font-weight: 400;
     margin: 3rem 0 1rem;
     padding-top: 2rem;
-    border-top: 4px solid var(--yellow);
+    border-top: 4px solid var(--red);
     letter-spacing: 0.05em;
     text-transform: uppercase;
 }
 
 .roster-desc {
     font-size: 0.95rem;
-    color: var(--ink-muted);
+    font-weight: 600;
+    color: var(--ink);
     margin-bottom: 1rem;
 }
 
@@ -560,23 +603,24 @@ body.focus-mode .nav a.focus-active {
     gap: 1rem;
     align-items: baseline;
     padding: 1.25rem;
-    border: 2px solid var(--ink);
-    transition: box-shadow 0.2s, transform 0.2s;
+    border: 2px solid var(--red);
+    transition: box-shadow 0.2s;
 }
 
 .access-item:hover {
-    box-shadow: 4px 4px 0 var(--yellow);
+    box-shadow: 4px 4px 0 var(--red);
 }
 
 .access-name {
-    font-weight: 500;
+    font-weight: 700;
     color: var(--ink);
 }
 
 .access-status {
     font-size: 0.75rem;
+    font-weight: 700;
     letter-spacing: 0.05em;
-    color: var(--ink-muted);
+    color: var(--red);
 }
 
 .access-item a {
@@ -592,7 +636,8 @@ body.focus-mode .nav a.focus-active {
 .access-note {
     grid-column: 1 / -1;
     font-size: 0.85rem;
-    color: var(--ink-muted);
+    font-weight: 500;
+    color: var(--ink-light);
 }
 
 @media (max-width: 640px) {
